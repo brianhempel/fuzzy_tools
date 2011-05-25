@@ -1,0 +1,29 @@
+Sources of Record Linkage benchmarks:
+
+misspellings/misspellings.txt
+----------------
+pulled from http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines
+A many-to-many of real-life misspellings and corrections.
+
+bibles/KJV1611.txt
+-----------
+from http://av1611.com/ and parsed a bit.
+For coordination with other public domain Bibles.
+
+bibles/asv-usfx.xml
+------------
+from http://www.ebible.org/bible/ASV/ and parsed a bit
+For coordination with other public domain Bibles.
+
+cora/cora.txt
+--------
+from http://www.cs.utexas.edu/users/ml/riddle/data.html
+by William Cohen (http://www.cs.cmu.edu/~wcohen/)
+large numbers of duplicates
+key is the second column
+
+secondstring
+------------
+from http://www.cs.utexas.edu/users/ml/riddle/data.html
+by William Cohen (http://www.cs.cmu.edu/~wcohen/)
+see secondstring/README.txt

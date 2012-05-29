@@ -1,0 +1,67 @@
+target,queries
+Ge,Genesis|GEN
+Ex,Exodus|EXO
+Le,Leviticus|LEV
+Nu,Numbers|NUM
+De,Deuteronomy|DEU
+Jos,Joshua|JOS
+Jg,Judges|JDG
+Ru,Ruth|RUT
+1Sa,1 Samuel|1SA
+2Sa,2 Samuel|2SA
+1Ki,1 Kings|1KI
+2Ki,2 Kings|2KI
+1Ch,1 Chronicles|1CH
+2Ch,2 Chronicles|2CH
+Ezr,Ezra|EZR
+Ne,Nehemiah|NEH
+Es,Esther|EST
+Job,Job|JOB
+Ps,Psalms|PSA
+Pr,Proverbs|PRO
+Ec,Ecclesiastes|ECC
+Song,Song of Songs|SNG
+Isa,Isaiah|ISA
+Jer,Jeremiah|JER
+La,Lamentations|LAM
+Eze,Ezekiel|EZK
+Da,Daniel|DAN
+Ho,Hosea|HOS
+Joe,Joel|JOL
+Am,Amos|AMO
+Ob,Obadiah|OBA
+Jon,Jonah|JON
+Mic,Micah|MIC
+Na,Nahum|NAM
+Hab,Habakkuk|HAB
+Zep,Zephaniah|ZEP
+Hag,Haggai|HAG
+Zec,Zechariah|ZEC
+Mal,Malachi|MAL
+Mt,Matthew|MAT
+Mr,Mark|MRK
+Lu,Luke|LUK
+Joh,John|JHN
+Ac,Acts|ACT
+Ro,Romans|ROM
+1Co,1 Corinthians|1CO
+2Co,2 Corinthians|2CO
+Ga,Galatians|GAL
+Eph,Ephesians|EPH
+Php,Philippians|PHP
+Col,Colossians|COL
+1Th,1 Thessalonians|1TH
+2Th,2 Thessalonians|2TH
+1Ti,1 Timothy|1TI
+2Ti,2 Timothy|2TI
+Tit,Titus|TIT
+Phm,Philemon|PHM
+Heb,Hebrews|HEB
+Jas,James|JAS
+1Pe,1 Peter|1PE
+2Pe,2 Peter|2PE
+1Jo,1 John|1JN
+2Jo,2 John|2JN
+3Jo,3 John|3JN
+Jude,Jude|JUD
+Re,Revelation|REV

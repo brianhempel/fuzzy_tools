@@ -1,0 +1,53 @@
+Sources of Record Linkage benchmarks:
+
+misspellings/misspellings.txt
+----------------
+pulled from http://en.wikipedia.org/wiki/Wikipedia:Lists_of_common_misspellings/For_machines
+A many-to-many of real-life misspellings and corrections.
+
+bibles/KJV1611.txt
+-----------
+from http://av1611.com/ and parsed a bit.
+For coordination with other public domain Bibles.
+
+bibles/asv-usfx.xml
+------------
+from http://www.ebible.org/bible/ASV/ and parsed a bit
+For coordination with other public domain Bibles.
+
+cora/cora.txt
+--------
+from http://www.cs.utexas.edu/users/ml/riddle/data.html
+by William Cohen (http://www.cs.cmu.edu/~wcohen/)
+large numbers of duplicates
+key is the second column
+
+secondstring
+------------
+from http://www.cs.utexas.edu/users/ml/riddle/data.html
+by William Cohen (http://www.cs.cmu.edu/~wcohen/)
+see secondstring/README.txt
+
+restaurant
+----------
+from http://www.cs.utexas.edu/users/ml/riddle/data.html
+by Sheila Tejada
+see restaurant/README
+
+hpi_uni_potsdam_de/cddb
+-----------------------
+from http://www.hpi.uni-potsdam.de/naumann/projekte/repeatability/datasets/cd_datasets.html
+CD Dataset 1, extracted from http://www.freedb.org/
+cddb_9763_dups.xml is the duplicate albums
+cddb_ID_nested_10000.xml is the cd information
+I can't for the life of me figure out the file encoding. We'll pretend it's UTF-8
+Structure-Based Inference of XML Similarity for Fuzzy Duplicate Detection
+Luis Leitao, Pavel Calado, and Melanie Weis
+International Conference on Information and Knowledge Management (CIKM), Lisboa, Portugal, 2007.
+
+hpi_uni_potsdam_de/dblp/DBLP10K.csv
+------------------------------
+from http://www.hpi.uni-potsdam.de/naumann/projekte/repeatability/datasets/dblp_dataset.html
+DBLP Dataset 2, extracted from http://dblp.uni-trier.de/
+Pairs of author names and publications. First column defines whether the two authors are the same person or not.
+Dustin Lange and Felix Naumann. Frequency-aware Similarity Measures. In Proceedings of the 20th ACM Conference on Information and Knowledge Management (CIKM), pages 243–248, Glasgow, Scotland, UK, 2011.

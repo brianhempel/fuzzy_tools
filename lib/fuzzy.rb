@@ -1,7 +1,7 @@
 require 'ext/array'
 
-module Fuzzy
-  require 'fuzzy/index'
-  require 'fuzzy/jaro_winkler'
-  require 'fuzzy/typo'
-end
+require 'fuzzy/helpers'
+require 'fuzzy/index'
+require 'fuzzy/tf_idf_index'
+require 'fuzzy/jaro_winkler'
+require 'fuzzy/typo'

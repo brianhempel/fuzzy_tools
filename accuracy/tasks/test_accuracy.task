@@ -1,0 +1,8 @@
+task :accuracy => 'accuracy:test'
+
+namespace :accuracy do
+  desc "Test the fuzzy algorithm against all the test data"
+  task :test do
+    load File.expand_path('../../test_accuracy.rb', __FILE__)
+  end
+end

@@ -1,0 +1,23 @@
+def camelize(str)
+  str.capitalize.gsub(/_./) { |m| m[1..1].upcase }
+end
+
+namespace :accuracy do
+  desc "Generate accuracy test CSV's from source linkages"
+  task :generate_test_data do
+    Dir[File.expand_path('../../test_data/generators/*_generator.rb', __FILE__)].each do |generator_path|
+      next if generator_path =~ /accuracy_test_generator\.rb/
+      # next unless generator_path =~ /dblp_generator.rb/
+      require generator_path
+
+      class_name = generator_path[/[^\/]*$/].sub('.rb', '')
+      klass      = eval(camelize class_name)
+
+      klass.new.generate
+    end
+  end
+
+  desc "Test the fuzzy algorithm against all the test data"
+  task :test do
+  end
+end

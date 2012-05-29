@@ -1,3 +1,5 @@
+require 'fuzzy/index'
+
 class Array
 
   def fuzzy(query, count = nil)
@@ -13,4 +15,7 @@ class Array
     end
   end
 
+  def fuzzy_index
+    Fuzzy::TfIdfIndex.new_for(self)
+  end
 end

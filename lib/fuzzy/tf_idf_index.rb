@@ -1,5 +1,6 @@
 require 'set'
 require 'fuzzy/index'
+require 'fuzzy/weighted_document_tokens'
 
 module Fuzzy
   class TfIdfIndex < Index
@@ -8,19 +9,6 @@ module Fuzzy
 
       def initialize
         @documents = Set.new
-      end
-    end
-
-    def build_index
-      @tokens = {}
-      source.each do |document|
-        tokenize(document).each do |token_str|
-          @tokens[token_str] ||= Token.new
-          @tokens[token_str].documents << document
-        end
-      end
-      @tokens.keys.each do |token_str|
-        @tokens[token_str].idf = Math.log(source.size.to_f / @tokens[token_str].documents.size)
       end
     end
 
@@ -44,31 +32,34 @@ module Fuzzy
 
     # tf-idf/cosine similarity
     def score(s1, s2)
-      s1_tokens      = tokenize(s1)
-      s2_tokens      = tokenize(s2)
-      s1_term_counts = Fuzzy::Helpers.term_counts(s1_tokens)
-      s2_term_counts = Fuzzy::Helpers.term_counts(s2_tokens)
-      # secondstring gives unknown tokens a df of 1
-      s1_term_weights = Hash[s1_term_counts.map do |token, n|
-        idf = @tokens[token] ? @tokens[token].idf : Math.log(source.size.to_f)
-        [token, idf * Math.log(n + 1)]
-      end]
-      s2_term_weights = Hash[s2_term_counts.map do |token, n|
-        idf = @tokens[token] ? @tokens[token].idf : Math.log(source.size.to_f)
-        [token, idf * Math.log(n + 1)]
-      end]
-      # cosine similarity
-      common_dot_product = (s1_term_weights.reduce(0.0) do |sum, term_weight|
-        token, weight = term_weight
-        if other_weight = s2_term_weights[token]
-          sum + (other_weight * weight)
-        else
-          sum
+      s1_tokens      = WeightedDocumentTokens.new(tokenize(s1))
+      s2_tokens      = WeightedDocumentTokens.new(tokenize(s2))
+
+      s1_tokens.set_token_weights { |token, n| weight_function(token, n) }
+      s2_tokens.set_token_weights { |token, n| weight_function(token, n) }
+
+      s1_tokens.cosine_similarity(s2_tokens)
+    end
+
+    private
+
+    def build_index
+      @tokens = {}
+      source.each do |document|
+        tokenize(document).each do |token_str|
+          @tokens[token_str] ||= Token.new
+          @tokens[token_str].documents << document
         end
-      end)
-      s1_term_weights_length = Math.sqrt(s1_term_weights.values.reduce(0.0) { |sum, w| sum + w*w })
-      s2_term_weights_length = Math.sqrt(s2_term_weights.values.reduce(0.0) { |sum, w| sum + w*w })
-      common_dot_product / (s1_term_weights_length*s2_term_weights_length)
+      end
+      @tokens.keys.each do |token_str|
+        @tokens[token_str].idf = Math.log(source.size.to_f / @tokens[token_str].documents.size)
+      end
+    end
+
+    def weight_function(token, n)
+      # secondstring gives unknown tokens a df of 1
+      idf = @tokens[token] ? @tokens[token].idf : Math.log(@source.size.to_f)
+      idf * Math.log(n + 1)
     end
   end
 end

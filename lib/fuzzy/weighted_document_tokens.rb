@@ -4,18 +4,11 @@ module Fuzzy
   class WeightedDocumentTokens
     attr_reader :tokens, :counts, :weights
 
-    def initialize(tokens)
+    def initialize(tokens, options)
       @tokens = tokens
       @counts = Fuzzy::Helpers.term_counts(@tokens)
-    end
-
-    def set_token_weights(&block)
-      @weights = {}
-      counts.each do |token, n|
-        @weights[token] = yield(token, n)
-      end
-      normalize_weights
-      @weights
+      weight_function = options[:weight_function]
+      set_token_weights(&weight_function)
     end
 
     def cosine_similarity(other)
@@ -29,6 +22,15 @@ module Fuzzy
     end
 
     private
+
+    def set_token_weights(&block)
+      @weights = {}
+      counts.each do |token, n|
+        @weights[token] = yield(token, n)
+      end
+      normalize_weights
+      @weights
+    end
 
     def normalize_weights
       length = Math.sqrt(weights.values.reduce(0.0) { |sum, w| sum + w*w })

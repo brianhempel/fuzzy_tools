@@ -20,8 +20,8 @@ module Fuzzy
         candidates += token.documents if token
       end
       return nil if candidates.size == 0
-      scored = candidates.each.map do |candidate|
-        score = self.score(query, candidate)
+      scored = candidates.map do |candidate|
+        score = self.score(candidate, query)
         [score, candidate]
       end.sort.last.last
     end
@@ -31,14 +31,12 @@ module Fuzzy
     end
 
     # tf-idf/cosine similarity
-    def score(s1, s2)
-      s1_tokens      = WeightedDocumentTokens.new(tokenize(s1))
-      s2_tokens      = WeightedDocumentTokens.new(tokenize(s2))
+    def score(document, str)
+      str_tokens = WeightedDocumentTokens.new(tokenize(str), :weight_function => weight_function)
 
-      s1_tokens.set_token_weights { |token, n| weight_function(token, n) }
-      s2_tokens.set_token_weights { |token, n| weight_function(token, n) }
+      document_tokens = @document_tokens[document]
 
-      s1_tokens.cosine_similarity(s2_tokens)
+      document_tokens.cosine_similarity(str_tokens)
     end
 
     private
@@ -54,12 +52,18 @@ module Fuzzy
       @tokens.keys.each do |token_str|
         @tokens[token_str].idf = Math.log(source.size.to_f / @tokens[token_str].documents.size)
       end
+      @document_tokens = {}
+      source.each do |document|
+        tokens = @document_tokens[document] = WeightedDocumentTokens.new(tokenize(document), :weight_function => weight_function)
+      end
     end
 
-    def weight_function(token, n)
-      # secondstring gives unknown tokens a df of 1
-      idf = @tokens[token] ? @tokens[token].idf : Math.log(@source.size.to_f)
-      idf * Math.log(n + 1)
+    def weight_function
+      @weight_function ||= lambda do |token, n|
+        # secondstring gives unknown tokens a df of 1
+        idf = @tokens[token] ? @tokens[token].idf : Math.log(@source.size.to_f)
+        idf * Math.log(n + 1)
+      end
     end
   end
 end

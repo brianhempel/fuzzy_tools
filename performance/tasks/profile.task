@@ -1,0 +1,4 @@
+desc "Generate a profile of the code, useful for optimization"
+task :profile do
+  load File.expand_path('../../profile.rb', __FILE__)
+end

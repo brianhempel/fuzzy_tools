@@ -13,30 +13,26 @@ module Fuzzy
     end
 
     def find(query)
-      query_tokens = tokenize(query)
-      candidates   = Set.new
-      query_tokens.each do |query_token|
-        token = @tokens[query_token]
-        candidates += token.documents if token
+      query_weighted_tokens = WeightedDocumentTokens.new(tokenize(query), :weight_function => weight_function)
+
+      candidates = Set.new
+      query_weighted_tokens.tokens.each do |query_token|
+        tf_idf_token = @tokens[query_token]
+        candidates += tf_idf_token.documents if tf_idf_token
       end
       return nil if candidates.size == 0
+
       scored = candidates.map do |candidate|
-        score = self.score(candidate, query)
+        candidate_tokens = @document_tokens[candidate]
+
+        score = query_weighted_tokens.cosine_similarity(candidate_tokens)
+
         [score, candidate]
       end.sort.last.last
     end
 
     def tokenize(str)
       tokenizer.call(str)
-    end
-
-    # tf-idf/cosine similarity
-    def score(document, str)
-      str_tokens = WeightedDocumentTokens.new(tokenize(str), :weight_function => weight_function)
-
-      document_tokens = @document_tokens[document]
-
-      document_tokens.cosine_similarity(str_tokens)
     end
 
     private

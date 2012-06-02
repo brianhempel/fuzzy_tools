@@ -18,7 +18,7 @@ module Fuzzy
       candidates = Set.new
       query_weighted_tokens.tokens.each do |query_token|
         tf_idf_token = @tf_idf_tokens[query_token]
-        candidates += tf_idf_token.documents if tf_idf_token
+        candidates.merge(tf_idf_token.documents) if tf_idf_token
       end
       return nil if candidates.size == 0
 

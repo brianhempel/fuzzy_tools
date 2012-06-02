@@ -11,8 +11,9 @@ module Fuzzy
 
     def cosine_similarity(other)
       similarity = 0.0
+      other_weights = other.weights
       weights.each do |token, weight|
-        if other_weight = other.weights[token]
+        if other_weight = other_weights[token]
           similarity += other_weight*weight
         end
       end

@@ -37,10 +37,21 @@ module Fuzzy
 
     private
 
+    # consolidate the same strings together
+    # lowers GC load
+    def tokenize_consolidated(str)
+      tokenize(str).map { |token| @token_table[token] ||= token }
+    end
+
+    def clear_token_table
+      @token_table = {}
+    end
+
     def build_index
+      clear_token_table
       @tf_idf_tokens = {}
       source.each do |document|
-        tokenize(document).each do |token_str|
+        tokenize_consolidated(document).each do |token_str|
           @tf_idf_tokens[token_str] ||= Token.new
           @tf_idf_tokens[token_str].documents << document
         end
@@ -50,8 +61,9 @@ module Fuzzy
       end
       @document_tokens = {}
       source.each do |document|
-        tokens = @document_tokens[document] = WeightedDocumentTokens.new(tokenize(document), :weight_function => weight_function)
+        tokens = @document_tokens[document] = WeightedDocumentTokens.new(tokenize_consolidated(document), :weight_function => weight_function)
       end
+      clear_token_table
     end
 
     def weight_function

@@ -11,7 +11,7 @@ module Fuzzy
     end
 
     def cosine_similarity(other)
-      cosine_similarity_fast(other)
+      cosine_similarity_fast(@weights, tokens, other.weights)
       # equivalent to the RUBY below, and 2x faster
       # similarity = 0.0
       # other_weights = other.weights
@@ -27,10 +27,9 @@ module Fuzzy
       builder.c_raw <<-EOC
         static VALUE cosine_similarity_fast(int argc, VALUE *argv, VALUE self) {
           double similarity    = 0.0;
-          VALUE  other         = argv[0];
-          VALUE  other_weights = rb_funcall(other, rb_intern("weights"), 0);
-          VALUE  my_weights    = rb_ivar_get(self, rb_intern("@weights"));
-          VALUE  my_tokens     = rb_funcall(self, rb_intern("tokens"), 0);
+          VALUE  my_weights    = argv[0];
+          VALUE  my_tokens     = argv[1];
+          VALUE  other_weights = argv[2];
           int    i;
           VALUE  token;
           VALUE  my_weight;
@@ -38,9 +37,9 @@ module Fuzzy
 
           for(i = 0; i < RARRAY(my_tokens)->len; i++) {
             token        = RARRAY(my_tokens)->ptr[i];
-            my_weight    = rb_hash_aref(my_weights, token);
             other_weight = rb_hash_aref(other_weights, token);
             if (other_weight != Qnil) {
+              my_weight   = rb_hash_aref(my_weights, token);
               similarity += NUM2DBL(my_weight)*NUM2DBL(other_weight);
             }
           }
@@ -51,7 +50,7 @@ module Fuzzy
     end
 
     def tokens
-      @weights.keys
+      @tokens ||= @weights.keys
     end
 
     private

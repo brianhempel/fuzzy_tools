@@ -28,7 +28,7 @@ module Fuzzy
         score = query_weighted_tokens.cosine_similarity(candidate_tokens)
 
         [score, candidate]
-      end.sort.last.last
+      end.max.last
     end
 
     def tokenize(str)

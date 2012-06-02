@@ -2,11 +2,10 @@ require 'fuzzy/helpers'
 
 module Fuzzy
   class WeightedDocumentTokens
-    attr_reader :tokens, :counts, :weights
+    attr_reader :counts, :weights
 
     def initialize(tokens, options)
-      @tokens = tokens
-      @counts = Fuzzy::Helpers.term_counts(@tokens)
+      @counts = Fuzzy::Helpers.term_counts(tokens)
       weight_function = options[:weight_function]
       set_token_weights(&weight_function)
     end
@@ -19,6 +18,10 @@ module Fuzzy
         end
       end
       similarity
+    end
+
+    def tokens
+      @counts.keys
     end
 
     private

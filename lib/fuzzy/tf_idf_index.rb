@@ -19,6 +19,7 @@ module Fuzzy
       check_all_threshold = source.size * 0.75 # this threshold works best on the accuracy data
       query_weighted_tokens.tokens.each do |query_token|
         if tf_idf_token = @tf_idf_tokens[query_token]
+          next if tf_idf_token.idf < @idf_cutoff
           candidates.merge(tf_idf_token.documents)
           if candidates.size > check_all_threshold
             candidates = source
@@ -70,6 +71,8 @@ module Fuzzy
         tokens = @document_tokens[document] = WeightedDocumentTokens.new(tokenize_consolidated(document), :weight_function => weight_function)
       end
       clear_token_table
+      idfs = @tf_idf_tokens.values.map(&:idf).sort
+      @idf_cutoff = (idfs[idfs.size/16] || 0.0) / 2.0
     end
 
     def weight_function

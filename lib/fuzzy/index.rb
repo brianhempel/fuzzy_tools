@@ -4,14 +4,14 @@ require 'fuzzy/tokenizers'
 module Fuzzy
   class Index
     def self.new_for(enumerable)
-      new(:source => enumerable, :tokenizer => self.default_tokenizer)
+      new(:source => enumerable)
     end
 
     attr_reader :source, :tokenizer
 
     def initialize(options = {})
       @source    = options[:source]
-      @tokenizer = options[:tokenizer]
+      @tokenizer = options[:tokenizer] || self.class.default_tokenizer
       build_index
     end
 

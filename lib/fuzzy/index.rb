@@ -4,7 +4,7 @@ require 'fuzzy/tokenizers'
 module Fuzzy
   class Index
     def self.new_for(enumerable)
-      new(:source => enumerable, :tokenizer => Fuzzy::Tokenizers::TETRAGRAMS_DOWNCASED)
+      new(:source => enumerable, :tokenizer => self.default_tokenizer)
     end
 
     attr_reader :source, :tokenizer

@@ -12,6 +12,10 @@ module Fuzzy
       end
     end
 
+    def self.default_tokenizer
+      Fuzzy::Tokenizers::TETRAGRAMS_DOWNCASED
+    end
+
     def find(query)
       query_weighted_tokens = WeightedDocumentTokens.new(tokenize(query), :weight_function => weight_function)
 

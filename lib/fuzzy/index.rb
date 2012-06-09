@@ -15,6 +15,10 @@ module Fuzzy
       build_index
     end
 
+    def tokenize(str)
+      tokenizer.call(str)
+    end
+
     # class Term
     #   attr_accessor :records, :idf #, :boost
     #   

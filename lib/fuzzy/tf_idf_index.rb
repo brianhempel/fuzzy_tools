@@ -35,10 +35,6 @@ module Fuzzy
       weighted_tokens_1.cosine_similarity(weighted_tokens_2)
     end
 
-    def tokenize(str)
-      tokenizer.call(str)
-    end
-
     def select_candidate_documents(query_weighted_tokens)
       candidates = Set.new
       check_all_threshold = source.size * 0.75 # this threshold works best on the accuracy data

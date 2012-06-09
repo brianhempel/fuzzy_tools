@@ -12,7 +12,7 @@ module Fuzzy
 
     def cosine_similarity(other)
       cosine_similarity_fast(@weights, tokens, other.weights)
-      # equivalent to the RUBY below, and 2x faster
+      # equivalent to the C below, but the C is >2x faster
       # similarity = 0.0
       # other_weights = other.weights
       # @weights.each do |token, weight|

@@ -32,10 +32,14 @@ module Fuzzy
       scored = candidates.map do |candidate|
         candidate_tokens = @document_tokens[candidate]
 
-        score = query_weighted_tokens.cosine_similarity(candidate_tokens)
+        score = self.score(query_weighted_tokens, candidate_tokens)
 
         [score, candidate]
       end.max.last
+    end
+
+    def score(weighted_tokens_1, weighted_tokens_2)
+      weighted_tokens_1.cosine_similarity(weighted_tokens_2)
     end
 
     def tokenize(str)

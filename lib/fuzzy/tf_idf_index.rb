@@ -16,19 +16,18 @@ module Fuzzy
       Fuzzy::Tokenizers::TETRAGRAMS_DOWNCASED
     end
 
-    def find(query)
+    def unsorted_scored_results(query)
       query_weighted_tokens = WeightedDocumentTokens.new(tokenize(query), :weight_function => weight_function)
 
       candidates = select_candidate_documents(query, query_weighted_tokens)
-      return nil if candidates.size == 0
 
-      scored = candidates.map do |candidate|
+      candidates.map do |candidate|
         candidate_tokens = @document_tokens[candidate]
 
         score = self.score(query_weighted_tokens, candidate_tokens)
 
         [score, candidate]
-      end.max.last
+      end
     end
 
     def score(weighted_tokens_1, weighted_tokens_2)

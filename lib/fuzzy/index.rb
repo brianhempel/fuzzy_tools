@@ -15,6 +15,18 @@ module Fuzzy
       build_index
     end
 
+    def find(query)
+      unsorted_scored_results(query).max.last
+    end
+
+    def all(query)
+      all_with_scores(query).map(&:last)
+    end
+
+    def all_with_scores(query)
+      unsorted_scored_results(query).sort.reverse
+    end
+
     def tokenize(str)
       tokenizer.call(str)
     end

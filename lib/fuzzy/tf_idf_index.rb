@@ -15,18 +15,7 @@ module Fuzzy
     def find(query)
       query_weighted_tokens = WeightedDocumentTokens.new(tokenize(query), :weight_function => weight_function)
 
-      candidates = Set.new
-      check_all_threshold = source.size * 0.75 # this threshold works best on the accuracy data
-      query_weighted_tokens.tokens.each do |query_token|
-        if tf_idf_token = @tf_idf_tokens[query_token]
-          next if tf_idf_token.idf < @idf_cutoff
-          candidates.merge(tf_idf_token.documents)
-          if candidates.size > check_all_threshold
-            candidates = source
-            break
-          end
-        end
-      end
+      candidates = select_candidate_documents(query_weighted_tokens)
       return nil if candidates.size == 0
 
       scored = candidates.map do |candidate|
@@ -44,6 +33,22 @@ module Fuzzy
 
     def tokenize(str)
       tokenizer.call(str)
+    end
+
+    def select_candidate_documents(query_weighted_tokens)
+      candidates = Set.new
+      check_all_threshold = source.size * 0.75 # this threshold works best on the accuracy data
+      query_weighted_tokens.tokens.each do |query_token|
+        if tf_idf_token = @tf_idf_tokens[query_token]
+          next if tf_idf_token.idf < @idf_cutoff
+          candidates.merge(tf_idf_token.documents)
+          if candidates.size > check_all_threshold
+            candidates = source
+            break
+          end
+        end
+      end
+      candidates
     end
 
     private

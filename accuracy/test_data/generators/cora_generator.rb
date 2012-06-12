@@ -6,8 +6,6 @@ require File.expand_path('../accuracy_test_generator', __FILE__)
 class CoraGenerator < AccuracyTestGenerator
   # key is the second column
 
-  MisspellingPair = Struct.new(:wrong, :right)
-
   CORA_FILE = SOURCES_DIRECTORY + "/cora/cora.tsv"
 
   def generate

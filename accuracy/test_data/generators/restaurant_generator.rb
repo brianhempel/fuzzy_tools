@@ -1,7 +1,7 @@
 require File.expand_path('../accuracy_test_generator', __FILE__)
 
 class RestaurantGenerator < AccuracyTestGenerator
-  # key is phone number column
+  # key is phone number
 
   FODORS_FILE  = SOURCES_DIRECTORY + "/restaurant/original/fodors.txt"
   ZAGATS_FILE  = SOURCES_DIRECTORY + "/restaurant/original/zagats.txt"

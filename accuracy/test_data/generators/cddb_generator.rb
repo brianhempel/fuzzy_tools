@@ -4,7 +4,6 @@ require 'nokogiri'
 require File.expand_path('../accuracy_test_generator', __FILE__)
 
 class CddbGenerator < AccuracyTestGenerator
-  # key is phone number column
 
   ALL_ALBUMS_FILE = SOURCES_DIRECTORY + "/hpi_uni_potsdam_de/cddb/cddb_ID_nested_10000.xml"
   DUPLICATES_FILE = SOURCES_DIRECTORY + "/hpi_uni_potsdam_de/cddb/cddb_9763_dups.xml"

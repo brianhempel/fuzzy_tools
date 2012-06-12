@@ -1,59 +1,59 @@
 target,queries
-callx	Carpodacus purpureus	Purple Finch,nabird	Carpodacus purpureus	Purple Finch
-callx	Passerina cyanea	Indigo Bunting,nabird	Passerina cyanea	Indigo Bunting
-callx	Zenaida macroura	Mourning Dove,nabird	Zenaida macroura	Mourning Dove
-callx	Dumetella carolinensis	Gray Catbird,nabird	Dumetella carolinensis	Gray Catbird
-callx	Sturnella magna	Eastern Meadowlark,nabird	Sturnella magna	Eastern Meadowlark
-callx	Dendroica virens	Black-throated Green Warbler,nabird	Dendroica virens	Black-throated Green Warbler
-callx	Mimus polyglottos	Northern Mockingbird,nabird	Mimus polyglottos	Northern Mockingbird
-callx	Charadrius melodus	Piping Plover,nabird	Charadrius melodus	Piping Plover
-callx	Melospiza melodia	Song Sparrow,nabird	Melospiza melodia	Song Sparrow
-callx	Cistothorus palustris	Marsh Wren,nabird	Cistothorus palustris	Marsh Wren
-callx	Troglodytes aedon	House Wren,nabird	Troglodytes aedon	House Wren
-callx	Molothrus ater	Brown-headed Cowbird,nabird	Molothrus ater	Brown-headed Cowbird
-callx	Dendroica coronata	Yellow-rumped (``Myrtle'') Warbler,nabird	Dendroica coronata	Yellow-rumped Warbler
-callx	Coccyzus americanus	Yellow-billed Cuckoo,nabird	Coccyzus americanus	Yellow-billed Cuckoo
-callx	Pipilo erythrophthalmus	Rufous-sided Towhee,nabird	Pipilo erythrophthalmus	Eastern Towhee
-callx	Otus asio	Common Screech Owl,nabird	Otus asio	Eastern Screech-Owl
-callx	Catharus ustulatus	Swainson's Thrush,nabird	Catharus ustulatus	Swainson's Thrush
-callx	Dendroica magnolia	Magnolia Warbler,nabird	Dendroica magnolia	Magnolia Warbler
-callx	Mniotilta varia	Black and White Warbler,nabird	Mniotilta varia	Black-and-white Warbler
-callx	Icterus galbula	Northern Oriole,nabird	Icterus galbula	Baltimore Oriole
-callx	Catharus fuscescens	Veery  ,nabird	Catharus fuscescens	Veery
-callx	Agelaius phoeniceus	Red-winged Blackbird,nabird	Agelaius phoeniceus	Red-winged Blackbird
-callx	Sterna hirundo	Common Tern ,nabird	Sterna hirundo	Common Tern
-callx	Pooecetes gramineus	Vesper Sparrow,nabird	Pooecetes gramineus	Vesper Sparrow
-callx	Vireo olivaceus	Red-eyed Vireo,nabird	Vireo olivaceus	Red-eyed Vireo
-callx	Colinus virginianus	Common Bobwhite,nabird	Colinus virginianus	Northern Bobwhite
-callx	Vireo griseus	White-eyed Vireo,nabird	Vireo griseus	White-eyed Vireo
-callx	Corvus ossifragus	Fish Crow,nabird	Corvus ossifragus	Fish Crow
-callx	Dolichonyx oryzivorus	Bobolink  ,nabird	Dolichonyx oryzivorus	Bobolink
-callx	Turdus migratorius	The  American Robin,nabird	Turdus migratorius	American Robin
-callx	Spizella pusilla	Field Sparrow,nabird	Spizella pusilla	Field Sparrow
-callx	Picoides pubescens	Downy Woodpecker,nabird	Picoides pubescens	Downy Woodpecker
-callx	Melanerpes carolinus	Red-bellied Woodpecker,nabird	Melanerpes carolinus	Red-bellied Woodpecker
-callx	Seiurus aurocapillus	Ovenbird  ,nabird	Seiurus aurocapillus	Ovenbird
-callx	Troglodytes troglodytes	Winter Wren,nabird	Troglodytes troglodytes	Winter Wren
-callx	Buteo platypterus	Broad-winged Hawk,nabird	Buteo platypterus	Broad-winged Hawk
-callx	Colaptes auratus	Common Flicker,nabird	Colaptes auratus	Northern Flicker
-callx	Dendroica striata	Blackpoll Warbler,nabird	Dendroica striata	Blackpoll Warbler
-callx	Carduelis tristis	American Goldfinch,nabird	Carduelis tristis	American Goldfinch
-callx	Sitta carolinensis	White-breasted Nuthatch,nabird	Sitta carolinensis	White-breasted Nuthatch
-callx	Vireo gilvus	Warbling Vireo,nabird	Vireo gilvus	Warbling Vireo
-callx	Cardinalis cardinalis	*Northern Cardinal,nabird	Cardinalis cardinalis	Northern Cardinal
-callx	Icterus spurius	Orchard Oriole,nabird	Icterus spurius	Orchard Oriole
-callx	Strix varia	Barred Owl,nabird	Strix varia	Barred Owl
-callx	Gavia immer	Common Loon,nabird	Gavia immer	Common Loon
-callx	Dendroica caerulescens	Black-throated Blue Warbler,nabird	Dendroica caerulescens	Black-throated Blue Warbler
-callx	Quiscalus quiscula	Common Grackle,nabird	Quiscalus quiscula	Common Grackle
-callx	Dendroica pensylvanica	Chestnut-sided Warbler,nabird	Dendroica pensylvanica	Chestnut-sided Warbler
-callx	Setophaga ruticilla	American Redstart,nabird	Setophaga ruticilla	American Redstart
-callx	Cyanocitta cristata	Blue Jay,nabird	Cyanocitta cristata	Blue Jay
-callx	Dendroica petechia	Yellow Warbler,nabird	Dendroica petechia	Yellow Warbler
-callx	Vermivora pinus	Blue-winged Warbler,nabird	Vermivora pinus	Blue-winged Warbler
-callx	Dendroica fusca	Blackburnian Warbler,nabird	Dendroica fusca	Blackburnian Warbler
-callx	Piranga olivacea	Scarlet Tanager,nabird	Piranga olivacea	Scarlet Tanager
-callx	Parula americana	Northern Parula Warbler,nabird	Parula americana	Northern Parula
+nabird	Dendroica virens	Black-throated Green Warbler,callx	Dendroica virens	Black-throated Green Warbler
+nabird	Dolichonyx oryzivorus	Bobolink,callx	Dolichonyx oryzivorus	Bobolink  
+nabird	Dendroica magnolia	Magnolia Warbler,callx	Dendroica magnolia	Magnolia Warbler
+nabird	Sitta carolinensis	White-breasted Nuthatch,callx	Sitta carolinensis	White-breasted Nuthatch
+nabird	Corvus ossifragus	Fish Crow,callx	Corvus ossifragus	Fish Crow
+nabird	Carduelis tristis	American Goldfinch,callx	Carduelis tristis	American Goldfinch
+nabird	Pooecetes gramineus	Vesper Sparrow,callx	Pooecetes gramineus	Vesper Sparrow
+nabird	Dendroica petechia	Yellow Warbler,callx	Dendroica petechia	Yellow Warbler
+nabird	Vireo griseus	White-eyed Vireo,callx	Vireo griseus	White-eyed Vireo
+nabird	Dendroica striata	Blackpoll Warbler,callx	Dendroica striata	Blackpoll Warbler
+nabird	Coccyzus americanus	Yellow-billed Cuckoo,callx	Coccyzus americanus	Yellow-billed Cuckoo
+nabird	Parula americana	Northern Parula,callx	Parula americana	Northern Parula Warbler
+nabird	Colinus virginianus	Northern Bobwhite,callx	Colinus virginianus	Common Bobwhite
+nabird	Dendroica coronata	Yellow-rumped Warbler,callx	Dendroica coronata	Yellow-rumped (``Myrtle'') Warbler
+nabird	Cyanocitta cristata	Blue Jay,callx	Cyanocitta cristata	Blue Jay
+nabird	Setophaga ruticilla	American Redstart,callx	Setophaga ruticilla	American Redstart
+nabird	Buteo platypterus	Broad-winged Hawk,callx	Buteo platypterus	Broad-winged Hawk
+nabird	Dendroica pensylvanica	Chestnut-sided Warbler,callx	Dendroica pensylvanica	Chestnut-sided Warbler
+nabird	Molothrus ater	Brown-headed Cowbird,callx	Molothrus ater	Brown-headed Cowbird
+nabird	Troglodytes troglodytes	Winter Wren,callx	Troglodytes troglodytes	Winter Wren
+nabird	Quiscalus quiscula	Common Grackle,callx	Quiscalus quiscula	Common Grackle
+nabird	Sturnella magna	Eastern Meadowlark,callx	Sturnella magna	Eastern Meadowlark
+nabird	Seiurus aurocapillus	Ovenbird,callx	Seiurus aurocapillus	Ovenbird  
+nabird	Troglodytes aedon	House Wren,callx	Troglodytes aedon	House Wren
+nabird	Cistothorus palustris	Marsh Wren,callx	Cistothorus palustris	Marsh Wren
+nabird	Melanerpes carolinus	Red-bellied Woodpecker,callx	Melanerpes carolinus	Red-bellied Woodpecker
+nabird	Dendroica caerulescens	Black-throated Blue Warbler,callx	Dendroica caerulescens	Black-throated Blue Warbler
+nabird	Melospiza melodia	Song Sparrow,callx	Melospiza melodia	Song Sparrow
+nabird	Gavia immer	Common Loon,callx	Gavia immer	Common Loon
+nabird	Zenaida macroura	Mourning Dove,callx	Zenaida macroura	Mourning Dove
+nabird	Strix varia	Barred Owl,callx	Strix varia	Barred Owl
+nabird	Passerina cyanea	Indigo Bunting,callx	Passerina cyanea	Indigo Bunting
+nabird	Sterna hirundo	Common Tern,callx	Sterna hirundo	Common Tern 
+nabird	Picoides pubescens	Downy Woodpecker,callx	Picoides pubescens	Downy Woodpecker
+nabird	Charadrius melodus	Piping Plover,callx	Charadrius melodus	Piping Plover
+nabird	Vireo olivaceus	Red-eyed Vireo,callx	Vireo olivaceus	Red-eyed Vireo
+nabird	Icterus spurius	Orchard Oriole,callx	Icterus spurius	Orchard Oriole
+nabird	Catharus ustulatus	Swainson's Thrush,callx	Catharus ustulatus	Swainson's Thrush
+nabird	Carpodacus purpureus	Purple Finch,callx	Carpodacus purpureus	Purple Finch
+nabird	Agelaius phoeniceus	Red-winged Blackbird,callx	Agelaius phoeniceus	Red-winged Blackbird
+nabird	Otus asio	Eastern Screech-Owl,callx	Otus asio	Common Screech Owl
+nabird	Mimus polyglottos	Northern Mockingbird,callx	Mimus polyglottos	Northern Mockingbird
+nabird	Colaptes auratus	Northern Flicker,callx	Colaptes auratus	Common Flicker
+nabird	Dumetella carolinensis	Gray Catbird,callx	Dumetella carolinensis	Gray Catbird
+nabird	Piranga olivacea	Scarlet Tanager,callx	Piranga olivacea	Scarlet Tanager
+nabird	Catharus fuscescens	Veery,callx	Catharus fuscescens	Veery  
+nabird	Dendroica fusca	Blackburnian Warbler,callx	Dendroica fusca	Blackburnian Warbler
+nabird	Cardinalis cardinalis	Northern Cardinal,callx	Cardinalis cardinalis	*Northern Cardinal
+nabird	Spizella pusilla	Field Sparrow,callx	Spizella pusilla	Field Sparrow
+nabird	Vermivora pinus	Blue-winged Warbler,callx	Vermivora pinus	Blue-winged Warbler
+nabird	Vireo gilvus	Warbling Vireo,callx	Vireo gilvus	Warbling Vireo
+nabird	Pipilo erythrophthalmus	Eastern Towhee,callx	Pipilo erythrophthalmus	Rufous-sided Towhee
+nabird	Turdus migratorius	American Robin,callx	Turdus migratorius	The  American Robin
+nabird	Icterus galbula	Baltimore Oriole,callx	Icterus galbula	Northern Oriole
+nabird	Mniotilta varia	Black-and-white Warbler,callx	Mniotilta varia	Black and White Warbler
 nabird	Gavia stellata	Red-throated Loon,""
 nabird	Gavia arctica	Arctic Loon,""
 nabird	Gavia pacifica	Pacific Loon,""

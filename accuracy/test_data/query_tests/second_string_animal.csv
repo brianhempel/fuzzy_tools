@@ -1,228 +1,222 @@
 target,queries
-"endangered_species	Chorizanthe pungens var. hartwegiana	Spineflower, Ben Lomond","endangered_species	Chorizanthe pungens var. pungens	Spineflower, Monterey"
-"endangered_species	Myadestes (=Phaeornis) lanaiensis (=obscurus) rutha	Thrush, Molokai (=oloma`o)",park_animals	Myadestes lanaiensis 	Olomao
-"endangered_species	Chasmistes brevirostris	Sucker, shortnose",park_animals	Chasmistes brevirostris 	shortnose sucker
-endangered_species	Chasmistes cujus	Cui-ui,park_animals	Chasmistes cujus 	cui-ui
-"endangered_species	Notropis mekistocholas	Shiner, Cape Fear",park_animals	Notropis mekistocholas 	Cape Fear shiner
-"endangered_species	Percina antesella	Darter, amber",park_animals	Percina antesella 	amber darter
-"endangered_species	Percina rex	Logperch, Roanoke",park_animals	Percina rex 	Roanoke logperch
-"endangered_species	Ictalurus pricei	Catfish, Yaqui",park_animals	Ictalurus pricei 	Yaqui catfish
-"endangered_species	Nerodia clarkii (=fasciata) taeniata	Snake, Atlantic salt marsh",park_animals	Nerodia clarkii 	Salt marsh water snake
-"endangered_species	Aplodontia rufa nigra	Mountain beaver, Point Arena",park_animals	Aplodontia rufa 	Mountain beaver
-"endangered_species	Xyrauchen texanus	Sucker, razorback",park_animals	Xyrauchen texanus 	razorback sucker
-"endangered_species	Himantopus mexicanus (=himantopus) knudseni	Stilt, Hawaiian (=ae`o)",park_animals	Himantopus mexicanus 	Black-necked Stilt
-"endangered_species	Peromyscus polionotus trissyllepsis	Mouse, Perdido Key beach",park_animals	Peromyscus polionotus 	Oldfield mouse
-"endangered_species	Vireo atricapillus	Vireo, black-capped",park_animals	Vireo atricapillus 	Black-capped Vireo
-"endangered_species	Thamnophis sirtalis tetrataenia	Snake, San Francisco garter",park_animals	Thamnophis sirtalis 	Common garter snake
-"endangered_species	Dipodomys nitratoides nitratoides	Kangaroo rat, Tipton",park_animals	Dipodomys nitratoides 	Fresno kangaroo rat
-"endangered_species	Hybognathus amarus	Minnow, Rio Grande silvery",park_animals	Hybognathus amarus 	Rio Grande silvery minnow
-"endangered_species	Percina jenkinsi	Logperch, Conasauga",park_animals	Percina jenkinsi 	Conasauga logperch
-"endangered_species	Colinus virginianus ridgwayi	Bobwhite, masked (quail)",park_animals	Colinus virginianus 	Northern Bobwhite
-"endangered_species	Gasterosteus aculeatus	Stickleback, unarmored threespine",park_animals	Gasterosteus aculeatus 	threespine stickleback
-"endangered_species	Nerodia paucimaculata (=harteri p.)	Snake, Concho water",park_animals	Nerodia paucimaculata 	Concho water snake
-"endangered_species	Felis concolor coryi	Panther, Florida",park_animals	Felis concolor 	Mountain lion
-"endangered_species	Crocodylus acutus	Crocodile, American",park_animals	Crocodylus acutus 	American crocodile
-"endangered_species	Sciurus niger cinereus	Squirrel, Delmarva Peninsula fox",park_animals	Sciurus niger 	Fox squirrel
-"endangered_species	Vireo bellii	Vireo, least Bell's",park_animals	Vireo bellii 	Bell's Vireo
-"endangered_species	Oncorhynchus tshawytscha	Salmon, chinook",park_animals	Oncorhynchus tshawytscha 	chinook salmon
-"endangered_species	Myadestes (=Phaeornis) palmeri	Thrush, small Kauai (=puaiohi)",park_animals	Myadestes palmeri 	Puaiohi
-"endangered_species	Cyprinodon macularius	Pupfish, desert",park_animals	Cyprinodon macularius 	desert pupfish
-"endangered_species	Noturus trautmani	Madtom, Scioto",park_animals	Noturus trautmani 	Scioto madtom
-"endangered_species	Enhydra lutris	Otter, southern sea",park_animals	Enhydra lutris 	Sea otter
-"endangered_species	Notropis cahabae	Shiner, Cahaba",park_animals	Notropis cahabae 	Cahaba shiner
-"endangered_species	Rostrhamus sociabilis	Kite, Everglade snail",park_animals	Rostrhamus sociabilis 	Snail Kite
-"endangered_species	Etheostoma rubrum	Darter, bayou",park_animals	Etheostoma rubrum 	bayou darter
-"endangered_species	Gila robusta jordani	Chub, Pahranagat roundtail (=bonytail)",park_animals	Gila robusta 	roundtail chub
-"endangered_species	Epioblasma (=Dysnomia) torulosa gubernaculum	Pearlymussel, green-blossom","endangered_species	Epioblasma (=Dysnomia) torulosa torulosa	Pearlymussel, tubercled-blossom"
-"endangered_species	Etheostoma sellare	Darter, Maryland",park_animals	Etheostoma sellare 	Maryland darter
-"endangered_species	Gymnogyps californianus	Condor, California",park_animals	Gymnogyps californianus 	California Condor
-"endangered_species	Paroreomyza flammea	Creeper, Molokai (=kakawahie)",park_animals	Paroreomyza flammea 	Molokai Creeper
-"endangered_species	Strix occidentalis	Owl, northern spotted",park_animals	Strix occidentalis 	Spotted Owl
-"endangered_species	Grus canadensis	Crane, Mississippi sandhill",park_animals	Grus canadensis 	Sandhill Crane
-"endangered_species	Noturus placidus	Madtom, Neosho",park_animals	Noturus placidus 	Neosho madtom
-"endangered_species	Erimystax cahni	Chub, slender",park_animals	Erimystax cahni 	slender chub
-"endangered_species	Oncorhynchus gilae	Trout, Gila",park_animals	Oncorhynchus gilae 	Gila trout
-endangered_species	Plagopterus argentissimus	Woundfin,park_animals	Plagopterus argentissimus 	woundfin
-"endangered_species	Graptemys oculifera	Turtle, ringed map (=sawback)",park_animals	Graptemys oculifera 	Ringed map turtle
-"endangered_species	Diomedea albatrus	Albatross, short-tailed",park_animals	Diomedea albatrus 	Short-tailed Albatross
-"endangered_species	Cyprinodon diabolis	Pupfish, Devils Hole",park_animals	Cyprinodon diabolis 	Devils Hole pupfish
-"endangered_species	Rhinichthys osculus	Dace, Ash Meadows speckled","park_animals	Rhinichthys osculus 	speckled dace|endangered_species	Rhinichthys osculus ssp.	Dace, Foskett speckled|endangered_species	Rhinichthys osculus thermalis	Dace, Kendall Warm Springs|endangered_species	Rhinichthys osculus	Dace, Clover Valley speckled|endangered_species	Rhinichthys osculus lethoporus	Dace, Independence Valley speckled"
-"endangered_species	Phoxinus cumberlandensis	Dace, blackside",park_animals	Phoxinus cumberlandensis 	blackside dace
-"endangered_species	Pterodroma phaeopygia	Petrel, Hawaiian dark-rumped",park_animals	Pterodroma phaeopygia 	Dark-rumped Petrel
-"endangered_species	Polioptila californica	Gnatcatcher, coastal California",park_animals	Polioptila californica 	California Gnatcatcher
-endangered_species	Hemignathus lucidus	Nukupu`u (honeycreeper),park_animals	Hemignathus lucidus 	Nukupuu
-"endangered_species	Lepidomeda albivallis	Spinedace, White River",park_animals	Lepidomeda albivallis 	White River spinedace
-"endangered_species	Rallus longirostris	Rail, California clapper","park_animals	Rallus longirostris 	Clapper Rail|endangered_species	Rallus longirostris	Rail, Yuma clapper|endangered_species	Rallus longirostris levipes	Rail, light-footed clapper"
-"endangered_species	Etheostoma nianguae	Darter, Niangua",park_animals	Etheostoma nianguae 	Niangua darter
-"endangered_species	Chasmistes liorus	Sucker, June",park_animals	Chasmistes liorus 	June sucker
-"endangered_species	Pseudemys rubriventris	Turtle, Plymouth redbelly (=red-bellied)",park_animals	Pseudemys rubriventris 	Red-bellied turtle
-"endangered_species	Hemignathus procerus	`Akialoa, Kauai (honeycreeper)",park_animals	Hemignathus procerus 	Kauai Akialoa
-"endangered_species	Etheostoma fonticola	Darter, fountain",park_animals	Etheostoma fonticola 	fountain darter
-"endangered_species	Gila purpurea	Chub, Yaqui",park_animals	Gila purpurea 	Yaqui chub
-"endangered_species	Anas wyvilliana	Duck, Hawaiian (=koloa)",park_animals	Anas wyvilliana 	Hawaiian Duck
-"endangered_species	Gila cypha	Chub, humpback",park_animals	Gila cypha 	humpback chub
-"endangered_species	Canis rufus	Wolf, red",park_animals	Canis rufus 	Red wolf
-"endangered_species	Bufo houstonensis	Toad, Houston",park_animals	Bufo houstonensis 	Houston Toad
-endangered_species	Oryzomys palustris natator (=O. argentatus)	Rice rat (=silver rice rat),park_animals	Oryzomys palustris 	Marsh rice rat
-"endangered_species	Charadrius alexandrinus	Plover, western snowy",park_animals	Charadrius alexandrinus 	Snowy Plover
-"endangered_species	Somateria fischeri	Eider, spectacled",park_animals	Somateria fischeri 	Spectacled Eider
-"endangered_species	Etheostoma boschungi	Darter, slackwater",park_animals	Etheostoma boschungi 	slackwater darter
-"endangered_species	Gambusia gaigei	Gambusia, Big Bend",park_animals	Gambusia gaigei 	Big Bend gambusia
-"endangered_species	Corvus hawaiiensis (=tropicus)	Crow, Hawaiian (=`alala)",park_animals	Corvus hawaiiensis 	Hawaiian Crow
-endangered_species	Felis yagouaroundi	Jaguarundi,park_animals	Felis yagouaroundi 	Jaguarundi
-"endangered_species	Oregonichthys crameri	Chub, Oregon",park_animals	Oregonichthys crameri 	Oregon chub
-"endangered_species	Moapa coriacea	Dace, Moapa",park_animals	Moapa coriacea 	Moapa dace
-endangered_species	Meda fulgida	Spikedace,park_animals	Meda fulgida 	spikedace
-endangered_species	Panthera onca	Jaguar,park_animals	Panthera onca 	Jaguar
-endangered_species	Felis pardalis	Ocelot,park_animals	Felis pardalis 	Ocelot
-"endangered_species	Leptonycteris curasoae (=sanborni) yerbabuenae	Bat, lesser (=Sanborn's) long-nosed",park_animals	Leptonycteris curasoae 	Miller's long-nosed bat
-"endangered_species	Speoplatyrhinus poulsoni	Cavefish, Alabama",park_animals	Speoplatyrhinus poulsoni 	Alabama cavefish
-"endangered_species	Buteo solitarius	Hawk, Hawaiian (=io)",park_animals	Buteo solitarius 	Hawaiian Hawk
-"endangered_species	Acipenser transmontanus	Sturgeon, white (Kootenai River pop.)",park_animals	Acipenser transmontanus 	white sturgeon
-"endangered_species	Ptychocheilus lucius	Squawfish, Colorado",park_animals	Ptychocheilus lucius 	Colorado squawfish
-"endangered_species	Crenichthys baileyi	Springfish, White River",park_animals	Crenichthys baileyi 	White River springfish
-endangered_species	Schiedea spergulina var. leiopoda	None,endangered_species	Schiedea spergulina var. spergulina	None
-"endangered_species	Tamiasciurus hudsonicus grahamensis	Squirrel, Mount Graham red",park_animals	Tamiasciurus hudsonicus 	Red squirrel
-endangered_species	Loxioides bailleui	Palila (honeycreeper),park_animals	Loxioides bailleui 	Palila
-"endangered_species	Gopherus polyphemus	Tortoise, gopher",park_animals	Gopherus polyphemus 	Gopher tortoise
-"endangered_species	Polyborus plancus	Caracara, Audubon's crested",park_animals	Polyborus plancus 	Crested Caracara
-"endangered_species	Strix occidentalis	Owl, Mexican spotted","endangered_species	Strix occidentalis	Owl, northern spotted"
-"endangered_species	Gila ditaenia	Chub, Sonora",park_animals	Gila ditaenia 	Sonora chub
-"endangered_species	Neoseps reynoldsi	Skink, sand",park_animals	Neoseps reynoldsi 	Florida sand skink
-"endangered_species	Plecotus townsendii ingens	Bat, Ozark big-eared",park_animals	Plecotus townsendii 	Townsend's big-eared bat
-"endangered_species	Fulica americana alai	Coot, Hawaiian (=`alae-ke`oke`o)",park_animals	Fulica americana 	American Coot
-"endangered_species	Moho braccatus	`O`o, Kauai (=`o`o `a`a) (honeyeater)",park_animals	Moho braccatus 	Kauai 'O'o
-"endangered_species	Rangifer tarandus	Caribou, woodland",park_animals	Rangifer tarandus 	Caribou
-"endangered_species	Amblyopsis rosae	Cavefish, Ozark",park_animals	Amblyopsis rosae 	Ozark cavefish
-"endangered_species	Lanius ludovicianus	Shrike, San Clemente loggerhead",park_animals	Lanius ludovicianus 	Loggerhead Shrike
-"endangered_species	Gila boraxobius	Chub, Borax Lake",park_animals	Gila boraxobius 	Borax Lake chub
-"endangered_species	Oreomystis mana	Creeper, Hawaii",park_animals	Oreomystis mana 	Hawaii Creeper
-"endangered_species	Leptonycteris nivalis	Bat, Mexican long-nosed",park_animals	Leptonycteris nivalis 	Mexican long-nosed bat
-"endangered_species	Vulpes macrotis	Fox, San Joaquin kit",park_animals	Vulpes macrotis 	Kit fox
-"endangered_species	Dendroica chrysoparia	Warbler (wood), golden-cheeked",park_animals	Dendroica chrysoparia 	Golden-cheeked Warbler
-"endangered_species	Cyprinella caerulea	Shiner, blue",park_animals	Cyprinella caerulea 	blue shiner
-"endangered_species	Dipodomys ingens	Kangaroo rat, giant",park_animals	Dipodomys ingens 	Giant kangaroo rat
-"endangered_species	Oncorhynchus nerka	Salmon, sockeye (=red, =blueback)",park_animals	Oncorhynchus nerka 	sockeye salmon
-"endangered_species	Nesochen sandvicensis	Goose, Hawaiian (=nene)",park_animals	Nesochen sandvicensis 	Hawaiian Goose
-"endangered_species	Brachyramphus marmoratus	Murrelet, marbled",park_animals	Brachyramphus marmoratus 	Marbled Murrelet
-"endangered_species	Catostomus microps	Sucker, Modoc",park_animals	Catostomus microps 	Modoc sucker
-"endangered_species	Eurycea nana	Salamander, San Marcos",park_animals	Eurycea nana 	San Marcos Salamander
-"endangered_species	Gambusia nobilis	Gambusia, Pecos",park_animals	Gambusia nobilis 	Pecos gambusia
-"endangered_species	Puffinus auricularis (=puffinus) newelli	Shearwater, Newell's Townsend's (formerly Manx) (=`a`o)",park_animals	Puffinus auricularis 	Townsend's Shearwater
-"endangered_species	Pipilo crissalis (=fuscus) eremophilus	Towhee, Inyo California (=brown)",park_animals	Pipilo crissalis 	California Towhee
-"endangered_species	Lepidomeda mollispinis pratensis	Spinedace, Big Spring",park_animals	Lepidomeda mollispinis 	Virgin spinedace
-"endangered_species	Gila bicolor ssp.	Chub, Hutton tui",park_animals	Gila bicolor 	tui chub
-"endangered_species	Ammodramus (=Ammospiza) maritimus mirabilis	Sparrow, Cape Sable seaside",park_animals	Ammodramus maritimus 	Seaside Sparrow
-"endangered_species	Acrocephalus familiaris kingi	Millerbird, Nihoa (old world warbler)",park_animals	Acrocephalus familiaris 	Millerbird
-"endangered_species	Sternotherus depressus	Turtle, flattened musk",park_animals	Sternotherus depressus 	Flattened musk turtle
-"endangered_species	Eucyclogobius newberryi	Goby, tidewater",park_animals	Eucyclogobius newberryi 	tidewater goby
-"endangered_species	Aphelocoma coerulescens	Jay, Florida scrub",park_animals	Aphelocoma coerulescens 	Scrub Jay
-"endangered_species	Oncorhynchus clarki	Trout, Paiute cutthroat","park_animals	Oncorhynchus clarki 	cutthroat trout|endangered_species	Oncorhynchus clarki	Trout, greenback cutthroat"
-"endangered_species	Gopherus agassizii	Tortoise, desert",park_animals	Gopherus agassizii 	Desert tortoise
-"endangered_species	Antilocapra americana	Pronghorn, Sonoran",park_animals	Antilocapra americana 	Pronghorn
-"endangered_species	Sylvilagus palustris hefneri	Rabbit, Lower Keys",park_animals	Sylvilagus palustris 	Marsh rabbit
-"endangered_species	Sorex longirostris	Shrew, Dismal Swamp southeastern",park_animals	Sorex longirostris 	Southeastern shrew
-"endangered_species	Microtus mexicanus	Vole, Hualapai Mexican",park_animals	Microtus mexicanus 	Mexican vole
-"endangered_species	Graptemys flavimaculata	Turtle, yellow-blotched map (=sawback)",park_animals	Graptemys flavimaculata 	Yellow-blotched map turtle
-"endangered_species	Neotoma floridana smalli	Woodrat, Key Largo",park_animals	Neotoma floridana 	Eastern woodrat
-"endangered_species	Microtus pennsylvanicus dukecampbelli	Vole, Florida salt marsh",park_animals	Microtus pennsylvanicus 	Meadow vole
-"endangered_species	Etheostoma wapiti	Darter, boulder (=Elk River)",park_animals	Etheostoma wapiti 	boulder darter
-"endangered_species	Oncorhynchus clarki	Trout, Lahontan cutthroat","endangered_species	Oncorhynchus clarki	Trout, Paiute cutthroat"
-"endangered_species	Poeciliopsis occidentalis	Topminnow, Gila (incl. Yaqui)",park_animals	Poeciliopsis occidentalis 	Gila topminnow
-"endangered_species	Scaphirhynchus albus	Sturgeon, pallid",park_animals	Scaphirhynchus albus 	pallid sturgeon
-"endangered_species	Plecotus townsendii	Bat, Virginia big-eared","endangered_species	Plecotus townsendii ingens	Bat, Ozark big-eared"
-endangered_species	Psittirostra psittacea	`O`u (honeycreeper),park_animals	Psittirostra psittacea 	'O'u
-"endangered_species	Arctocephalus townsendi	Seal, guadalupe fur",park_animals	Arctocephalus townsendi 	Guadalupe fur seal
+park_animals	Gopherus polyphemus 	Gopher tortoise,"endangered_species	Gopherus polyphemus	Tortoise, gopher"
 "endangered_species	Gallinula chloropus	Moorhen (=gallinule), Hawaiian common",park_animals	Gallinula chloropus 	Common Moorhen
-"endangered_species	Pelecanus occidentalis	Pelican, brown",park_animals	Pelecanus occidentalis 	Brown Pelican
-"endangered_species	Reithrodontomys raviventris	Mouse, salt marsh harvest",park_animals	Reithrodontomys raviventris 	Salt-marsh harvest mouse
-"endangered_species	Typhlomolge rathbuni	Salamander, Texas blind",park_animals	Typhlomolge rathbuni 	Texas Blind Salamander
-endangered_species	Hemignathus munroi (=wilsoni)	`Akiapola`au (honeycreeper),park_animals	Hemignathus munroi 	Akiapolaau
-"endangered_species	Amphispiza belli	Sparrow, San Clemente sage",park_animals	Amphispiza belli 	Sage Sparrow
-"endangered_species	Cyprinodon nevadensis pectoralis	Pupfish, Warm Springs",park_animals	Cyprinodon nevadensis 	Amargosa pupfish
-"endangered_species	Myadestes (=Phaeornis) myadestinus	Thrush, large Kauai",park_animals	Myadestes myadestinus 	Kamao
-"endangered_species	Palmeria dolei	Honeycreeper, crested (=`akohekohe)",park_animals	Palmeria dolei 	Crested Honeycreeper
-"endangered_species	Acipenser oxyrhynchus desotoi	Sturgeon, Gulf",park_animals	Acipenser oxyrhynchus 	Atlantic sturgeon
-"endangered_species	Notropis simus	Shiner, Pecos bluntnose",park_animals	Notropis simus 	bluntnose shiner
-"endangered_species	Paroreomyza maculata	Creeper, Oahu (=alauwahio)",park_animals	Paroreomyza maculata 	Oahu Creeper
-"endangered_species	Gila elegans	Chub, bonytail",park_animals	Gila elegans 	bonytail
-"endangered_species	Dipodomys heermanni morroensis	Kangaroo rat, Morro Bay",park_animals	Dipodomys heermanni 	Heermann's kangaroo rat
-"endangered_species	Peromyscus gossypinus	Mouse, Key Largo cotton",park_animals	Peromyscus gossypinus 	Cotton mouse
-"endangered_species	Monachus schauinslandi	Seal, Hawaiian monk",park_animals	Monachus schauinslandi 	Hawaiian monk seal
-"endangered_species	Odocoileus virginianus clavium	Deer, key",park_animals	Odocoileus virginianus 	White-tailed deer
-"endangered_species	Etheostoma okaloosae	Darter, Okaloosa",park_animals	Etheostoma okaloosae 	Okaloosa darter
-"endangered_species	Crenichthys nevadae	Springfish, Railroad Valley",park_animals	Crenichthys nevadae 	Railroad Valley springfish
-"endangered_species	Crotalus willardi	Rattlesnake, New Mexican ridge-nosed",park_animals	Crotalus willardi 	Ridge-nosed rattlesnake
-"endangered_species	Noturus flavipinnis	Madtom, yellowfin",park_animals	Noturus flavipinnis 	yellowfin madtom
-"endangered_species	Glaucomys sabrinus	Squirrel, Virginia northern flying",park_animals	Glaucomys sabrinus 	Northern flying squirrel
-"endangered_species	Glaucomys sabrinus	Squirrel, Carolina northern flying","endangered_species	Glaucomys sabrinus	Squirrel, Virginia northern flying"
-"endangered_species	Microtus californicus scirpensis	Vole, Amargosa",park_animals	Microtus californicus 	California vole
-"endangered_species	Gila bicolor	Chub, Owens tui","endangered_species	Gila bicolor ssp.	Chub, Hutton tui"
-"endangered_species	Pseudonestor xanthophrys	Parrotbill, Maui (honeycreeper)",park_animals	Pseudonestor xanthophrys 	Maui Parrotbill
-endangered_species	Felis wiedii	Margay,park_animals	Felis wiedii 	Margay
-"endangered_species	Gambusia heterochir	Gambusia, Clear Creek",park_animals	Gambusia heterochir 	Clear Creek gambusia
-"endangered_species	Cyprinodon elegans	Pupfish, Comanche Springs",park_animals	Cyprinodon elegans 	Comanche Springs pupfish
-"endangered_species	Gila nigrescens	Chub, Chihuahua",park_animals	Gila nigrescens 	Chihuahua chub
-"endangered_species	Hypomesus transpacificus	Smelt, delta",park_animals	Hypomesus transpacificus 	delta smelt
-"endangered_species	Percina pantherina	Darter, leopard",park_animals	Percina pantherina 	leopard darter
-"endangered_species	Dendroica kirtlandii	Warbler (wood), Kirtland's",park_animals	Dendroica kirtlandii 	Kirtland's Warbler
-"endangered_species	Drymarchon corais	Snake, eastern indigo",park_animals	Drymarchon corais 	Indigo snake
-"endangered_species	Dipodomys nitratoides	Kangaroo rat, Fresno","endangered_species	Dipodomys nitratoides nitratoides	Kangaroo rat, Tipton"
-"endangered_species	Cyprinodon radiosus	Pupfish, Owens",park_animals	Cyprinodon radiosus 	Owens pupfish
-"endangered_species	Batrachoseps aridus	Salamander, desert slender",park_animals	Batrachoseps aridus 	Desert Slender Salamander
-"endangered_species	Eumetopias jubatus	Sea-lion, Steller (=northern)",park_animals	Eumetopias jubatus 	Northern sea lion
-"endangered_species	Cottus pygmaeus	Sculpin, pygmy",park_animals	Cottus pygmaeus 	pygmy sculpin
-"endangered_species	Empetrichthys latos	Poolfish (=killifish), Pahrump",park_animals	Empetrichthys latos 	Pahrump poolfish
-"endangered_species	Gambusia georgei	Gambusia, San Marcos",park_animals	Gambusia georgei 	San Marcos gambusia
-"endangered_species	Odocoileus virginianus	Deer, Columbian white-tailed","endangered_species	Odocoileus virginianus clavium	Deer, key"
-"endangered_species	Rhinichthys cobitis	Minnow, loach",park_animals	Rhinichthys cobitis 	loach minnow
-endangered_species	Argyroxiphium sandwicense ssp. macrocephalum	`Ahinahina (=Haleakala silversword).,endangered_species	Argyroxiphium sandwicense ssp. sandwicense	`Ahinahina (=Mauna Kea silversword)
-"endangered_species	Ursus americanus	Bear, Louisiana black",park_animals	Ursus americanus 	Black bear
-"endangered_species	Phaeognathus hubrichti	Salamander, Red Hills",park_animals	Phaeognathus hubrichti 	Red Hills Salamander
-"endangered_species	Cyprinodon nevadensis	Pupfish, Ash Meadows Amargosa","endangered_species	Cyprinodon nevadensis pectoralis	Pupfish, Warm Springs"
-"endangered_species	Menidia extensa	Silverside, Waccamaw",park_animals	Menidia extensa 	Waccamaw silverside
-"endangered_species	Cyprinodon bovinus	Pupfish, Leon Springs",park_animals	Cyprinodon bovinus 	Leon Springs pupfish
-"endangered_species	Plethodon nettingi	Salamander, Cheat Mountain",park_animals	Plethodon nettingi 	Cheat Mountain Salamander
-"endangered_species	Etheostoma nuchale	Darter, watercress",park_animals	Etheostoma nuchale 	watercress darter
-"endangered_species	Bufo microscaphus	Toad, Arroyo southwestern",park_animals	Bufo microscaphus 	Southwestern Toad
-"endangered_species	Loxops coccineus ochraceus	`Akepa, Maui (honeycreeper)",park_animals	Loxops coccineus 	Akepa
+park_animals	Cyprinella caerulea 	blue shiner,"endangered_species	Cyprinella caerulea	Shiner, blue"
+park_animals	Pipilo crissalis 	California Towhee,"endangered_species	Pipilo crissalis (=fuscus) eremophilus	Towhee, Inyo California (=brown)"
+"endangered_species	Peromyscus polionotus phasma	Mouse, Anastasia Island beach",park_animals	Peromyscus polionotus 	Oldfield mouse
+park_animals	Batrachoseps aridus 	Desert Slender Salamander,"endangered_species	Batrachoseps aridus	Salamander, desert slender"
 "endangered_species	Catostomus warnerensis	Sucker, Warner",park_animals	Catostomus warnerensis 	Warner sucker
-"endangered_species	Plethodon shenandoah	Salamander, Shenandoah",park_animals	Plethodon shenandoah 	Shenandoah Salamander
-"endangered_species	Eremichthys acros	Dace, desert",park_animals	Eremichthys acros 	desert dace
-"endangered_species	Crenichthys baileyi	Springfish, Hiko White River","endangered_species	Crenichthys baileyi	Springfish, White River"
-"endangered_species	Neonympha mitchellii francisci	Butterfly, Saint Francis' satyr","endangered_species	Neonympha mitchellii mitchellii	Butterfly, Mitchell's satyr"
-"endangered_species	Dipodomys stephensi (incl. D. cascus)	Kangaroo rat, Stephens'",park_animals	Dipodomys stephensi 	Stephens' kangaroo rat
-"endangered_species	Mycteria americana	Stork, wood",park_animals	Mycteria americana 	Wood Stork
-"endangered_species	Eumeces egregius lividus	Skink, bluetail (=blue-tailed) mole",park_animals	Eumeces egregius 	Mole skink
-"endangered_species	Perognathus longimembris pacificus	Mouse, Pacific pocket",park_animals	Perognathus longimembris 	Little pocket mouse
-"endangered_species	Oncorhynchus (=Salmo) aguabonita whitei	Trout, Little Kern golden",park_animals	Oncorhynchus aguabonita 	golden trout
-"endangered_species	Pseudemys alabamensis	Turtle, Alabama redbelly (=red-bellied)",park_animals	Pseudemys alabamensis 	Alabama red-bellied turtle
-"endangered_species	Cyprinella formosa	Shiner, beautiful",park_animals	Cyprinella formosa 	beautiful shiner
-"endangered_species	Xantusia riversiana	Lizard, Island night",park_animals	Xantusia riversiana 	Island night lizard
-"endangered_species	Ambystoma macrodactylum	Salamander, Santa Cruz long-toed",park_animals	Ambystoma macrodactylum 	Long-toed Salamander
-"endangered_species	Tympanuchus cupido	Prairie-chicken, Attwater's greater",park_animals	Tympanuchus cupido 	Greater Prairie-Chicken
-"endangered_species	Gila bicolor	Chub, Mohave tui","endangered_species	Gila bicolor	Chub, Owens tui"
-"endangered_species	Uma inornata	Lizard, Coachella Valley fringe-toed",park_animals	Uma inornata 	Coachella Valley fringe-toed lizard
-"endangered_species	Gambelia silus	Lizard, blunt-nosed leopard",park_animals	Gambelia silus 	Blunt-nosed leopard lizard
-"endangered_species	Oncorhynchus apache	Trout, Apache (=Arizona)",park_animals	Oncorhynchus apache 	Apache trout
-"endangered_species	Ammodramus savannarum	Sparrow, Florida grasshopper",park_animals	Ammodramus savannarum 	Grasshopper Sparrow
-"endangered_species	Epioblasma (=Dysnomia) florentina curtisi	Pearlymussel, Curtis'","endangered_species	Epioblasma (=Dysnomia) florentina florentina	Pearlymussel, yellow-blossom"
-"endangered_species	Loxops coccineus coccineus	`Akepa, Hawaii (honeycreeper)","endangered_species	Loxops coccineus ochraceus	`Akepa, Maui (honeycreeper)"
-"endangered_species	Cyprinella monacha	Chub, spotfin (=turquoise shiner)",park_animals	Cyprinella monacha 	spotfin chub
-"endangered_species	Falco femoralis	Falcon, northern aplomado",park_animals	Falco femoralis 	Aplomado Falcon
-"endangered_species	Percina tanasi	Darter, snail",park_animals	Percina tanasi 	snail darter
-"endangered_species	Lasiurus cinereus	Bat, Hawaiian hoary",park_animals	Lasiurus cinereus 	Hoary bat
-"endangered_species	Deltistes luxatus	Sucker, Lost River",park_animals	Deltistes luxatus 	Lost River sucker
-endangered_species	Melamprosops phaeosoma	Po`ouli (honeycreeper),park_animals	Melamprosops phaeosoma 	Poo-uli
+park_animals	Cyprinodon diabolis 	Devils Hole pupfish,"endangered_species	Cyprinodon diabolis	Pupfish, Devils Hole"
+park_animals	Thamnophis sirtalis 	Common garter snake,"endangered_species	Thamnophis sirtalis tetrataenia	Snake, San Francisco garter"
+park_animals	Lepidomeda mollispinis 	Virgin spinedace,"endangered_species	Lepidomeda mollispinis pratensis	Spinedace, Big Spring"
+park_animals	Chasmistes liorus 	June sucker,"endangered_species	Chasmistes liorus	Sucker, June"
 "endangered_species	Percina aurolineata	Darter, goldline",park_animals	Percina aurolineata 	goldline darter
-"endangered_species	Cynomys parvidens	Prairie dog, Utah",park_animals	Cynomys parvidens 	Utah prairie dog
-"endangered_species	Anas laysanensis	Duck, Laysan",park_animals	Anas laysanensis 	Laysan Duck
+park_animals	Noturus trautmani 	Scioto madtom,"endangered_species	Noturus trautmani	Madtom, Scioto"
+"endangered_species	Erimystax cahni	Chub, slender",park_animals	Erimystax cahni 	slender chub
+park_animals	Notropis mekistocholas 	Cape Fear shiner,"endangered_species	Notropis mekistocholas	Shiner, Cape Fear"
+park_animals	Vireo atricapillus 	Black-capped Vireo,"endangered_species	Vireo atricapillus	Vireo, black-capped"
+"endangered_species	Rallus longirostris	Rail, Yuma clapper","endangered_species	Rallus longirostris levipes	Rail, light-footed clapper|endangered_species	Rallus longirostris	Rail, California clapper|park_animals	Rallus longirostris 	Clapper Rail"
+park_animals	Leptonycteris curasoae 	Miller's long-nosed bat,"endangered_species	Leptonycteris curasoae (=sanborni) yerbabuenae	Bat, lesser (=Sanborn's) long-nosed"
+"endangered_species	Paroreomyza maculata	Creeper, Oahu (=alauwahio)",park_animals	Paroreomyza maculata 	Oahu Creeper
+"endangered_species	Buteo solitarius	Hawk, Hawaiian (=io)",park_animals	Buteo solitarius 	Hawaiian Hawk
+park_animals	Etheostoma nuchale 	watercress darter,"endangered_species	Etheostoma nuchale	Darter, watercress"
+"endangered_species	Gila purpurea	Chub, Yaqui",park_animals	Gila purpurea 	Yaqui chub
+park_animals	Neoseps reynoldsi 	Florida sand skink,"endangered_species	Neoseps reynoldsi	Skink, sand"
+park_animals	Dendroica chrysoparia 	Golden-cheeked Warbler,"endangered_species	Dendroica chrysoparia	Warbler (wood), golden-cheeked"
+"endangered_species	Himantopus mexicanus (=himantopus) knudseni	Stilt, Hawaiian (=ae`o)",park_animals	Himantopus mexicanus 	Black-necked Stilt
+"endangered_species	Somateria fischeri	Eider, spectacled",park_animals	Somateria fischeri 	Spectacled Eider
+park_animals	Oncorhynchus aguabonita 	golden trout,"endangered_species	Oncorhynchus (=Salmo) aguabonita whitei	Trout, Little Kern golden"
+endangered_species	Chasmistes cujus	Cui-ui,park_animals	Chasmistes cujus 	cui-ui
+park_animals	Myadestes myadestinus 	Kamao,"endangered_species	Myadestes (=Phaeornis) myadestinus	Thrush, large Kauai"
+"endangered_species	Polioptila californica	Gnatcatcher, coastal California",park_animals	Polioptila californica 	California Gnatcatcher
+park_animals	Etheostoma boschungi 	slackwater darter,"endangered_species	Etheostoma boschungi	Darter, slackwater"
+park_animals	Gymnogyps californianus 	California Condor,"endangered_species	Gymnogyps californianus	Condor, California"
+park_animals	Gila nigrescens 	Chihuahua chub,"endangered_species	Gila nigrescens	Chub, Chihuahua"
+"endangered_species	Drymarchon corais	Snake, eastern indigo",park_animals	Drymarchon corais 	Indigo snake
+park_animals	Typhlomolge rathbuni 	Texas Blind Salamander,"endangered_species	Typhlomolge rathbuni	Salamander, Texas blind"
+"endangered_species	Phaeognathus hubrichti	Salamander, Red Hills",park_animals	Phaeognathus hubrichti 	Red Hills Salamander
+"endangered_species	Gila robusta jordani	Chub, Pahranagat roundtail (=bonytail)",park_animals	Gila robusta 	roundtail chub
+"endangered_species	Dendroica kirtlandii	Warbler (wood), Kirtland's",park_animals	Dendroica kirtlandii 	Kirtland's Warbler
+park_animals	Thamnophis gigas 	Giant garter snake,"endangered_species	Thamnophis gigas	Snake, giant garter"
+endangered_species	Argyroxiphium sandwicense ssp. sandwicense	`Ahinahina (=Mauna Kea silversword),endangered_species	Argyroxiphium sandwicense ssp. macrocephalum	`Ahinahina (=Haleakala silversword).
+park_animals	Polyborus plancus 	Crested Caracara,"endangered_species	Polyborus plancus	Caracara, Audubon's crested"
+park_animals	Odocoileus virginianus 	White-tailed deer,"endangered_species	Odocoileus virginianus	Deer, Columbian white-tailed|endangered_species	Odocoileus virginianus clavium	Deer, key"
+park_animals	Cyprinella formosa 	beautiful shiner,"endangered_species	Cyprinella formosa	Shiner, beautiful"
+park_animals	Pseudemys alabamensis 	Alabama red-bellied turtle,"endangered_species	Pseudemys alabamensis	Turtle, Alabama redbelly (=red-bellied)"
+"endangered_species	Eumetopias jubatus	Sea-lion, Steller (=northern)",park_animals	Eumetopias jubatus 	Northern sea lion
+endangered_species	Schiedea spergulina var. leiopoda	None,endangered_species	Schiedea spergulina var. spergulina	None
+endangered_species	Psittirostra psittacea	`O`u (honeycreeper),park_animals	Psittirostra psittacea 	'O'u
+endangered_species	Felis pardalis	Ocelot,park_animals	Felis pardalis 	Ocelot
+park_animals	Ursus americanus 	Black bear,"endangered_species	Ursus americanus	Bear, Louisiana black"
+park_animals	Glaucomys sabrinus 	Northern flying squirrel,"endangered_species	Glaucomys sabrinus	Squirrel, Virginia northern flying|endangered_species	Glaucomys sabrinus	Squirrel, Carolina northern flying"
+park_animals	Pelecanus occidentalis 	Brown Pelican,"endangered_species	Pelecanus occidentalis	Pelican, brown"
+park_animals	Nerodia clarkii 	Salt marsh water snake,"endangered_species	Nerodia clarkii (=fasciata) taeniata	Snake, Atlantic salt marsh"
+park_animals	Noturus placidus 	Neosho madtom,"endangered_species	Noturus placidus	Madtom, Neosho"
+park_animals	Cyprinodon bovinus 	Leon Springs pupfish,"endangered_species	Cyprinodon bovinus	Pupfish, Leon Springs"
+park_animals	Tamiasciurus hudsonicus 	Red squirrel,"endangered_species	Tamiasciurus hudsonicus grahamensis	Squirrel, Mount Graham red"
+park_animals	Peromyscus polionotus 	Oldfield mouse,"endangered_species	Peromyscus polionotus trissyllepsis	Mouse, Perdido Key beach"
+park_animals	Dipodomys heermanni 	Heermann's kangaroo rat,"endangered_species	Dipodomys heermanni morroensis	Kangaroo rat, Morro Bay"
+"endangered_species	Oncorhynchus apache	Trout, Apache (=Arizona)",park_animals	Oncorhynchus apache 	Apache trout
+"endangered_species	Monachus schauinslandi	Seal, Hawaiian monk",park_animals	Monachus schauinslandi 	Hawaiian monk seal
 "endangered_species	Branta canadensis	Goose, Aleutian Canada",park_animals	Branta canadensis 	Canada Goose
-"endangered_species	Lepidomeda vittata	Spinedace, Little Colorado",park_animals	Lepidomeda vittata 	Little Colorado spinedace
+park_animals	Myadestes lanaiensis 	Olomao,"endangered_species	Myadestes (=Phaeornis) lanaiensis (=obscurus) rutha	Thrush, Molokai (=oloma`o)"
+park_animals	Sylvilagus palustris 	Marsh rabbit,"endangered_species	Sylvilagus palustris hefneri	Rabbit, Lower Keys"
+park_animals	Etheostoma sellare 	Maryland darter,"endangered_species	Etheostoma sellare	Darter, Maryland"
+park_animals	Brachyramphus marmoratus 	Marbled Murrelet,"endangered_species	Brachyramphus marmoratus	Murrelet, marbled"
+"endangered_species	Colinus virginianus ridgwayi	Bobwhite, masked (quail)",park_animals	Colinus virginianus 	Northern Bobwhite
+park_animals	Grus canadensis 	Sandhill Crane,"endangered_species	Grus canadensis	Crane, Mississippi sandhill"
+park_animals	Gambelia silus 	Blunt-nosed leopard lizard,"endangered_species	Gambelia silus	Lizard, blunt-nosed leopard"
+"endangered_species	Puffinus auricularis (=puffinus) newelli	Shearwater, Newell's Townsend's (formerly Manx) (=`a`o)",park_animals	Puffinus auricularis 	Townsend's Shearwater
+"endangered_species	Ictalurus pricei	Catfish, Yaqui",park_animals	Ictalurus pricei 	Yaqui catfish
+park_animals	Microtus mexicanus 	Mexican vole,"endangered_species	Microtus mexicanus	Vole, Hualapai Mexican"
+park_animals	Diomedea albatrus 	Short-tailed Albatross,"endangered_species	Diomedea albatrus	Albatross, short-tailed"
+park_animals	Leptonycteris nivalis 	Mexican long-nosed bat,"endangered_species	Leptonycteris nivalis	Bat, Mexican long-nosed"
+"endangered_species	Enhydra lutris	Otter, southern sea",park_animals	Enhydra lutris 	Sea otter
+park_animals	Hemignathus munroi 	Akiapolaau,endangered_species	Hemignathus munroi (=wilsoni)	`Akiapola`au (honeycreeper)
+park_animals	Oryzomys palustris 	Marsh rice rat,endangered_species	Oryzomys palustris natator (=O. argentatus)	Rice rat (=silver rice rat)
+park_animals	Sternotherus depressus 	Flattened musk turtle,"endangered_species	Sternotherus depressus	Turtle, flattened musk"
+endangered_species	Meda fulgida	Spikedace,park_animals	Meda fulgida 	spikedace
+"endangered_species	Rostrhamus sociabilis	Kite, Everglade snail",park_animals	Rostrhamus sociabilis 	Snail Kite
+park_animals	Gopherus agassizii 	Desert tortoise,"endangered_species	Gopherus agassizii	Tortoise, desert"
+"endangered_species	Sorex longirostris	Shrew, Dismal Swamp southeastern",park_animals	Sorex longirostris 	Southeastern shrew
+park_animals	Lasiurus cinereus 	Hoary bat,"endangered_species	Lasiurus cinereus	Bat, Hawaiian hoary"
+park_animals	Peromyscus gossypinus 	Cotton mouse,"endangered_species	Peromyscus gossypinus	Mouse, Key Largo cotton"
+park_animals	Perognathus longimembris 	Little pocket mouse,"endangered_species	Perognathus longimembris pacificus	Mouse, Pacific pocket"
+park_animals	Bufo microscaphus 	Southwestern Toad,"endangered_species	Bufo microscaphus	Toad, Arroyo southwestern"
+park_animals	Falco femoralis 	Aplomado Falcon,"endangered_species	Falco femoralis	Falcon, northern aplomado"
+park_animals	Empetrichthys latos 	Pahrump poolfish,"endangered_species	Empetrichthys latos	Poolfish (=killifish), Pahrump"
+"endangered_species	Acipenser transmontanus	Sturgeon, white (Kootenai River pop.)",park_animals	Acipenser transmontanus 	white sturgeon
+"endangered_species	Charadrius alexandrinus	Plover, western snowy",park_animals	Charadrius alexandrinus 	Snowy Plover
+endangered_species	Panthera onca	Jaguar,park_animals	Panthera onca 	Jaguar
+endangered_species	Felis wiedii	Margay,park_animals	Felis wiedii 	Margay
+"endangered_species	Rhinichthys osculus	Dace, Ash Meadows speckled","park_animals	Rhinichthys osculus 	speckled dace|endangered_species	Rhinichthys osculus thermalis	Dace, Kendall Warm Springs|endangered_species	Rhinichthys osculus lethoporus	Dace, Independence Valley speckled|endangered_species	Rhinichthys osculus ssp.	Dace, Foskett speckled|endangered_species	Rhinichthys osculus	Dace, Clover Valley speckled"
+"endangered_species	Menidia extensa	Silverside, Waccamaw",park_animals	Menidia extensa 	Waccamaw silverside
+"endangered_species	Eumeces egregius lividus	Skink, bluetail (=blue-tailed) mole",park_animals	Eumeces egregius 	Mole skink
+"endangered_species	Aphelocoma coerulescens	Jay, Florida scrub",park_animals	Aphelocoma coerulescens 	Scrub Jay
+"endangered_species	Strix occidentalis	Owl, northern spotted","park_animals	Strix occidentalis 	Spotted Owl|endangered_species	Strix occidentalis	Owl, Mexican spotted"
+park_animals	Poeciliopsis occidentalis 	Gila topminnow,"endangered_species	Poeciliopsis occidentalis	Topminnow, Gila (incl. Yaqui)"
+park_animals	Microtus californicus 	California vole,"endangered_species	Microtus californicus scirpensis	Vole, Amargosa"
+"endangered_species	Gila bicolor	Chub, Owens tui","endangered_species	Gila bicolor ssp.	Chub, Hutton tui|endangered_species	Gila bicolor	Chub, Mohave tui|park_animals	Gila bicolor 	tui chub"
+park_animals	Nesochen sandvicensis 	Hawaiian Goose,"endangered_species	Nesochen sandvicensis	Goose, Hawaiian (=nene)"
+park_animals	Peromyscus polionotus 	Oldfield mouse,"endangered_species	Peromyscus polionotus ammobates	Mouse, Alabama beach"
+park_animals	Moapa coriacea 	Moapa dace,"endangered_species	Moapa coriacea	Dace, Moapa"
+park_animals	Graptemys oculifera 	Ringed map turtle,"endangered_species	Graptemys oculifera	Turtle, ringed map (=sawback)"
+park_animals	Sciurus niger 	Fox squirrel,"endangered_species	Sciurus niger cinereus	Squirrel, Delmarva Peninsula fox"
+park_animals	Percina antesella 	amber darter,"endangered_species	Percina antesella	Darter, amber"
+park_animals	Peromyscus polionotus 	Oldfield mouse,"endangered_species	Peromyscus polionotus allophrys	Mouse, Choctawahatchee beach"
+"endangered_species	Oregonichthys crameri	Chub, Oregon",park_animals	Oregonichthys crameri 	Oregon chub
+park_animals	Oncorhynchus gilae 	Gila trout,"endangered_species	Oncorhynchus gilae	Trout, Gila"
+park_animals	Percina jenkinsi 	Conasauga logperch,"endangered_species	Percina jenkinsi	Logperch, Conasauga"
 "endangered_species	Bufo hemiophrys baxteri	Toad, Wyoming",park_animals	Bufo hemiophrys 	Canadian Toad
-"endangered_species	Sterna antillarum	Tern, California least","park_animals	Sterna antillarum 	Least Tern|endangered_species	Sterna antillarum	Tern, least"
-"endangered_species	Rhynchopsitta pachyrhyncha	Parrot, thick-billed",park_animals	Rhynchopsitta pachyrhyncha 	Thick-billed Parrot
-"endangered_species	Thamnophis gigas	Snake, giant garter",park_animals	Thamnophis gigas 	Giant garter snake
+"endangered_species	Notropis cahabae	Shiner, Cahaba",park_animals	Notropis cahabae 	Cahaba shiner
+"endangered_species	Percina pantherina	Darter, leopard",park_animals	Percina pantherina 	leopard darter
+park_animals	Hemignathus procerus 	Kauai Akialoa,"endangered_species	Hemignathus procerus	`Akialoa, Kauai (honeycreeper)"
+"endangered_species	Gila boraxobius	Chub, Borax Lake",park_animals	Gila boraxobius 	Borax Lake chub
+park_animals	Myadestes palmeri 	Puaiohi,"endangered_species	Myadestes (=Phaeornis) palmeri	Thrush, small Kauai (=puaiohi)"
+park_animals	Palmeria dolei 	Crested Honeycreeper,"endangered_species	Palmeria dolei	Honeycreeper, crested (=`akohekohe)"
+park_animals	Nerodia paucimaculata 	Concho water snake,"endangered_species	Nerodia paucimaculata (=harteri p.)	Snake, Concho water"
+"endangered_species	Percina rex	Logperch, Roanoke",park_animals	Percina rex 	Roanoke logperch
+park_animals	Corvus hawaiiensis 	Hawaiian Crow,"endangered_species	Corvus hawaiiensis (=tropicus)	Crow, Hawaiian (=`alala)"
+"endangered_species	Hypomesus transpacificus	Smelt, delta",park_animals	Hypomesus transpacificus 	delta smelt
+"endangered_species	Neonympha mitchellii mitchellii	Butterfly, Mitchell's satyr","endangered_species	Neonympha mitchellii francisci	Butterfly, Saint Francis' satyr"
+"endangered_species	Amblyopsis rosae	Cavefish, Ozark",park_animals	Amblyopsis rosae 	Ozark cavefish
+"endangered_species	Percina tanasi	Darter, snail",park_animals	Percina tanasi 	snail darter
+park_animals	Pseudemys rubriventris 	Red-bellied turtle,"endangered_species	Pseudemys rubriventris	Turtle, Plymouth redbelly (=red-bellied)"
+"endangered_species	Xantusia riversiana	Lizard, Island night",park_animals	Xantusia riversiana 	Island night lizard
+"endangered_species	Amphispiza belli	Sparrow, San Clemente sage",park_animals	Amphispiza belli 	Sage Sparrow
+park_animals	Crenichthys nevadae 	Railroad Valley springfish,"endangered_species	Crenichthys nevadae	Springfish, Railroad Valley"
+"endangered_species	Cyprinodon nevadensis pectoralis	Pupfish, Warm Springs","park_animals	Cyprinodon nevadensis 	Amargosa pupfish|endangered_species	Cyprinodon nevadensis	Pupfish, Ash Meadows Amargosa"
+park_animals	Mycteria americana 	Wood Stork,"endangered_species	Mycteria americana	Stork, wood"
+"endangered_species	Plecotus townsendii	Bat, Virginia big-eared","endangered_species	Plecotus townsendii ingens	Bat, Ozark big-eared|park_animals	Plecotus townsendii 	Townsend's big-eared bat"
+park_animals	Felis concolor 	Mountain lion,"endangered_species	Felis concolor coryi	Panther, Florida"
+park_animals	Loxioides bailleui 	Palila,endangered_species	Loxioides bailleui	Palila (honeycreeper)
+"endangered_species	Rhinichthys cobitis	Minnow, loach",park_animals	Rhinichthys cobitis 	loach minnow
+park_animals	Speoplatyrhinus poulsoni 	Alabama cavefish,"endangered_species	Speoplatyrhinus poulsoni	Cavefish, Alabama"
+park_animals	Etheostoma okaloosae 	Okaloosa darter,"endangered_species	Etheostoma okaloosae	Darter, Okaloosa"
+endangered_species	Plagopterus argentissimus	Woundfin,park_animals	Plagopterus argentissimus 	woundfin
+park_animals	Peromyscus polionotus 	Oldfield mouse,"endangered_species	Peromyscus polionotus niveiventris	Mouse, southeastern beach"
+park_animals	Gila robusta 	roundtail chub,"endangered_species	Gila robusta seminuda	Chub, Virgin River"
+"endangered_species	Vulpes macrotis	Fox, San Joaquin kit",park_animals	Vulpes macrotis 	Kit fox
+"endangered_species	Crotalus willardi	Rattlesnake, New Mexican ridge-nosed",park_animals	Crotalus willardi 	Ridge-nosed rattlesnake
+park_animals	Moho braccatus 	Kauai 'O'o,"endangered_species	Moho braccatus	`O`o, Kauai (=`o`o `a`a) (honeyeater)"
+park_animals	Cottus pygmaeus 	pygmy sculpin,"endangered_species	Cottus pygmaeus	Sculpin, pygmy"
+park_animals	Anas wyvilliana 	Hawaiian Duck,"endangered_species	Anas wyvilliana	Duck, Hawaiian (=koloa)"
+"endangered_species	Graptemys flavimaculata	Turtle, yellow-blotched map (=sawback)",park_animals	Graptemys flavimaculata 	Yellow-blotched map turtle
+"endangered_species	Etheostoma fonticola	Darter, fountain",park_animals	Etheostoma fonticola 	fountain darter
+"endangered_species	Deltistes luxatus	Sucker, Lost River",park_animals	Deltistes luxatus 	Lost River sucker
+park_animals	Loxops coccineus 	Akepa,"endangered_species	Loxops coccineus ochraceus	`Akepa, Maui (honeycreeper)|endangered_species	Loxops coccineus coccineus	`Akepa, Hawaii (honeycreeper)"
+"endangered_species	Oncorhynchus clarki	Trout, greenback cutthroat","park_animals	Oncorhynchus clarki 	cutthroat trout|endangered_species	Oncorhynchus clarki	Trout, Paiute cutthroat|endangered_species	Oncorhynchus clarki	Trout, Lahontan cutthroat"
+"endangered_species	Dipodomys ingens	Kangaroo rat, giant",park_animals	Dipodomys ingens 	Giant kangaroo rat
+park_animals	Gila ditaenia 	Sonora chub,"endangered_species	Gila ditaenia	Chub, Sonora"
+"endangered_species	Oncorhynchus tshawytscha	Salmon, chinook",park_animals	Oncorhynchus tshawytscha 	chinook salmon
+"endangered_species	Eremichthys acros	Dace, desert",park_animals	Eremichthys acros 	desert dace
+park_animals	Cyprinodon macularius 	desert pupfish,"endangered_species	Cyprinodon macularius	Pupfish, desert"
+park_animals	Rhynchopsitta pachyrhyncha 	Thick-billed Parrot,"endangered_species	Rhynchopsitta pachyrhyncha	Parrot, thick-billed"
+"endangered_species	Etheostoma nianguae	Darter, Niangua",park_animals	Etheostoma nianguae 	Niangua darter
+park_animals	Cyprinella monacha 	spotfin chub,"endangered_species	Cyprinella monacha	Chub, spotfin (=turquoise shiner)"
+"endangered_species	Gambusia gaigei	Gambusia, Big Bend",park_animals	Gambusia gaigei 	Big Bend gambusia
+park_animals	Ambystoma macrodactylum 	Long-toed Salamander,"endangered_species	Ambystoma macrodactylum	Salamander, Santa Cruz long-toed"
+park_animals	Hybognathus amarus 	Rio Grande silvery minnow,"endangered_species	Hybognathus amarus	Minnow, Rio Grande silvery"
+"endangered_species	Epioblasma (=Dysnomia) florentina florentina	Pearlymussel, yellow-blossom","endangered_species	Epioblasma (=Dysnomia) florentina curtisi	Pearlymussel, Curtis'"
+"endangered_species	Plethodon shenandoah	Salamander, Shenandoah",park_animals	Plethodon shenandoah 	Shenandoah Salamander
+park_animals	Crenichthys baileyi 	White River springfish,"endangered_species	Crenichthys baileyi	Springfish, Hiko White River|endangered_species	Crenichthys baileyi	Springfish, White River"
+"endangered_species	Antilocapra americana	Pronghorn, Sonoran",park_animals	Antilocapra americana 	Pronghorn
+"endangered_species	Vireo bellii	Vireo, least Bell's",park_animals	Vireo bellii 	Bell's Vireo
+"endangered_species	Etheostoma wapiti	Darter, boulder (=Elk River)",park_animals	Etheostoma wapiti 	boulder darter
+park_animals	Ptychocheilus lucius 	Colorado squawfish,"endangered_species	Ptychocheilus lucius	Squawfish, Colorado"
+park_animals	Ammodramus maritimus 	Seaside Sparrow,"endangered_species	Ammodramus (=Ammospiza) maritimus mirabilis	Sparrow, Cape Sable seaside"
+park_animals	Aplodontia rufa 	Mountain beaver,"endangered_species	Aplodontia rufa nigra	Mountain beaver, Point Arena"
+park_animals	Anas laysanensis 	Laysan Duck,"endangered_species	Anas laysanensis	Duck, Laysan"
+"endangered_species	Plethodon nettingi	Salamander, Cheat Mountain",park_animals	Plethodon nettingi 	Cheat Mountain Salamander
+"endangered_species	Reithrodontomys raviventris	Mouse, salt marsh harvest",park_animals	Reithrodontomys raviventris 	Salt-marsh harvest mouse
+endangered_species	Hemignathus lucidus	Nukupu`u (honeycreeper),park_animals	Hemignathus lucidus 	Nukupuu
+"endangered_species	Pterodroma phaeopygia	Petrel, Hawaiian dark-rumped",park_animals	Pterodroma phaeopygia 	Dark-rumped Petrel
+"endangered_species	Gambusia heterochir	Gambusia, Clear Creek",park_animals	Gambusia heterochir 	Clear Creek gambusia
+"endangered_species	Sterna antillarum	Tern, least","endangered_species	Sterna antillarum	Tern, California least|park_animals	Sterna antillarum 	Least Tern"
+park_animals	Cyprinodon elegans 	Comanche Springs pupfish,"endangered_species	Cyprinodon elegans	Pupfish, Comanche Springs"
+"endangered_species	Pseudonestor xanthophrys	Parrotbill, Maui (honeycreeper)",park_animals	Pseudonestor xanthophrys 	Maui Parrotbill
+"endangered_species	Cynomys parvidens	Prairie dog, Utah",park_animals	Cynomys parvidens 	Utah prairie dog
+park_animals	Dipodomys stephensi 	Stephens' kangaroo rat,"endangered_species	Dipodomys stephensi (incl. D. cascus)	Kangaroo rat, Stephens'"
+"endangered_species	Chorizanthe pungens var. hartwegiana	Spineflower, Ben Lomond","endangered_species	Chorizanthe pungens var. pungens	Spineflower, Monterey"
+"endangered_species	Rangifer tarandus	Caribou, woodland",park_animals	Rangifer tarandus 	Caribou
+park_animals	Dipodomys nitratoides 	Fresno kangaroo rat,"endangered_species	Dipodomys nitratoides nitratoides	Kangaroo rat, Tipton|endangered_species	Dipodomys nitratoides	Kangaroo rat, Fresno"
+"endangered_species	Uma inornata	Lizard, Coachella Valley fringe-toed",park_animals	Uma inornata 	Coachella Valley fringe-toed lizard
+park_animals	Ammodramus savannarum 	Grasshopper Sparrow,"endangered_species	Ammodramus savannarum	Sparrow, Florida grasshopper"
+park_animals	Lepidomeda vittata 	Little Colorado spinedace,"endangered_species	Lepidomeda vittata	Spinedace, Little Colorado"
+park_animals	Chasmistes brevirostris 	shortnose sucker,"endangered_species	Chasmistes brevirostris	Sucker, shortnose"
+park_animals	Scaphirhynchus albus 	pallid sturgeon,"endangered_species	Scaphirhynchus albus	Sturgeon, pallid"
+park_animals	Lepidomeda albivallis 	White River spinedace,"endangered_species	Lepidomeda albivallis	Spinedace, White River"
+park_animals	Notropis simus 	bluntnose shiner,"endangered_species	Notropis simus	Shiner, Pecos bluntnose"
+"endangered_species	Crocodylus acutus	Crocodile, American",park_animals	Crocodylus acutus 	American crocodile
+"endangered_species	Canis rufus	Wolf, red",park_animals	Canis rufus 	Red wolf
+park_animals	Phoxinus cumberlandensis 	blackside dace,"endangered_species	Phoxinus cumberlandensis	Dace, blackside"
+"endangered_species	Neotoma floridana smalli	Woodrat, Key Largo",park_animals	Neotoma floridana 	Eastern woodrat
+park_animals	Eucyclogobius newberryi 	tidewater goby,"endangered_species	Eucyclogobius newberryi	Goby, tidewater"
+"endangered_species	Fulica americana alai	Coot, Hawaiian (=`alae-ke`oke`o)",park_animals	Fulica americana 	American Coot
+"endangered_species	Etheostoma rubrum	Darter, bayou",park_animals	Etheostoma rubrum 	bayou darter
+"endangered_species	Epioblasma (=Dysnomia) torulosa gubernaculum	Pearlymussel, green-blossom","endangered_species	Epioblasma (=Dysnomia) torulosa torulosa	Pearlymussel, tubercled-blossom"
+park_animals	Oreomystis mana 	Hawaii Creeper,"endangered_species	Oreomystis mana	Creeper, Hawaii"
+"endangered_species	Tympanuchus cupido	Prairie-chicken, Attwater's greater",park_animals	Tympanuchus cupido 	Greater Prairie-Chicken
+"endangered_species	Paroreomyza flammea	Creeper, Molokai (=kakawahie)",park_animals	Paroreomyza flammea 	Molokai Creeper
+"endangered_species	Catostomus microps	Sucker, Modoc",park_animals	Catostomus microps 	Modoc sucker
+park_animals	Gila elegans 	bonytail,"endangered_species	Gila elegans	Chub, bonytail"
+park_animals	Bufo houstonensis 	Houston Toad,"endangered_species	Bufo houstonensis	Toad, Houston"
+park_animals	Acrocephalus familiaris 	Millerbird,"endangered_species	Acrocephalus familiaris kingi	Millerbird, Nihoa (old world warbler)"
+park_animals	Arctocephalus townsendi 	Guadalupe fur seal,"endangered_species	Arctocephalus townsendi	Seal, guadalupe fur"
+"endangered_species	Gila cypha	Chub, humpback",park_animals	Gila cypha 	humpback chub
+"endangered_species	Noturus flavipinnis	Madtom, yellowfin",park_animals	Noturus flavipinnis 	yellowfin madtom
+park_animals	Lanius ludovicianus 	Loggerhead Shrike,"endangered_species	Lanius ludovicianus	Shrike, San Clemente loggerhead"
+park_animals	Gasterosteus aculeatus 	threespine stickleback,"endangered_species	Gasterosteus aculeatus	Stickleback, unarmored threespine"
+endangered_species	Felis yagouaroundi	Jaguarundi,park_animals	Felis yagouaroundi 	Jaguarundi
+"endangered_species	Cyprinodon radiosus	Pupfish, Owens",park_animals	Cyprinodon radiosus 	Owens pupfish
+"endangered_species	Acipenser oxyrhynchus desotoi	Sturgeon, Gulf",park_animals	Acipenser oxyrhynchus 	Atlantic sturgeon
+park_animals	Eurycea nana 	San Marcos Salamander,"endangered_species	Eurycea nana	Salamander, San Marcos"
+park_animals	Xyrauchen texanus 	razorback sucker,"endangered_species	Xyrauchen texanus	Sucker, razorback"
+"endangered_species	Gambusia georgei	Gambusia, San Marcos",park_animals	Gambusia georgei 	San Marcos gambusia
+"endangered_species	Oncorhynchus nerka	Salmon, sockeye (=red, =blueback)",park_animals	Oncorhynchus nerka 	sockeye salmon
+park_animals	Microtus pennsylvanicus 	Meadow vole,"endangered_species	Microtus pennsylvanicus dukecampbelli	Vole, Florida salt marsh"
+endangered_species	Melamprosops phaeosoma	Po`ouli (honeycreeper),park_animals	Melamprosops phaeosoma 	Poo-uli
+"endangered_species	Gambusia nobilis	Gambusia, Pecos",park_animals	Gambusia nobilis 	Pecos gambusia
 park_animals	Xenopus laevis 	African Clawed Frog,""
 park_animals	Necturus alabamensis 	Alabama Waterdog,""
 park_animals	Bufo americanus 	American Toad,""
@@ -4972,7 +4966,6 @@ endangered_species	Brighamia insignis	`Olulu,""
 "endangered_species	Lampsilis virescens	Lampmussel, Alabama (=Pearly mussel, Alabama lamp)",""
 "endangered_species	Medionidus acutissimus	Moccasinshell, Alabama",""
 "endangered_species	Medionidus parvulus	Moccasinshell, Coosa",""
-"endangered_species	Peromyscus polionotus ammobates	Mouse, Alabama beach",""
 "endangered_species	Lampsilis perovalis	Mucket, orange-nacre",""
 "endangered_species	Margaritifera hembeli	Pearlshell, Louisiana",""
 "endangered_species	Quadrula intermedia	Pearlymussel, Cumberland monkeyface",""
@@ -5054,9 +5047,6 @@ endangered_species	Lilium occidental	Western lily,""
 "endangered_species	Lasmigona decorata	Heelsplitter, Carolina",""
 "endangered_species	Lirceus usdagalun	Isopod, Lee County cave",""
 "endangered_species	Antrolana lira	Isopod, Madison Cave",""
-"endangered_species	Peromyscus polionotus phasma	Mouse, Anastasia Island beach",""
-"endangered_species	Peromyscus polionotus allophrys	Mouse, Choctawahatchee beach",""
-"endangered_species	Peromyscus polionotus niveiventris	Mouse, southeastern beach",""
 "endangered_species	Quadrula sparsa	Pearlymussel, Appalachian monkeyface",""
 "endangered_species	Villosa (=Micromya) trabalis	Pearlymussel, Cumberland bean",""
 "endangered_species	Conradilla caelata	Pearlymussel, birdwing",""
@@ -5162,7 +5152,6 @@ endangered_species	Polygonella basiramia (=P. ciliata var. b.)	Wireweed,""
 "endangered_species	Euphydryas editha bayensis	Butterfly, bay checkerspot",""
 "endangered_species	Lycaeides argyrognomon lotis	Butterfly, lotis blue",""
 "endangered_species	Icaricia icarioides missionensis	Butterfly, mission blue",""
-"endangered_species	Gila robusta seminuda	Chub, Virgin River",""
 "endangered_species	Pacifastacus fortis	Crayfish, Shasta (=placid)",""
 "endangered_species	Branchinecta conservatio	Fairy shrimp, Conservancy",""
 "endangered_species	Streptocephalus woottoni	Fairy shrimp, Riverside",""

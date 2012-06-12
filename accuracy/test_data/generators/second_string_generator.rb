@@ -23,28 +23,44 @@ class SecondStringGenerator < AccuracyTestGenerator
       def key_tokens
         @key_tokens ||= str.split("\t")[1].split
       end
+
+      # from the README:
+      # there is no key for these relations - instead, a match is considered
+      # correct if the tokens in either scientific name are a proper
+      # subset of the other.
+      def match?(other_line)
+        (key_tokens - other_line.key_tokens) == [] || (other_line.key_tokens - key_tokens) == []
+      end
     end
 
     def lines
       @lines ||= string_lines.map { |l| Animal::Line.new(l) }
     end
 
-    # from the README:
-    # there is no key for these relations - instead, a match is considered
-    # correct if the tokens in either scientific name are a proper
-    # subset of the other.
-    def string_matches
-      # tokens are words
-      @string_matches ||= begin
-        matches = []
-        # do in blocks of at least 1 shared token
-        key_tokens_to_lines.each do |key_token, lines|
-          matches += lines.combination(2).select do |line1, line2|
-            (line1.key_tokens - line2.key_tokens) == [] || (line2.key_tokens - line1.key_tokens) == []
-          end
-        end
-        matches.map { |pair| pair.map(&:str).sort }.uniq
+    def match_groups
+      line_match_groups = []
+      lines_unused = lines.to_set
+
+      while lines_unused.size > 0
+        seed              =  lines_unused.first
+        new_matches       =  matches_for(seed)
+        line_match_groups << new_matches.to_a
+        lines_unused      -= new_matches
       end
+
+      line_match_groups.map { |line_match| line_match.map(&:str) }
+    end
+
+    # includes given line
+    def matches_for(line)
+      matches = Set.new
+      matches << line
+      line.key_tokens.each do |key_token|
+        key_tokens_to_lines[key_token].each do |candidate|
+          matches << candidate if line.match?(candidate)
+        end
+      end
+      matches
     end
 
     def key_tokens_to_lines
@@ -65,13 +81,9 @@ class SecondStringGenerator < AccuracyTestGenerator
       key.strip
     end
 
-    def string_matches
-      @string_matches ||= begin
-        matches = []
-        string_lines.group_by { |l| key_normalizer(l.split("\t")[1]) }.map do |key, lines|
-          matches += lines.combination(2).to_a
-        end
-        matches.map { |pair| pair.sort }.uniq
+    def match_groups
+      @match_groups ||= begin
+        string_lines.group_by { |l| key_normalizer(l.split("\t")[1]) }.values
       end
     end
   end
@@ -154,11 +166,12 @@ class SecondStringGenerator < AccuracyTestGenerator
       write_csv("second_string_#{data_set_name}.csv") do |csv|
         parser = klass.new
         queries, targets = Set.new, Set.new
-        grouped = parser.string_matches.group_by(&:first).each do |target, match_pairs|
-          matches = match_pairs.map(&:last) - [target] - queries.to_a
-          if !queries.include?(target) && matches.size > 0
-            csv << [target, matches.join("|")]
-            queries += matches
+        grouped = parser.match_groups.each do |matches|
+          if matches.size > 1
+            target = matches.first
+            q_list = matches[1..-1]
+            csv << [target, q_list.join("|")]
+            queries += q_list
             targets << target
           end
         end

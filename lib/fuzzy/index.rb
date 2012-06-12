@@ -16,7 +16,8 @@ module Fuzzy
     end
 
     def find(query)
-      unsorted_scored_results(query).max.last
+      score, result = unsorted_scored_results(query).max
+      result
     end
 
     def all(query)

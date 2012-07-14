@@ -34,7 +34,7 @@ index = targets.fuzzy_index
 
 passed = 0
 
-actual_tests = @query_tests.take(100)
+actual_tests = @query_tests.take(400)
 actual_tests.each do |test|
   expected, query = test.expected, test.query
 

@@ -1,5 +1,6 @@
 module Fuzzy
   module Tokenizers
+
     CHARACTERS           = lambda { |str| str.chars }
     CHARACTERS_DOWNCASED = lambda { |str| str.downcase.chars }
     BIGRAMS              = lambda { |str| Fuzzy::Helpers.ngrams(str,          2) }
@@ -15,5 +16,15 @@ module Fuzzy
 
     WORDS                = lambda { |str| str.split }
     WORDS_DOWNCASED      = lambda { |str| str.downcase.split }
+
+    HYBRID = lambda do |str|
+      str   = str.downcase
+      words = str.split
+      words.map { |word| Fuzzy::Helpers.soundex(word) } +
+      Fuzzy::Helpers.ngrams(str.downcase, 2) +
+      words.map { |word| word.gsub(/[aeiou]/, '') } +
+      words
+    end
+
   end
 end

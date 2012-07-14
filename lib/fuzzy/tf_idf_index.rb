@@ -13,7 +13,7 @@ module Fuzzy
     end
 
     def self.default_tokenizer
-      Fuzzy::Tokenizers::TETRAGRAMS_DOWNCASED
+      Fuzzy::Tokenizers::HYBRID
     end
 
     def unsorted_scored_results(query)

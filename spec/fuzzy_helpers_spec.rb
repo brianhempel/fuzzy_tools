@@ -48,6 +48,16 @@ describe Fuzzy::Helpers do
         o___
       }
     end
-    
+
+  end
+
+  describe ".soundex" do
+    it "works" do
+      Fuzzy::Helpers.soundex("Robert").should      == "R163"
+      Fuzzy::Helpers.soundex("Rubin").should       == "R150"
+      Fuzzy::Helpers.soundex("Washington").should  == "W252"
+      Fuzzy::Helpers.soundex("Lee").should         == "L000"
+      Fuzzy::Helpers.soundex("Gutierrez").should   == "G362"
+    end
   end
 end

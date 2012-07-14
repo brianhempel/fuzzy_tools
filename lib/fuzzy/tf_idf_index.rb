@@ -16,6 +16,17 @@ module Fuzzy
       Fuzzy::Tokenizers::HYBRID
     end
 
+    attr_reader :tokenizer
+
+    def initialize(options = {})
+      @tokenizer = options[:tokenizer] || self.class.default_tokenizer
+      super
+    end
+
+    def tokenize(str)
+      tokenizer.call(str)
+    end
+
     def unsorted_scored_results(query)
       query_weighted_tokens = WeightedDocumentTokens.new(tokenize(query), :weight_function => weight_function)
 

@@ -7,11 +7,10 @@ module Fuzzy
       new(:source => enumerable)
     end
 
-    attr_reader :source, :tokenizer
+    attr_reader :source
 
     def initialize(options = {})
       @source    = options[:source]
-      @tokenizer = options[:tokenizer] || self.class.default_tokenizer
       build_index
     end
 
@@ -26,10 +25,6 @@ module Fuzzy
 
     def all_with_scores(query)
       unsorted_scored_results(query).sort.reverse
-    end
-
-    def tokenize(str)
-      tokenizer.call(str)
     end
   end
 end

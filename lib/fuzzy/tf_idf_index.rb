@@ -24,7 +24,7 @@ module Fuzzy
     end
 
     def tokenize(str)
-      tokenizer.call(str)
+      tokenizer.call(str.to_s)
     end
 
     def unsorted_scored_results(query)

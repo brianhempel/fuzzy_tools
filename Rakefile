@@ -4,6 +4,14 @@ Bundler::GemHelper.install_tasks
 Dir[File.expand_path('../accuracy/**/*.task', __FILE__)].each { |f| load f }
 Dir[File.expand_path('../performance/**/*.task', __FILE__)].each { |f| load f }
 
+task :default => :test
+
+desc "Run the tests"
+task :test do
+  require 'rspec'
+  RSpec::Core::Runner.run(["spec/"])
+end
+
 desc "Launch an IRB session with the gem required"
 task :console do
   $:.unshift(File.dirname(__FILE__) + '/../lib')

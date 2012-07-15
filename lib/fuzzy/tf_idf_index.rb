@@ -47,7 +47,7 @@ module Fuzzy
 
     def select_candidate_documents(query, query_weighted_tokens)
       candidates = Set.new
-      check_all_threshold = source.size * 0.75 # this threshold works best on the accuracy data
+      check_all_threshold = @source_count * 0.75 # this threshold works best on the accuracy data
       query_weighted_tokens.tokens.each do |query_token|
         if tf_idf_token = @tf_idf_tokens[query_token]
           next if tf_idf_token.idf < @idf_cutoff
@@ -74,6 +74,7 @@ module Fuzzy
     end
 
     def build_index
+      @source_count = source.count
       clear_token_table
       @tf_idf_tokens = {}
       source.each do |document|
@@ -83,7 +84,7 @@ module Fuzzy
         end
       end
       @tf_idf_tokens.keys.each do |token_str|
-        @tf_idf_tokens[token_str].idf = Math.log(source.size.to_f / @tf_idf_tokens[token_str].documents.size)
+        @tf_idf_tokens[token_str].idf = Math.log(@source_count.to_f / @tf_idf_tokens[token_str].documents.size)
       end
       @document_tokens = {}
       source.each do |document|
@@ -97,7 +98,7 @@ module Fuzzy
     def weight_function
       @weight_function ||= lambda do |token, n|
         # secondstring gives unknown tokens a df of 1
-        idf = @tf_idf_tokens[token] ? @tf_idf_tokens[token].idf : Math.log(@source.size.to_f)
+        idf = @tf_idf_tokens[token] ? @tf_idf_tokens[token].idf : Math.log(@source_count.to_f)
         idf * Math.log(n + 1)
       end
     end

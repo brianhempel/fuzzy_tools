@@ -16,7 +16,7 @@ module Fuzzy
     end
 
     def find(query)
-      score, result = unsorted_scored_results(query).max
+      score, result = unsorted_scored_results(query.to_s).max
       result
     end
 
@@ -25,7 +25,7 @@ module Fuzzy
     end
 
     def all_with_scores(query)
-      unsorted_scored_results(query).sort.reverse
+      unsorted_scored_results(query.to_s).sort.reverse
     end
 
     private

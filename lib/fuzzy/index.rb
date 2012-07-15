@@ -3,10 +3,6 @@ require 'fuzzy/tokenizers'
 
 module Fuzzy
   class Index
-    def self.new_for(enumerable)
-      new(:source => enumerable)
-    end
-
     attr_reader :source, :indexed_attribute
 
     def initialize(options = {})

@@ -1,7 +1,5 @@
 require 'spec_helper'
 
-Book = Struct.new(:title, :author)
-
 describe Fuzzy::TfIdfIndex do
   it "takes a source" do
     vegetables = ["mushroom", "olive", "tomato"]

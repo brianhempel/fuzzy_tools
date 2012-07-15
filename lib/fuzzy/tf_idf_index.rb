@@ -33,7 +33,7 @@ module Fuzzy
       candidates = select_candidate_documents(query, query_weighted_tokens)
 
       candidates.map do |candidate|
-        candidate_tokens = @document_tokens[candidate]
+        candidate_tokens = @document_tokens[document_attribute(candidate)]
 
         score = self.score(query_weighted_tokens, candidate_tokens)
 
@@ -77,8 +77,8 @@ module Fuzzy
       @source_count = source.count
       clear_token_table
       @tf_idf_tokens = {}
-      source.each do |document|
-        tokenize_consolidated(document).each do |token_str|
+      each_attribute_and_document do |attribute, document|
+        tokenize_consolidated(attribute).each do |token_str|
           @tf_idf_tokens[token_str] ||= Token.new
           @tf_idf_tokens[token_str].documents << document
         end
@@ -87,8 +87,8 @@ module Fuzzy
         @tf_idf_tokens[token_str].idf = Math.log(@source_count.to_f / @tf_idf_tokens[token_str].documents.size)
       end
       @document_tokens = {}
-      source.each do |document|
-        tokens = @document_tokens[document] = WeightedDocumentTokens.new(tokenize_consolidated(document), :weight_function => weight_function)
+      each_attribute_and_document do |attribute, document|
+        tokens = @document_tokens[attribute] = WeightedDocumentTokens.new(tokenize_consolidated(attribute), :weight_function => weight_function)
       end
       clear_token_table
       idfs = @tf_idf_tokens.values.map(&:idf).sort

@@ -5,5 +5,5 @@ gem 'nokogiri'
 gem 'perftools.rb', :require => false
 gem 'rake'
 
-# Specify your gem's dependencies in fuzzy.gemspec
+# Specify your gem's dependencies in fuzzy_tools.gemspec
 gemspec

@@ -1,7 +1,7 @@
-require 'fuzzy/helpers'
+require 'fuzzy_tools/helpers'
 require 'inline'
 
-module Fuzzy
+module FuzzyTools
   class WeightedDocumentTokens
     attr_reader :weights
 
@@ -57,7 +57,7 @@ module Fuzzy
 
     def set_token_weights(tokens, &block)
       @weights = {}
-      counts = Fuzzy::Helpers.term_counts(tokens)
+      counts = FuzzyTools::Helpers.term_counts(tokens)
       counts.each do |token, n|
         @weights[token] = yield(token, n)
       end

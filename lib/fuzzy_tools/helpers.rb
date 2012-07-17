@@ -1,6 +1,6 @@
 require 'inline'
 
-module Fuzzy
+module FuzzyTools
   module Helpers
     extend self
 

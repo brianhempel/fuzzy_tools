@@ -1,7 +1,7 @@
 require 'csv'
 
 $LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-require 'fuzzy'
+require 'fuzzy_tools'
 
 
 TEST_FILE_PATH = File.expand_path("../query_tests/bible_verses_daniel_kjv.csv", __FILE__)
@@ -24,10 +24,10 @@ targets = @query_tests.map(&:expected)
 ENV['CPUPROFILE_REALTIME']      = "1"
 ENV['CPUPROFILE_FREQUENCY=500'] = "200" # default is 100
 require 'perftools'
-PerfTools::CpuProfiler.start("/tmp/fuzzy_ruby_profile")
+PerfTools::CpuProfiler.start("/tmp/fuzzy_tools_ruby_profile")
 at_exit do
   PerfTools::CpuProfiler.stop
-  puts `pprof.rb --text /tmp/fuzzy_ruby_profile`
+  puts `pprof.rb --text /tmp/fuzzy_tools_ruby_profile`
 end
 
 index = targets.fuzzy_index

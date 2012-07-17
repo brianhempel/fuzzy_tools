@@ -16,7 +16,7 @@ desc "Launch an IRB session with the gem required"
 task :console do
   $:.unshift(File.dirname(__FILE__) + '/../lib')
 
-  require 'fuzzy'
+  require 'fuzzy_tools'
   require 'irb'
 
   IRB.setup(nil)

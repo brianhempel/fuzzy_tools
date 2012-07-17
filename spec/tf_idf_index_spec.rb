@@ -1,25 +1,25 @@
 require 'spec_helper'
 
-describe Fuzzy::TfIdfIndex do
+describe FuzzyTools::TfIdfIndex do
   it "takes a source" do
     vegetables = ["mushroom", "olive", "tomato"]
-    index = Fuzzy::TfIdfIndex.new(:source => vegetables)
+    index = FuzzyTools::TfIdfIndex.new(:source => vegetables)
     index.source.should == vegetables
   end
 
   it "indexes on to_s by default" do
-    index = Fuzzy::TfIdfIndex.new(:source => 1..3)
+    index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
     index.find("2").should == 2
   end
 
-  it "defaults tokenizer to Fuzzy::Tokenizers::HYBRID" do
-    Fuzzy::TfIdfIndex.new(:source => []).tokenizer.should == Fuzzy::Tokenizers::HYBRID
+  it "defaults tokenizer to FuzzyTools::Tokenizers::HYBRID" do
+    FuzzyTools::TfIdfIndex.new(:source => []).tokenizer.should == FuzzyTools::Tokenizers::HYBRID
   end
 
   it "takes any proc as a tokenizer" do
     foods = ["muffins", "pancakes"]
     letter_count_tokenizer = lambda { |str| str.size.to_s }
-    index = Fuzzy::TfIdfIndex.new(:source => foods, :tokenizer => letter_count_tokenizer)
+    index = FuzzyTools::TfIdfIndex.new(:source => foods, :tokenizer => letter_count_tokenizer)
 
     index.tokenizer.should == letter_count_tokenizer
     index.find("octoword").should == "pancakes"
@@ -39,12 +39,12 @@ describe Fuzzy::TfIdfIndex do
     end
 
     it "indexes on the method specified in :attribute" do
-      index = Fuzzy::TfIdfIndex.new(:source => @books, :attribute => :title)
+      index = FuzzyTools::TfIdfIndex.new(:source => @books, :attribute => :title)
       index.find("ecklestica").should == @ecclesiates
     end
 
     it "indexes the proc result if a proc is given for :attribute" do
-      index = Fuzzy::TfIdfIndex.new(:source => @books, :attribute => lambda { |book| book.title + " " + book.author })
+      index = FuzzyTools::TfIdfIndex.new(:source => @books, :attribute => lambda { |book| book.title + " " + book.author })
       index.find("prodigy").should == @the_prodigal_god
       index.find("LEWIS").should   == @till_we_have_faces
     end
@@ -64,12 +64,12 @@ describe Fuzzy::TfIdfIndex do
     end
 
     it "indexes on the hash key specified in :attribute" do
-      index = Fuzzy::TfIdfIndex.new(:source => @books, :attribute => :title)
+      index = FuzzyTools::TfIdfIndex.new(:source => @books, :attribute => :title)
       index.find("ecklestica").should == @ecclesiates
     end
 
     it "indexes the proc result if a proc is given for :attribute" do
-      index = Fuzzy::TfIdfIndex.new(:source => @books, :attribute => lambda { |book| book[:title] + " " + book[:author] })
+      index = FuzzyTools::TfIdfIndex.new(:source => @books, :attribute => lambda { |book| book[:title] + " " + book[:author] })
       index.find("prodigy").should == @the_prodigal_god
       index.find("LEWIS").should   == @till_we_have_faces
     end
@@ -79,18 +79,18 @@ describe Fuzzy::TfIdfIndex do
     describe "#find" do
       it "returns the best result" do
         mushy_stuff = ["mushrooms", "mushroom", "mushy pit", "ABC"]
-        index = Fuzzy::TfIdfIndex.new(:source => mushy_stuff)
+        index = FuzzyTools::TfIdfIndex.new(:source => mushy_stuff)
 
         index.find("ushr").should == "mushroom"
       end
 
       it "calls to_s on input" do
-        index = Fuzzy::TfIdfIndex.new(:source => 1..3)
+        index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
         index.find(2).should == 2
       end
 
       it "returns nil if no results" do
-        index = Fuzzy::TfIdfIndex.new(:source => 1..3)
+        index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
         index.find("bubble").should be_nil
       end
     end
@@ -98,7 +98,7 @@ describe Fuzzy::TfIdfIndex do
     describe "#all" do
       it "returns all results, from best to worst" do
         mushy_stuff = ["mushrooms", "mushroom", "mushy pit", "ABC"]
-        index = Fuzzy::TfIdfIndex.new(:source => mushy_stuff)
+        index = FuzzyTools::TfIdfIndex.new(:source => mushy_stuff)
 
         index.all("ushr").should == [
           "mushroom",
@@ -108,12 +108,12 @@ describe Fuzzy::TfIdfIndex do
       end
 
       it "calls to_s on input" do
-        index = Fuzzy::TfIdfIndex.new(:source => 1..3)
+        index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
         index.all(2).first.should == 2
       end
 
       it "returns an empty array if no results" do
-        index = Fuzzy::TfIdfIndex.new(:source => 1..3)
+        index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
         index.all("bubble").should == []
       end
     end
@@ -122,7 +122,7 @@ describe Fuzzy::TfIdfIndex do
     describe "#all" do
       it "returns all results, from best to worst" do
         mushy_stuff = ["mushrooms", "mushroom", "mushy pit", "ABC"]
-        index = Fuzzy::TfIdfIndex.new(:source => mushy_stuff)
+        index = FuzzyTools::TfIdfIndex.new(:source => mushy_stuff)
 
         index.all("ushr").should == [
           "mushroom",
@@ -132,12 +132,12 @@ describe Fuzzy::TfIdfIndex do
       end
 
       it "calls to_s on input" do
-        index = Fuzzy::TfIdfIndex.new(:source => 1..3)
+        index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
         index.all(2).first.should == 2
       end
 
       it "returns an empty array if no results" do
-        index = Fuzzy::TfIdfIndex.new(:source => 1..3)
+        index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
         index.all("bubble").should == []
       end
     end
@@ -145,7 +145,7 @@ describe Fuzzy::TfIdfIndex do
     describe "#all_with_scores" do
       it "returns ordered array of arrays of score and results" do
         mushy_stuff = ["mushrooms", "mushroom", "mushy pit", "ABC"]
-        index = Fuzzy::TfIdfIndex.new(:source => mushy_stuff)
+        index = FuzzyTools::TfIdfIndex.new(:source => mushy_stuff)
 
         results = index.all_with_scores("ushr")
 
@@ -164,12 +164,12 @@ describe Fuzzy::TfIdfIndex do
       end
 
       it "calls to_s on input" do
-        index = Fuzzy::TfIdfIndex.new(:source => 1..3)
+        index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
         index.all_with_scores(2).first.should == [1.0, 2]
       end
 
       it "returns an empty array if no results" do
-        index = Fuzzy::TfIdfIndex.new(:source => 1..3)
+        index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
         index.all_with_scores("bubble").should == []
       end
     end

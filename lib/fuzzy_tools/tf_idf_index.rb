@@ -1,8 +1,8 @@
 require 'set'
-require 'fuzzy/index'
-require 'fuzzy/weighted_document_tokens'
+require 'fuzzy_tools/index'
+require 'fuzzy_tools/weighted_document_tokens'
 
-module Fuzzy
+module FuzzyTools
   class TfIdfIndex < Index
     class Token
       attr_accessor :documents, :idf
@@ -13,7 +13,7 @@ module Fuzzy
     end
 
     def self.default_tokenizer
-      Fuzzy::Tokenizers::HYBRID
+      FuzzyTools::Tokenizers::HYBRID
     end
 
     attr_reader :tokenizer

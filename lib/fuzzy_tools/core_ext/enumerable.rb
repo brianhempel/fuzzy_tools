@@ -1,4 +1,4 @@
-require 'fuzzy/index'
+require 'fuzzy_tools/index'
 
 module Enumerable
   def fuzzy_find(*args)
@@ -13,7 +13,7 @@ module Enumerable
 
   def fuzzy_index(options = {})
     options = options.merge(:source => self)
-    Fuzzy::TfIdfIndex.new(options)
+    FuzzyTools::TfIdfIndex.new(options)
   end
 
   private

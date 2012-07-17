@@ -1,7 +1,7 @@
-require 'fuzzy/helpers'
-require 'fuzzy/tokenizers'
+require 'fuzzy_tools/helpers'
+require 'fuzzy_tools/tokenizers'
 
-module Fuzzy
+module FuzzyTools
   class Index
     attr_reader :source, :indexed_attribute
 

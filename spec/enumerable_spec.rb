@@ -27,7 +27,7 @@ describe Enumerable do
       before(:each) { @letter_count_tokenizer = lambda { |str| str.size.to_s } }
 
       it "passes :tokenizer through to the index with simple query syntax" do
-        Fuzzy::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer)
+        FuzzyTools::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer)
         begin
           @books.fuzzy_find("the", :tokenizer => @letter_count_tokenizer)
         rescue
@@ -35,7 +35,7 @@ describe Enumerable do
       end
 
       it "passes :tokenizer through to the index with :attribute => query syntax" do
-        Fuzzy::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer, :attribute => :title)
+        FuzzyTools::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer, :attribute => :title)
         begin
           @books.fuzzy_find(:title => "the", :tokenizer => @letter_count_tokenizer)
         rescue
@@ -57,7 +57,7 @@ describe Enumerable do
       before(:each) { @letter_count_tokenizer = lambda { |str| str.size.to_s } }
 
       it "passes :tokenizer through to the index with simple query syntax" do
-        Fuzzy::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer)
+        FuzzyTools::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer)
         begin
           @books.fuzzy_find_all("the", :tokenizer => @letter_count_tokenizer)
         rescue
@@ -65,7 +65,7 @@ describe Enumerable do
       end
 
       it "passes :tokenizer through to the index with :attribute => query syntax" do
-        Fuzzy::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer, :attribute => :title)
+        FuzzyTools::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer, :attribute => :title)
         begin
           @books.fuzzy_find_all(:title => "the", :tokenizer => @letter_count_tokenizer)
         rescue
@@ -76,12 +76,12 @@ describe Enumerable do
 
   describe "#fuzzy_index" do
     it "returns an TfIdfIndex" do
-      @books.fuzzy_index.class.should == Fuzzy::TfIdfIndex
+      @books.fuzzy_index.class.should == FuzzyTools::TfIdfIndex
     end
 
     it "passes options along to the index" do
       letter_count_tokenizer = lambda { |str| str.size.to_s }
-      Fuzzy::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => letter_count_tokenizer, :attribute => :title)
+      FuzzyTools::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => letter_count_tokenizer, :attribute => :title)
       @books.fuzzy_index(:attribute => :title, :tokenizer => letter_count_tokenizer)
     end
   end

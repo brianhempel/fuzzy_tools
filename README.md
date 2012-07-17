@@ -217,7 +217,7 @@ Need something added? Please [open an issue](https://github.com/brianhempel/fuzz
 
 ## Acknowledgements
 
-The [SecondString](http://secondstring.sourceforge.net/) code served as a valuable reference a number of times.
+The [SecondString](http://secondstring.sourceforge.net/) source code was a valuable reference.
 
 ## License
 

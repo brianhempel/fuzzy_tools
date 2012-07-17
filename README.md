@@ -137,6 +137,10 @@ fuzzy_find           29.250000   0.040000  29.290000 ( 29.287992)
 fuzzy_index.find      0.360000   0.000000   0.360000 (  0.360066)
 ```
 
+If you need even more speed, you can [try a different tokenizer](#specifying-your-own-tokenizer). Fewer tokens per document shortens the comparison time between documents, lessens the garbage collector load, and reduces the number of candidate documents for a given query.
+
+If it's still too slow, [open an issue](https://github.com/brianhempel/fuzzy_tools/issues) and perhaps we can figure out what can be done.
+
 ## How does it work?
 
 FuzzyTools downcases and then tokenizes each value using a [hybrid combination](https://github.com/brianhempel/fuzzy_tools/blob/master/lib/fuzzy/tokenizers.rb#L20-27) of words, [character bigrams](http://en.wikipedia.org/wiki/N-gram), [Soundex](http://en.wikipedia.org/wiki/Soundex), and words without vowels.

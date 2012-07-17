@@ -28,19 +28,19 @@ describe FuzzyTools::TfIdfIndex do
   context "indexing objects" do
     before :each do
       @till_we_have_faces = Book.new("Till We Have Faces", "C.S. Lewis" )
-      @ecclesiates        = Book.new("Ecclesiates",        "The Teacher")
+      @ecclesiastes       = Book.new("Ecclesiastes",       "The Teacher")
       @the_prodigal_god   = Book.new("The Prodigal God",   "Tim Keller" )
 
       @books = [
         @till_we_have_faces,
-        @ecclesiates,
+        @ecclesiastes,
         @the_prodigal_god,
       ]
     end
 
     it "indexes on the method specified in :attribute" do
       index = FuzzyTools::TfIdfIndex.new(:source => @books, :attribute => :title)
-      index.find("ecklestica").should == @ecclesiates
+      index.find("ecklestica").should == @ecclesiastes
     end
 
     it "indexes the proc result if a proc is given for :attribute" do
@@ -53,19 +53,19 @@ describe FuzzyTools::TfIdfIndex do
   context "indexing hashes" do
     before :each do
       @till_we_have_faces = { :title => "Till We Have Faces", :author => "C.S. Lewis"  }
-      @ecclesiates        = { :title => "Ecclesiates",        :author => "The Teacher" }
+      @ecclesiastes       = { :title => "Ecclesiastes",       :author => "The Teacher" }
       @the_prodigal_god   = { :title => "The Prodigal God",   :author => "Tim Keller"  }
 
       @books = [
         @till_we_have_faces,
-        @ecclesiates,
+        @ecclesiastes,
         @the_prodigal_god,
       ]
     end
 
     it "indexes on the hash key specified in :attribute" do
       index = FuzzyTools::TfIdfIndex.new(:source => @books, :attribute => :title)
-      index.find("ecklestica").should == @ecclesiates
+      index.find("ecklestica").should == @ecclesiastes
     end
 
     it "indexes the proc result if a proc is given for :attribute" do

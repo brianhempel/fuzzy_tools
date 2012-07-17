@@ -4,19 +4,19 @@ require 'set'
 describe Enumerable do
   before :each do
     @till_we_have_faces = Book.new("Till We Have Faces", "C.S. Lewis" )
-    @ecclesiates        = Book.new("Ecclesiates",        "The Teacher")
+    @ecclesiastes       = Book.new("Ecclesiastes",       "The Teacher")
     @the_prodigal_god   = Book.new("The Prodigal God",   "Tim Keller" )
 
     @books = [
       @till_we_have_faces,
-      @ecclesiates,
+      @ecclesiastes,
       @the_prodigal_god
     ].each
   end
 
   describe "#fuzzy_find" do
     it "works with simple query syntax" do
-      @books.fuzzy_find("the").should == @ecclesiates
+      @books.fuzzy_find("the").should == @ecclesiastes
     end
 
     it "works with :attribute => query syntax" do
@@ -46,7 +46,7 @@ describe Enumerable do
 
   describe "#fuzzy_find_all" do
     it "works with simple query syntax" do
-      @books.fuzzy_find_all("the").should == [@ecclesiates, @the_prodigal_god, @till_we_have_faces]
+      @books.fuzzy_find_all("the").should == [@ecclesiastes, @the_prodigal_god, @till_we_have_faces]
     end
 
     it "works with :attribute => query syntax" do

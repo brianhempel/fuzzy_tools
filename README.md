@@ -199,7 +199,9 @@ FuzzyTools::TfIdfIndex.new(:source => books, :tokenizer => punctuation_normalize
 ```
 ## I've heard of Soft TF-IDF. It's supposed to be better than TF-IDF.
 
-Despite the impressive graphs, the "Soft TF-IDF" described in [WW Cohen, P Ravikumar, and SE Fienberg, A comparison of string distance metrics for name-matching tasks, IIWEB, pages 73-78, 2003](http://www.cs.cmu.edu/~pradeepr/papers/ijcai03.pdf) didn't give me good results. In the paper, they tokenized by word. Tokenizing by character 4-grams or 5-grams may have been more effective. In my tests, the Soft TF-IDF was significantly slower and considerably less accurate than a standard TF-IDF with n-gram tokenization.
+Despite the impressive graphs, the "Soft TF-IDF" described in [WW Cohen, P Ravikumar, and SE Fienberg, A comparison of string distance metrics for name-matching tasks, IIWEB, pages 73-78, 2003](http://www.cs.cmu.edu/~pradeepr/papers/ijcai03.pdf) didn't give me good results. In the paper, they tokenized by word. The standard TF-IDF tokenized by character 4-grams or 5-grams may have been more effective.
+
+In my tests, the word-tokenized Soft TF-IDF was significantly slower and considerably less accurate than a standard TF-IDF with n-gram tokenization.
 
 ## Help make it better!
 

@@ -112,7 +112,7 @@ FuzzyTools::TfIdfIndex.new(:source => books, :attribute => lambda { |book| book.
 
 ## How does it work?
 
-FuzzyTools downcases and then tokenizes each value using [a hybrid combination](https://github.com/brianhempel/fuzzy_tools/blob/master/lib/fuzzy/tokenizers.rb#L20-27) of words, [character bigrams](http://en.wikipedia.org/wiki/N-gram), [Soundex](http://en.wikipedia.org/wiki/Soundex), and words without vowels.
+FuzzyTools downcases and then tokenizes each value using a [hybrid combination](https://github.com/brianhempel/fuzzy_tools/blob/master/lib/fuzzy/tokenizers.rb#L20-27) of words, [character bigrams](http://en.wikipedia.org/wiki/N-gram), [Soundex](http://en.wikipedia.org/wiki/Soundex), and words without vowels.
 
 ``` ruby
 FuzzyTools::Tokenizers::HYBRID.call("Till We Have Faces")
@@ -150,7 +150,7 @@ index.instance_variable_get(:@document_tokens)["The Teacher"].weights.sort_by { 
 # ]
 ```
 
-When you do a query, that query string is tokenized and weighted, then compared against some of the documents using [Cosine Similarity](http://www.gettingcirrius.com/2010/12/calculating-similarity-part-1-cosine.html). Cosine similarity is not that terrible of a concept, assuming you like terms like "N-dimensional space." But even if you do, it's difficult to explain. Basically, each unique token becomes an axis in N-dimensional space. If we had 4 different tokens in all, we'd use 4-D space. A document's token weights define a vector in this space. The _cosine_ of the _angle_ between documents' vectors becomes the similarity between the documents.
+When you do a query, that query string is tokenized and weighted, then compared against some of the documents using [Cosine Similarity](http://www.gettingcirrius.com/2010/12/calculating-similarity-part-1-cosine.html). Cosine similarity is not that terrible of a concept, assuming you like terms like "N-dimensional space". Basically, each unique token becomes an axis in N-dimensional space. If we had 4 different tokens in all, we'd use 4-D space. A document's token weights define a vector in this space. The _cosine_ of the _angle_ between documents' vectors becomes the similarity between the documents.
 
 Trust me, it works.
 

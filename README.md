@@ -1,6 +1,6 @@
 # FuzzyTools
 
-FuzzyTools is a toolset for fuzzy searches in Ruby. The default algorithm has been tuned for accuracy (and reasonable speed) on 23 different test files.
+FuzzyTools is a toolset for fuzzy searches in Ruby. The default algorithm has been tuned for accuracy (and reasonable speed) on 23 different [test files](https://github.com/brianhempel/fuzzy_tools/tree/master/accuracy/test_data/query_tests) gathered from [many sources](https://github.com/brianhempel/fuzzy_tools/blob/master/accuracy/test_data/sources/SOURCES.txt).
 
 Because it's mostly Ruby, FuzzyTools is best for searching smaller datasets—say less than 50Kb in size. Data cleaning or auto-complete over known options are potential uses.
 

@@ -110,6 +110,33 @@ books.fuzzy_index(:attribute => lambda { |book| book.title + " " + book.author }
 FuzzyTools::TfIdfIndex.new(:source => books, :attribute => lambda { |book| book.title + " " + book.author }).find("timmy")
 ```
 
+## Can it go faster?
+
+If you need to do multiple searches on the same collection, grab a fuzzy index with `my_collection.fuzzy_index` and do finds on that. The `fuzzy_find` and `fuzzy_find_all` methods on Enumerable reindex every time they are called.
+
+Here's a performance comparison:
+
+``` ruby
+array_methods = Array.new.methods
+
+Benchmark.bm(20) do |b|
+  b.report("fuzzy_find") do
+    1000.times { array_methods.fuzzy_find("juice") }
+  end
+
+  b.report("fuzzy_index.find") do
+    index = array_methods.fuzzy_index
+    1000.times { index.find("juice") }
+  end
+end
+```
+
+```
+                          user     system      total        real
+fuzzy_find           29.250000   0.040000  29.290000 ( 29.287992)
+fuzzy_index.find      0.360000   0.000000   0.360000 (  0.360066)
+```
+
 ## How does it work?
 
 FuzzyTools downcases and then tokenizes each value using a [hybrid combination](https://github.com/brianhempel/fuzzy_tools/blob/master/lib/fuzzy/tokenizers.rb#L20-27) of words, [character bigrams](http://en.wikipedia.org/wiki/N-gram), [Soundex](http://en.wikipedia.org/wiki/Soundex), and words without vowels.

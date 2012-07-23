@@ -12,7 +12,7 @@ module FuzzyTools
     end
 
     def find(query)
-      score, result = unsorted_scored_results(query).max
+      score, result = unsorted_scored_results(query).max_by { |score, doc| [score, document_attribute(doc)] }
       result
     end
 
@@ -21,7 +21,7 @@ module FuzzyTools
     end
 
     def all_with_scores(query)
-      unsorted_scored_results(query).sort.reverse
+      unsorted_scored_results(query).sort_by { |score, doc| [-score, document_attribute(doc)] }
     end
 
     private

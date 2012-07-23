@@ -25,6 +25,30 @@ describe FuzzyTools::TfIdfIndex do
     index.find("octoword").should == "pancakes"
   end
 
+  context "indexing incomparable objects" do
+    before :each do
+      @till_we_have_faces = Book.new("Till We Have Faces", "C.S. Lewis")
+      @perelandra         = Book.new("Perelandra",         "C.S. Lewis")
+
+      @books = [@till_we_have_faces, @perelandra]
+    end
+
+    it "#find works when they index the same" do
+      index = FuzzyTools::TfIdfIndex.new(:source => @books)
+      expect { index.all("louis") }.to_not raise_error
+    end
+
+    it "#all works when they index the same" do
+      index = FuzzyTools::TfIdfIndex.new(:source => @books)
+      expect { index.all("louis") }.to_not raise_error
+    end
+
+    it "#all_with_scores works when they index the same" do
+      index = FuzzyTools::TfIdfIndex.new(:source => @books)
+      expect { index.all("louis") }.to_not raise_error
+    end
+  end
+
   context "indexing objects" do
     before :each do
       @till_we_have_faces = Book.new("Till We Have Faces", "C.S. Lewis" )

@@ -3,14 +3,14 @@ $:.push File.expand_path("../lib", __FILE__)
 require "fuzzy_tools/version"
 
 Gem::Specification.new do |s|
-  s.name        = "fuzzy_tools_tools"
+  s.name        = "fuzzy_tools"
   s.version     = FuzzyTools::VERSION
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Brian Hempel"]
   s.email       = ["plasticchicken@gmail.com"]
   s.homepage    = "https://github.com/brianhempel/fuzzy_tools"
-  s.summary     = %q{High quality fuzzy search and string matching in Ruby.}
-  s.description = %q{High quality fuzzy search and string matching in Ruby.}
+  s.summary     = %q{Easy, high quality fuzzy search in Ruby.}
+  s.description = %q{Easy, high quality fuzzy search in Ruby.}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")

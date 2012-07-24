@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Easy, high quality fuzzy search in Ruby.}
   s.description = %q{Easy, high quality fuzzy search in Ruby.}
 
-  s.files         = `git ls-files`.split("\n")
+  s.files         = `git ls-files | grep --invert-match --extended-regexp '^(accuracy|performance)/'`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]

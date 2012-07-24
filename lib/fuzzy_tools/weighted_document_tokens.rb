@@ -35,8 +35,8 @@ module FuzzyTools
           VALUE  my_weight;
           VALUE  other_weight;
 
-          for(i = 0; i < RARRAY(my_tokens)->len; i++) {
-            token        = RARRAY(my_tokens)->ptr[i];
+          for(i = 0; i < RARRAY_LEN(RARRAY(my_tokens)); i++) {
+            token        = RARRAY_PTR(RARRAY(my_tokens))[i];
             other_weight = rb_hash_aref(other_weights, token);
             if (other_weight != Qnil) {
               my_weight   = rb_hash_aref(my_weights, token);

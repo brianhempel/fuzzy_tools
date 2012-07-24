@@ -18,7 +18,7 @@ describe FuzzyTools::TfIdfIndex do
 
   it "takes any proc as a tokenizer" do
     foods = ["muffins", "pancakes"]
-    letter_count_tokenizer = lambda { |str| str.size.to_s }
+    letter_count_tokenizer = lambda { |str| [str.size.to_s] }
     index = FuzzyTools::TfIdfIndex.new(:source => foods, :tokenizer => letter_count_tokenizer)
 
     index.tokenizer.should == letter_count_tokenizer

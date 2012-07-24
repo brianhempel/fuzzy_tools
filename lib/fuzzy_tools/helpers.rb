@@ -41,7 +41,7 @@ module FuzzyTools
 
           Check_Type(ruby_str, T_STRING);
 
-          char * in = STR2CSTR(ruby_str);
+          char * in = StringValueCStr(ruby_str);
 
           static  int code[] =
              {  0,1,2,3,0,1,2,0,0,2,2,4,5,5,0,1,2,6,2,3,0,1,0,2,0,2 };

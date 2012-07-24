@@ -37,7 +37,7 @@ module FuzzyTools
 
         score = self.score(query_weighted_tokens, candidate_tokens)
 
-        [score, candidate]
+        [candidate, score]
       end
     end
 

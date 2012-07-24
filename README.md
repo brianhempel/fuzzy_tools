@@ -43,13 +43,13 @@ FuzzyTools::TfIdfIndex.new(:source => books).all("the") # => ["The Prodigal God"
 
 books.fuzzy_index.all_with_scores("the") # =>
 # [
-#   [0.443175985397319,  "The Prodigal God"  ],
-#   [0.0102817553829306, "Till We Have Faces"]
+#   ["The Prodigal God",   0.443175985397319 ],
+#   ["Till We Have Faces", 0.0102817553829306]
 # ]
 FuzzyTools::TfIdfIndex.new(:source => books).all_with_scores("the") # =>
 # [
-#   [0.443175985397319,  "The Prodigal God"  ],
-#   [0.0102817553829306, "Till We Have Faces"]
+#   ["The Prodigal God",   0.443175985397319 ],
+#   ["Till We Have Faces", 0.0102817553829306]
 # ]
 ```
 
@@ -84,8 +84,8 @@ books.fuzzy_index(:attribute => :author).all_with_scores("timmy")
 FuzzyTools::TfIdfIndex.new(:source => books, :attribute => :author).all_with_scores("timmy")
 # =>
 # [
-#   [0.29874954780727,   #<struct Book title="The Prodigal God", author="Tim Keller" >],
-#   [0.0117801403002398, #<struct Book title="Ecclesiastes",     author="The Teacher">]
+#   [#<struct Book title="The Prodigal God", author="Tim Keller" >, 0.29874954780727  ],
+#   [#<struct Book title="Ecclesiastes",     author="The Teacher">, 0.0117801403002398]
 # ]
 ```
 

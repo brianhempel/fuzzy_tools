@@ -173,23 +173,23 @@ describe FuzzyTools::TfIdfIndex do
 
         results = index.all_with_scores("ushr")
 
-        results.map(&:last).should == [
+        results.map(&:first).should == [
           "mushroom",
           "mushrooms",
           "mushy pit"
         ]
 
-        results.sort.reverse.should == results
+        results.sort_by { |doc, score| -score }.should == results
 
-        results.map(&:first).each { |score| score.class.should == Float }
-        results.map(&:first).each { |score| score.should > 0.0 }
-        results.map(&:first).each { |score| score.should < 1.0 }
-        results.map(&:first).uniq.should == results.map(&:first)
+        results.map(&:last).each { |score| score.class.should == Float }
+        results.map(&:last).each { |score| score.should > 0.0 }
+        results.map(&:last).each { |score| score.should < 1.0 }
+        results.map(&:last).uniq.should == results.map(&:last)
       end
 
       it "calls to_s on input" do
         index = FuzzyTools::TfIdfIndex.new(:source => 1..3)
-        index.all_with_scores(2).first.should == [1.0, 2]
+        index.all_with_scores(2).first.should == [2, 1.0]
       end
 
       it "returns an empty array if no results" do

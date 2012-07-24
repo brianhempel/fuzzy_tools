@@ -1,4 +1,4 @@
-# FuzzyTools
+# FuzzyTools [![Build Status](https://secure.travis-ci.org/brianhempel/fuzzy_tools.png)](http://travis-ci.org/brianhempel/fuzzy_tools)
 
 FuzzyTools is a toolset for fuzzy searches in Ruby. The default algorithm has been tuned for accuracy (and reasonable speed) on 23 different [test files](https://github.com/brianhempel/fuzzy_tools/tree/master/accuracy/test_data/query_tests) gathered from [many sources](https://github.com/brianhempel/fuzzy_tools/blob/master/accuracy/test_data/sources/SOURCES.txt).
 

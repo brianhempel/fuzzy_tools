@@ -120,7 +120,7 @@ FuzzyTools::TfIdfIndex.new(:source => books, :attribute => lambda { |book| book.
 
 ## Can it go faster?
 
-If you need to do multiple searches on the same collection, grab a fuzzy index with `my_collection.fuzzy_index` and do finds on that. The `fuzzy_find` and `fuzzy_find_all` methods on Enumerable reindex every time they are called.
+If you need to do multiple searches on the same collection, grab a fuzzy index with `my_collection.fuzzy_index` and do finds on that. The `fuzzy_find`, `fuzzy_find_all`, and `fuzzy_find_all_with_scores` methods on Enumerable reindex every time they are called.
 
 Here's a performance comparison:
 

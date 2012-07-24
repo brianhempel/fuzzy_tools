@@ -16,13 +16,16 @@ test_files = Dir[File.expand_path("../test_data/query_tests/*.csv", __FILE__)]
 test_file_results = []
 verbose           = false
 
-ENV['CPUPROFILE_REALTIME']      = "1"
-ENV['CPUPROFILE_FREQUENCY=500'] = "50" # default is 100
-require 'perftools'
-PerfTools::CpuProfiler.start("/tmp/fuzzy_tools_ruby_profile")
-at_exit do
-  PerfTools::CpuProfiler.stop
-  puts `pprof.rb --text /tmp/fuzzy_tools_ruby_profile`
+begin
+  ENV['CPUPROFILE_REALTIME']      = "1"
+  ENV['CPUPROFILE_FREQUENCY=500'] = "50" # default is 100
+  require 'perftools'
+  PerfTools::CpuProfiler.start("/tmp/fuzzy_tools_ruby_profile")
+  at_exit do
+    PerfTools::CpuProfiler.stop
+    puts `pprof.rb --text /tmp/fuzzy_tools_ruby_profile`
+  end
+rescue LoadError
 end
 
 total_time = Benchmark.realtime do

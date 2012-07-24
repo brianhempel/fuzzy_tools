@@ -6,11 +6,9 @@ Dir[File.expand_path('../performance/**/*.task', __FILE__)].each { |f| load f }
 
 task :default => :test
 
+require 'rspec/core/rake_task'
 desc "Run the tests"
-task :test do
-  require 'rspec'
-  RSpec::Core::Runner.run(["spec/"])
-end
+RSpec::Core::RakeTask.new(:test)
 
 desc "Launch an IRB session with the gem required"
 task :console do

@@ -74,6 +74,42 @@ describe Enumerable do
     end
   end
 
+  describe "#fuzzy_find_all_with_scores" do
+    it "works with simple query syntax" do
+      results = @books.fuzzy_find_all_with_scores("the")
+
+      results.map(&:first).should == [@ecclesiastes, @the_prodigal_god, @till_we_have_faces]
+      results.sort_by { |doc, score| -score }.should == results
+    end
+
+    it "works with :attribute => query syntax" do
+      results = @books.fuzzy_find_all_with_scores(:title => "the")
+
+      results.map(&:first).should == [@the_prodigal_god, @till_we_have_faces]
+      results.sort_by { |doc, score| -score }.should == results
+    end
+
+    context "passes :tokenizer through to the index" do
+      before(:each) { @letter_count_tokenizer = lambda { |str| str.size.to_s } }
+
+      it "passes :tokenizer through to the index with simple query syntax" do
+        FuzzyTools::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer)
+        begin
+          @books.fuzzy_find_all_with_scores("the", :tokenizer => @letter_count_tokenizer)
+        rescue
+        end
+      end
+
+      it "passes :tokenizer through to the index with :attribute => query syntax" do
+        FuzzyTools::TfIdfIndex.should_receive(:new).with(:source => @books, :tokenizer => @letter_count_tokenizer, :attribute => :title)
+        begin
+          @books.fuzzy_find_all_with_scores(:title => "the", :tokenizer => @letter_count_tokenizer)
+        rescue
+        end
+      end
+    end
+  end
+
   describe "#fuzzy_index" do
     it "returns an TfIdfIndex" do
       @books.fuzzy_index.class.should == FuzzyTools::TfIdfIndex

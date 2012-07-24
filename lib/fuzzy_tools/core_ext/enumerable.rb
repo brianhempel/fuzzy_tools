@@ -11,6 +11,11 @@ module Enumerable
     fuzzy_index(options).all(query)
   end
 
+  def fuzzy_find_all_with_scores(*args)
+    query, options = parse_fuzzy_finder_arguments(args)
+    fuzzy_index(options).all_with_scores(query)
+  end
+
   def fuzzy_index(options = {})
     options = options.merge(:source => self)
     FuzzyTools::TfIdfIndex.new(options)

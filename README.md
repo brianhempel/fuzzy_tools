@@ -41,6 +41,11 @@ FuzzyTools::TfIdfIndex.new(:source => books).all("the") # => ["The Prodigal God"
 
 # You can also get scored results, if you need
 
+books.fuzzy_find_all_with_scores("the") # =>
+# [
+#   ["The Prodigal God",   0.443175985397319 ],
+#   ["Till We Have Faces", 0.0102817553829306]
+# ]
 books.fuzzy_index.all_with_scores("the") # =>
 # [
 #   ["The Prodigal God",   0.443175985397319 ],
@@ -80,6 +85,7 @@ FuzzyTools::TfIdfIndex.new(:source => books, :attribute => :author).all("timmy")
 #   #<struct Book title="Ecclesiastes",     author="The Teacher">
 # ]
 
+books.fuzzy_find_all_with_scores(:author => "timmy")
 books.fuzzy_index(:attribute => :author).all_with_scores("timmy")
 FuzzyTools::TfIdfIndex.new(:source => books, :attribute => :author).all_with_scores("timmy")
 # =>

@@ -53,6 +53,8 @@ describe FuzzyTools::Helpers do
 
   describe ".soundex" do
     it "works" do
+      FuzzyTools::Helpers.soundex("").should            == "Z000"
+      FuzzyTools::Helpers.soundex("123").should         == "Z000"
       FuzzyTools::Helpers.soundex("Robert").should      == "R163"
       FuzzyTools::Helpers.soundex("Rubin").should       == "R150"
       FuzzyTools::Helpers.soundex("Washington").should  == "W252"

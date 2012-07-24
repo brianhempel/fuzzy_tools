@@ -1,14 +1,14 @@
 cscott	"http://www.infocom.net/~dsarkozi/gallery/chickade.htm"	Chickadee: Carolina   
 cscott	"http://www.infocom.net/~dsarkozi/gallery/incadove.htm"	Dove: Inca   
 cscott	"http://www.infocom.net/~dsarkozi/gallery/redegret.htm"	Egret: Reddish  Egretta rufescens    
-cscott	"http://www.infocom.net/~dsarkozi/gallery/grblue.htm"	Heron: Great blue (Grand HÅÈron)  Ardea herodias    
+cscott	"http://www.infocom.net/~dsarkozi/gallery/grblue.htm"	Heron: Great blue (Grand H√©ron)  Ardea herodias    
 cscott	"http://www.infocom.net/~dsarkozi/gallery/glossy.htm"	Ibis: Glossy   
 cscott	"http://www.infocom.net/~dsarkozi/gallery/whi-ibis.htm"	Ibis: White Ibis (Ibis blanc)  Eudocimus albus    
 cscott	"http://www.infocom.net/~dsarkozi/gallery/rckinglt.htm"	Kinglet: Ruby-crowned  Regulus calendula    
 cscott	"http://www.infocom.net/~dsarkozi/gallery/barnowl.htm"	Owl: Barn   
 cscott	"http://www.infocom.net/~dsarkozi/gallery/wilson.htm"	Plover: Wilson's   
 cscott	"http://www.infocom.net/~dsarkozi/gallery/avocet.htm"	Avocet, American (Avocette d'Amerique) :   Recurvirostra americana  
-cscott	"http://www.infocom.net/~dsarkozi/gallery/ambitter.htm"	Bittern, American (Butor d'AmÅÈrique) :   Botaurus lentiginosus 
+cscott	"http://www.infocom.net/~dsarkozi/gallery/ambitter.htm"	Bittern, American (Butor d'Am√©rique) :   Botaurus lentiginosus 
 cscott	"http://www.infocom.net/~dsarkozi/gallery/maskboob.htm"	Booby, Masked :  
 cscott	"http://www.infocom.net/~dsarkozi/gallery/purgalli.htm"	Gallinule, Purple :   Porphyrula martinica  
 cscott	"http://www.infocom.net/~dsarkozi/gallery/snipe.htm"	Snipe, Common  (Becassine des marais) :   Gallinago gallinago  

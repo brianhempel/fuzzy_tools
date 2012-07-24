@@ -1,14 +1,14 @@
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5100pi.jpg"	Blackbird: Brewer's  Euphagus cyanocephalus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7660pi.jpg"	Bluebird: Eastern  Sialia sialis    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7680pi.jpg"	Bluebird: Mountain  Sialia currucoides    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3880pi.jpg"	Cuckoo: Black-billed (Coulicou Å‡ bec noir)  Coccyzus erythropthalmus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3870pi.jpg"	Cuckoo: Yellow-billed (Coulicou Å‡ bec jaune)  Coccyzus americanus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3880pi.jpg"	Cuckoo: Black-billed (Coulicou √† bec noir)  Coccyzus erythropthalmus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3870pi.jpg"	Cuckoo: Yellow-billed (Coulicou √† bec jaune)  Coccyzus americanus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3160pi.jpg"	Dove: Mourning (Tourterelle triste)  Zenaida macroura    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3190pi.jpg"	Dove: White-winged (Tourterelle Å‡ ailes blanches)  Zenaida asiatica   
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1500pi.jpg"	Duck: Ring-necked (Fuligule Å‡ collier)  Aythya collaris    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3190pi.jpg"	Dove: White-winged (Tourterelle √† ailes blanches)  Zenaida asiatica   
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1500pi.jpg"	Duck: Ring-necked (Fuligule √† collier)  Aythya collaris    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1670pi.jpg"	Duck: Ruddy (Erismature rousse)  Oxyura jamaicensis    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1440pi.jpg"	Duck: Wood (Canard branchu)  Aix sponsa    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2001pi.jpg"	Egret: Cattle (HÅÈron garde-boeufs)  Bubulcus ibis   
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2001pi.jpg"	Egret: Cattle (H√©ron garde-boeufs)  Bubulcus ibis   
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1960pi.jpg"	Egret: Great (Grande Aigrette)  Casmerodius albus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1970pi.jpg"	Egret: Snowy (Aigrette niegeuse)  Egretta thula    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5180pi.jpg"	Finch: Cassin's  Carpodacus cassinii    
@@ -16,22 +16,22 @@ bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5190pi.jpg"	Finch: House (Roselin
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4130pi.jpg"	Flicker: Red-shafted  Colaptes cafer    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4120pi.jpg"	Flicker: Yellow-shafted (Pic flamboyant)  Colaptes auratus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4520pi.jpg"	Flycatcher: Great crested  Myiarchus crinitus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4670pi.jpg"	Flycatcher: Least (Moucherolle tchÅÈbec)  Empidonax minimus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4630pi.jpg"	Flycatcher: Yellow-bellied (Moucherolle Å‡ ventre jaune)  Empidonax flaviventris   
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4670pi.jpg"	Flycatcher: Least (Moucherolle tch√©bec)  Empidonax minimus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4630pi.jpg"	Flycatcher: Yellow-bellied (Moucherolle √† ventre jaune)  Empidonax flaviventris   
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1520pi.jpg"	Goldeneye: Barrow's (Garrot de Barrow)  Bucephala islandica    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1510pi.jpg"	Goldeneye: Common (Garrot Å‡ oeil d'or)  Bucephala clangula   
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1510pi.jpg"	Goldeneye: Common (Garrot √† oeil d'or)  Bucephala clangula   
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1720pi.jpg"	Goose: Canada goose (Bernache du Canada)  Branta canadensis    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0030pi.jpg"	Grebe: Horned (GrÅËbe esclavon)  Podiceps auritus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0030pi.jpg"	Grebe: Horned (Gr√®be esclavon)  Podiceps auritus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5140pi.jpg"	Grosbeak: Evening  Coccothraustes vespertinus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5950pi.jpg"	Grosbeak: Rose-breasted (Cardinal Å‡ poitrine rose)  Pheucticus ludovicianus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5950pi.jpg"	Grosbeak: Rose-breasted (Cardinal √† poitrine rose)  Pheucticus ludovicianus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0600pi.jpg"	Gull: Bonaparte's (Mouette de Bonaparte)  Larus philadelphia    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0440pi.jpg"	Gull: Glaucous-winged  Larus glaucescens    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0470pi.jpg"	Gull: Great black-backed (GoÅÈland marin)  Larus marinus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0510pi.jpg"	Gull: Herring (GoÅÈland argentÅÈ)  Larus argentatus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0470pi.jpg"	Gull: Great black-backed (Go√©land marin)  Larus marinus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0510pi.jpg"	Gull: Herring (Go√©land argent√©)  Larus argentatus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0580pi.jpg"	Gull: Laughing (Mouette atricille)  Larus atricilla    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0540pi.jpg"	Gull: Ring-billed (GoÅÈland Å‡ bec cerclÅÈ)  Larus delawarensis    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3330pi.jpg"	Hawk: Cooper's (Å…pervier de Cooper)  Accipiter cooperii    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2010pi.jpg"	Heron: Green-backed (HÅÈron vert)  Butorides striatus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0540pi.jpg"	Gull: Ring-billed (Go√©land √† bec cercl√©)  Larus delawarensis    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3330pi.jpg"	Hawk: Cooper's (√âpervier de Cooper)  Accipiter cooperii    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2010pi.jpg"	Heron: Green-backed (H√©ron vert)  Butorides striatus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2000pi.jpg"	Heron: Little Blue (Aigrette bleue)  Egretta caerulea    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1840pi.jpg"	Ibis: White-faced  Plegadic chihi    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4770pi.jpg"	Jay: Blue (Geai bleu)  Cyanocitta cristata    
@@ -40,37 +40,37 @@ bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4780pi.jpg"	Jay: Steller's (Geai 
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7480pi.jpg"	Kinglet: Golden-crowned  Regulus satrapa    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7490pi.jpg"	Kinglet: Ruby-crowned  Regulus calendula    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5010pi.jpg"	Meadowlark: Eastern  Sturnella magna   
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1310pi.jpg"	Merganser: Hooded (Harle couronnÅÈ)  Lophodytes cucullatus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1300pi.jpg"	Merganser: Red-breasted (Harle huppÅÈ)  Mergus serrator    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7280pi.jpg"	Nuthatch: Red-breasted (Sittelle Å‡ poitrine rousse)  Sitta canadensis    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7270pi.jpg"	Nuthatch: White-breasted (Sittelle Å‡ poitrine blanche  Sitta carolinensis    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3680pi.jpg"	Owl: Barred (Chouette rayÅÈe)  Strix varia    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1310pi.jpg"	Merganser: Hooded (Harle couronn√©)  Lophodytes cucullatus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1300pi.jpg"	Merganser: Red-breasted (Harle hupp√©)  Mergus serrator    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7280pi.jpg"	Nuthatch: Red-breasted (Sittelle √† poitrine rousse)  Sitta canadensis    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7270pi.jpg"	Nuthatch: White-breasted (Sittelle √† poitrine blanche  Sitta carolinensis    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3680pi.jpg"	Owl: Barred (Chouette ray√©e)  Strix varia    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3780pi.jpg"	Owl: Burrowing (Cheveche des terriers)  Speotyto cunicularia    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3750pi.jpg"	Owl: Great horned (Grand-duc d'AmÅÈrique)  Bubo virginianus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3750pi.jpg"	Owl: Great horned (Grand-duc d'Am√©rique)  Bubo virginianus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3670pi.jpg"	Owl: Short-eared  Asio flammeus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2930pi.jpg"	Quail: Scaled  Callipepla squamata    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2940pi.jpg"	Quail: California  Callipepla californica    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2080pi.jpg"	Rail: King (Rale ÅÈlÅÈgant)  Rallus elegans    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2630pi.jpg"	Sandpiper: Spotted (Chevalier grivelÅÈ)  Actitis macularia    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5730pi.jpg"	Sparrow: Black-throated (Bruant Å‡ gorge noire)  Amphispiza bilineata    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2080pi.jpg"	Rail: King (Rale √©l√©gant)  Rallus elegans    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2630pi.jpg"	Sandpiper: Spotted (Chevalier grivel√©)  Actitis macularia    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5730pi.jpg"	Sparrow: Black-throated (Bruant √† gorge noire)  Amphispiza bilineata    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5600pi.jpg"	Sparrow: Chipping (Bruant familier)  Spizella passerina    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5630pi.jpg"	Sparrow: Field (Bruant des champs)  Spizella pusilla    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5460pi.jpg"	Sparrow: Grasshopper (Bruant sauterelle)  Ammodramus savannarum    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5520pi.jpg"	Sparrow: Lark (Bruant Å‡ joues marron)  Chondestes grammacus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5520pi.jpg"	Sparrow: Lark (Bruant √† joues marron)  Chondestes grammacus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5830pi.jpg"	Sparrow: Lincoln's (Bruant de Lincoln)  Melospiza lincolnii    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5420pi.jpg"	Sparrow: Savannah (Bruant des prÅÈs)  Passerculus sandwichensis    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5420pi.jpg"	Sparrow: Savannah (Bruant des pr√©s)  Passerculus sandwichensis    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5840pi.jpg"	Sparrow: Swamp (Bruant des marais)  Melospiza georgiana    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5400pi.jpg"	Sparrow: Vesper (Bruant vespÅÈral)  Pooecetes gramineus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5580pi.jpg"	Sparrow: White-throated (Bruant Å‡ gorge blanche)  Zonotrichia albicollis   
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5400pi.jpg"	Sparrow: Vesper (Bruant vesp√©ral)  Pooecetes gramineus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5580pi.jpg"	Sparrow: White-throated (Bruant √† gorge blanche)  Zonotrichia albicollis   
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6130pi.jpg"	Swallow: Barn (Hirondelle rustique)  Hirundo rustica    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6170pi.jpg"	Swallow: Northern Rough-winged (Hirondelle Å‡ ailes hÅÈrissÅÈes)  Stelgidopteryx serripennis    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1782pi.jpg"	Swan: Mute (Cygne tuberculÅÈ)  Cygnus olor    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6170pi.jpg"	Swallow: Northern Rough-winged (Hirondelle √† ailes h√©riss√©es)  Stelgidopteryx serripennis    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1782pi.jpg"	Swan: Mute (Cygne tubercul√©)  Cygnus olor    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6100pi.jpg"	Tanager: Summer  Piranga rubra    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6070pi.jpg"	Tanager: Western  Piranga ludoviciana    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1400pi.jpg"	Teal: Blue-winged (Sarcelle Å‡ ailes bleues)  Anas discors    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1400pi.jpg"	Teal: Blue-winged (Sarcelle √† ailes bleues)  Anas discors    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1410pi.jpg"	Teal: Cinnamon (Sarcelle cannelle)  Anas cyanoptera    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5921pi.jpg"	Towhee: Green-tailed towhee (Tohi Å‡ queue verte)  Pipilo chlorurus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5870pi.jpg"	Towhee: Spotted (Rufous-sided)(Tohi Å‡ flancs roux)  Pipilo erythrophthalmus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5921pi.jpg"	Towhee: Green-tailed towhee (Tohi √† queue verte)  Pipilo chlorurus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5870pi.jpg"	Towhee: Spotted (Rufous-sided)(Tohi √† flancs roux)  Pipilo erythrophthalmus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7570pi.jpg"	Thrush: Gray-cheeked  Catharus minimus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7590pi.jpg"	Thrush: Hermit  Catharus guttatus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7580pi.jpg"	Thrush: Swainson's  Catharus ustulatus    
@@ -80,39 +80,39 @@ bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6240pi.jpg"	Vireo: Red-eyed  Vire
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6290pi.jpg"	Vireo: Solitary  Vireo solitarius    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6310pi.jpg"	Vireo: White-eyed vireo   Vireo griseus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3260pi.jpg"	Vulture: Black (Urubu noir)  Coragyps atratus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3250pi.jpg"	Vulture: Turkey (Urubu Å‡ tete rouge)  Cathartes aura    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3250pi.jpg"	Vulture: Turkey (Urubu √† tete rouge)  Cathartes aura    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6360pi.jpg"	Warbler: Black-&-white (Paruline noir et blanc)  Mniotilta varia    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6620pi.jpg"	Warbler: Blackburnian warbler (Paruline Å‡ gorge orangÅÈe)  Dendroica fusca   
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6610pi.jpg"	Warbler: Blackpoll (Paruline rayÅÈe)  Dendroica striata    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6670pi.jpg"	Warbler: Black-throated green (Paruline Å‡ gorge noire)  Dendroica virens   
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6410pi.jpg"	Warbler: Blue-winged (Paruline Å‡ ailes bleues)  Vermivora pinus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6620pi.jpg"	Warbler: Blackburnian warbler (Paruline √† gorge orang√©e)  Dendroica fusca   
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6610pi.jpg"	Warbler: Blackpoll (Paruline ray√©e)  Dendroica striata    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6670pi.jpg"	Warbler: Black-throated green (Paruline √† gorge noire)  Dendroica virens   
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6410pi.jpg"	Warbler: Blue-winged (Paruline √† ailes bleues)  Vermivora pinus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6860pi.jpg"	Warbler: Canada (Paruline du Canada)  Wilsonia canadensis    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6590pi.jpg"	Warbler: Chestnut-sided (Paruline Å‡ flancs marron)  Dendroica pensylvanica   
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6780pi.jpg"	Warbler: Connecticut (Paruline Å‡ gorge grise)  Oporornis agilis    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6420pi.jpg"	Warbler: Golden-winged (Paruline Å‡ ailes dorÅÈes)  Vermivora chrysoptera    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6840pi.jpg"	Warbler: Hooded (Paruline Å‡ capuchon)  Wilsonia citrina    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6590pi.jpg"	Warbler: Chestnut-sided (Paruline √† flancs marron)  Dendroica pensylvanica   
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6780pi.jpg"	Warbler: Connecticut (Paruline √† gorge grise)  Oporornis agilis    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6420pi.jpg"	Warbler: Golden-winged (Paruline √† ailes dor√©es)  Vermivora chrysoptera    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6840pi.jpg"	Warbler: Hooded (Paruline √† capuchon)  Wilsonia citrina    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6770pi.jpg"	Warbler: Kentucky (Paruline du Kentucky)  Oporornis formosus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6570pi.jpg"	Warbler: Magnolia warbler (Paruline Å‡ tÅÍte cendreÅÈ)  Dendroica magnolia    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6570pi.jpg"	Warbler: Magnolia warbler (Paruline √† t√™te cendre√©)  Dendroica magnolia    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6790pi.jpg"	Warbler: Mourning (Paruline triste)  Oporornis philadelphia    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6450pi.jpg"	Warbler: Nashville (Paruline Å‡ joues grises)  Vermivora ruficapilla    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6730pi.jpg"	Warbler: Prairie (Paruline des prÅËs)  Dendroica discolor    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6450pi.jpg"	Warbler: Nashville (Paruline √† joues grises)  Vermivora ruficapilla    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6730pi.jpg"	Warbler: Prairie (Paruline des pr√®s)  Dendroica discolor    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6470pi.jpg"	Warbler: Tennessee (Paruline obscure)  Vermivora peregrina    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6850pi.jpg"	Warbler: Wilson's (Paruline Å‡ calotte noire)  Wilsonia pusilla    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6850pi.jpg"	Warbler: Wilson's (Paruline √† calotte noire)  Wilsonia pusilla    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6390pi.jpg"	Warbler: Worm-eating (Paruline vermivore)  Helmitheros vermivorus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6520pi.jpg"	Warbler: Yellow (Paruline jaune)  Dendroica petechia    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6550pi.jpg"	Warbler: Yellow-rumped (Paruline Å‡ croupion jaune (est))  Dendroica coronata   
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6630pi.jpg"	Warbler: Yellow-throated (Paruline Å‡ gorge jaune)  Dendroica dominica    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6550pi.jpg"	Warbler: Yellow-rumped (Paruline √† croupion jaune (est))  Dendroica coronata   
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6630pi.jpg"	Warbler: Yellow-throated (Paruline √† gorge jaune)  Dendroica dominica    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6750pi.jpg"	Waterthrush: Northern (Paruline des ruisseaux)  Seiurus noveboracensis    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6760pi.jpg"	Waterthrush: Louisiana (Paruline hochequeue)  Seiurus motacilla    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3940pi.jpg"	Woodpecker: Downy (Pic mineur)  Picoides pubescens    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4110pi.jpg"	Woodpecker: Gila  Melanerpes uropygialis    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4050pi.jpg"	Woodpecker: Pileated (Grand Pic)  Dryocopus pileatus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4090pi.jpg"	Woodpecker: Red-bellied (Pic Å‡ ventre roux)  Melanerpes carolinus    
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4060pi.jpg"	Woodpecker: Red-headed (Pic Å‡ tete rouge)  Melanerpes erythrocephalus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4090pi.jpg"	Woodpecker: Red-bellied (Pic √† ventre roux)  Melanerpes carolinus    
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4060pi.jpg"	Woodpecker: Red-headed (Pic √† tete rouge)  Melanerpes erythrocephalus    
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2250pi.jpg"	Avocet, American (Avocette d'Amerique) :   Recurvirostra americana  
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1900pi.jpg"	Bittern, American (Butor d'AmÅÈrique) :   Botaurus lentiginosus 
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1900pi.jpg"	Bittern, American (Butor d'Am√©rique) :   Botaurus lentiginosus 
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5980pi.jpg"	Bunting, Indigo (Passerin indigo) :   Passerina cyanea  
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1470pi.jpg"	Canvasback (Fuligule Å‡ dos blanc) :   Aythya valisineria  
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1470pi.jpg"	Canvasback (Fuligule √† dos blanc) :   Aythya valisineria  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3620pi.jpg"	Caracara, Crested :   Caracara plancus  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5930pi.jpg"	Cardinal, Northern (Cardinal rouge) :   Cardinalis cardinalis  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4160pi.jpg"	Chuck-will's-widow (Engouvelent de Caroline) :   Caprimulgus carolinensis  
@@ -124,34 +124,34 @@ bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2180pi.jpg"	Gallinule, Purple :  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7510pi.jpg"	Gnatcatcher, Blue-gray :   Polioptila caerulea  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3340pi.jpg"	Goshawk, Northern (Autour des palombes) :   Accipiter gentilis  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3090pi.jpg"	Grouse, Sage :   Centrocercus urophasianus  
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3600pi.jpg"	Kestrel, American (CrÅÈcerelle d'AmÅÈrique) :   Falco sparverius 
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3600pi.jpg"	Kestrel, American (Cr√©cerelle d'Am√©rique) :   Falco sparverius 
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2730pi.jpg"	Killdeer (Pluvier kildir) :   Charadrius vociferus 
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6110pi.jpg"	Purple martin (Hirondelle noire) :   Progne subis  
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3570pi.jpg"	Merlin (Faucon ÅÈmerillon) :   Falco columbarius  
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3570pi.jpg"	Merlin (Faucon √©merillon) :   Falco columbarius  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2190pi.jpg"	Moorhen, Common (Gallinule poule-d'eau) :   Gallinula chloropus  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4910pi.jpg"	Nutcracker, Clark's :   Nucifraga columbiana 
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6740pi.jpg"	Ovenbird (Paruline couronnÅÈe) :   Seiurus aurocapillus  
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6740pi.jpg"	Ovenbird (Paruline couronn√©e) :   Seiurus aurocapillus  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5060pi.jpg"	Oriole, Orchard :   Icterus spurius  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3640pi.jpg"	Osprey (Balbuzard pecheur) :   Pandion haliaetus  
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6480pi.jpg"	Parula, Northern (Paruline Å‡ collier) :   Parula americana  
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6480pi.jpg"	Parula, Northern (Paruline √† collier) :   Parula americana  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3091pi.jpg"	Pheasant, Ring-necked (Faisan de Colchide) :   Phasianus colchicus  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3050pi.jpg"	Prairie-chicken, Greater :   Tympanuchus cupido  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5940pi.jpg"	Pyrrhuloxia :   Cardinalis sinuatus  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h5280pi.jpg"	Redpoll, Common :   Carduelis flammea  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6870pi.jpg"	Redstart, American (Paruline flamboyante) :   Setophaga ruticilla  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3850pi.jpg"	Roadrunner, Greater :   Geococcyx californianus 
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7610pi.jpg"	Robin, American (Merle d'AmÅÈrique) :   Turdus migratorius  
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4020pi.jpg"	Sapsucker, Yellow-bellied (Pic maculÅÈ) :   Sphyrapicus varius  
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7610pi.jpg"	Robin, American (Merle d'Am√©rique) :   Turdus migratorius  
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4020pi.jpg"	Sapsucker, Yellow-bellied (Pic macul√©) :   Sphyrapicus varius  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1490pi.jpg"	Scaup, Lesser (Petit Fuligule) :   Aythya affinis  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2260pi.jpg"	Stilt, Black-necked :   Himantopus mexicanus  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1880pi.jpg"	Stork, Wood :   Mycteria americana  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0700pi.jpg"	Tern, Common (Sterne pierregarin) :   Sterna hirundo  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h3100pi.jpg"	Turkey, Wild (Dindon sauvage) :   Meleagris gallopavo  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h7560pi.jpg"	Veery :   Catharus fuscescens  
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6190pi.jpg"	Waxwing, Cedar (Jaseur d'AmÅÈrique) :   Bombycilla cedrorum  
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h6190pi.jpg"	Waxwing, Cedar (Jaseur d'Am√©rique) :   Bombycilla cedrorum  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h4170pi.jpg"	Whip-poor-will (Engoulevent bois-pourri) :   Caprimulgus vociferus  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h1770pi.jpg"	Dendrocygna autumnalis  :  
-bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2580pi.jpg"	Willet (Chevalier semipalmÅÈ):   Catoptrophorus semipalmatus  
+bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2580pi.jpg"	Willet (Chevalier semipalm√©):   Catoptrophorus semipalmatus  
 bscott	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h2280pi.jpg"	Woodcock, American :  
 mbrimg	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0110pi.jpg"	Red-throated Loon Gavia stellata  
 mbrimg	"http://www.mbr-pwrc.usgs.gov/id/htmsl/h0100pi.jpg"	Pacific Loon Gavia pacifica  

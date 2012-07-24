@@ -90,7 +90,7 @@ unknown	ID45	Mr. Andrew Bell, Newman Scholar
 unknown	ID45	Bell, Andrew
 unknown	ID46	Bennett, Don
 unknown	ID47	Ms. Orla Benson, Alumni and Special Events Manager
-unknown	ID48	Benson, Ciar·n
+unknown	ID48	Benson, Ciar√°n
 unknown	ID49	Benson, Orla
 unknown	ID50	Mr. James Bergeron
 unknown	ID51	Bergeron, James
@@ -115,9 +115,9 @@ unknown	ID69	Birkbeck, Gail
 unknown	ID70	Ms. Rebecca Birkel, Library Assistant
 unknown	ID71	Birkel, Rebecca
 unknown	ID72	Dr. D.A. Birmingham
-unknown	ID73	Ms. NÛra Birmingham
+unknown	ID73	Ms. N√≥ra Birmingham
 unknown	ID74	Birmingham, D.A.
-unknown	ID75	Birmingham, NÛra
+unknown	ID75	Birmingham, N√≥ra
 unknown	ID76	Mr. John Bissett
 unknown	ID77	Mr. John Bissett
 unknown	ID78	Bissett, John
@@ -125,8 +125,8 @@ unknown	ID79	Mr. Oliver Blacque
 unknown	ID80	Blacque, Oliver
 unknown	ID81	Ms. Maria Blair (a.m.)
 unknown	ID82	Ms. Maria Blair (p.m.)
-unknown	ID83	Ms Gr·inne Blair, Administrator
-unknown	ID84	Blair, Gr·inne
+unknown	ID83	Ms Gr√°inne Blair, Administrator
+unknown	ID84	Blair, Gr√°inne
 unknown	ID85	Blair, Maria
 unknown	ID86	Mr. Brendan Blake (Mechanical)
 unknown	ID87	Ms. Catherine Blake
@@ -141,9 +141,9 @@ unknown	ID95	Dr Majda Bne Saad
 unknown	ID96	Dr. Majda Bne Saad
 unknown	ID97	Bne Saad, Majda
 unknown	ID98	Mr. Olive Bodley
-unknown	ID99	Professor SeÛirse Bodley
+unknown	ID99	Professor Se√≥irse Bodley
 unknown	ID100	Bodley, Olive
-unknown	ID101	Bodley, SeÛirse
+unknown	ID101	Bodley, Se√≥irse
 unknown	ID102	Ms. Edel Bohan
 unknown	ID103	Bohan, Edel
 unknown	ID104	Ms. Clara Boland
@@ -155,9 +155,9 @@ unknown	ID109	Boland, Nicola
 unknown	ID110	Boland, Philip J.
 unknown	ID111	Dr. Thomas Bolger
 unknown	ID112	Ms. Vera Bolger
-unknown	ID113	Ms. MairÈad Bolger, Senior Executive Assistant
+unknown	ID113	Ms. Mair√©ad Bolger, Senior Executive Assistant
 unknown	ID114	Ms. Marie Bolger, Assistant Librarian I
-unknown	ID115	Bolger, MairÈad
+unknown	ID115	Bolger, Mair√©ad
 unknown	ID116	Bolger, Marie
 unknown	ID117	Bolger, Thomas
 unknown	ID118	Bolger, Vera
@@ -270,10 +270,10 @@ unknown	ID224	Brazil, Keith
 unknown	ID225	Brazil, Thomas J.
 unknown	ID226	Mr. Ruaidhri Breathnach
 unknown	ID227	Breathnach, Ruaidhri
-unknown	ID228	Dr. CaoimhÌn Breatnach
-unknown	ID229	Professor P·draig A. Breatnach
-unknown	ID230	Breatnach, CaoimhÌn
-unknown	ID231	Breatnach, P·draig A.
+unknown	ID228	Dr. Caoimh√≠n Breatnach
+unknown	ID229	Professor P√°draig A. Breatnach
+unknown	ID230	Breatnach, Caoimh√≠n
+unknown	ID231	Breatnach, P√°draig A.
 unknown	ID232	Marta Bredican
 unknown	ID233	Bredican, Marta
 unknown	ID234	Dr. Ciaran Breen
@@ -292,7 +292,7 @@ unknown	ID246	Dr. Niamh Brennan
 unknown	ID247	Dr. Niamh Brennan
 unknown	ID248	Eddie Brennan
 unknown	ID249	Mr. Patrick Brennan
-unknown	ID250	Mr. Se·n Brennan
+unknown	ID250	Mr. Se√°n Brennan
 unknown	ID251	Ms. Jean Brennan
 unknown	ID252	Ms. Pauline Brennan
 unknown	ID253	Mr. Paddy Brennan, Library Services Officer (Bleep 52155)
@@ -307,7 +307,7 @@ unknown	ID261	Brennan, Paddy
 unknown	ID262	Brennan, Patrick
 unknown	ID263	Brennan, Patrick
 unknown	ID264	Brennan, Pauline
-unknown	ID265	Brennan, Se·n
+unknown	ID265	Brennan, Se√°n
 unknown	ID266	Dr. Ann C. Breslin
 unknown	ID267	Dr. John Breslin
 unknown	ID268	Stephen Breslin
@@ -401,8 +401,8 @@ unknown	ID355	Ms. Mary Buckley, Administrative Officer
 unknown	ID356	Ms. Mary Buckley, Administrative Officer
 unknown	ID357	Buckley, Mary
 unknown	ID358	Buckley, T.
-unknown	ID359	Dr. M·ire Buffet
-unknown	ID360	Buffet, M·ire
+unknown	ID359	Dr. M√°ire Buffet
+unknown	ID360	Buffet, M√°ire
 unknown	ID361	Ms. Yvonne Buggy, Doctoral
 unknown	ID362	Buggy, Yvonne
 unknown	ID363	Dr. Stuart Bund
@@ -411,7 +411,7 @@ unknown	ID365	Ms. Marie Bur ke, Head of Department
 unknown	ID366	Ms. Carol Burgess
 unknown	ID367	Burgess, Carol
 unknown	ID368	David Burke
-unknown	ID369	Dr. RÛisÌn Burke
+unknown	ID369	Dr. R√≥is√≠n Burke
 unknown	ID370	Dr. Teresa Burke
 unknown	ID371	Mr. Tom Burke
 unknown	ID372	Ms. Anne Burke
@@ -427,7 +427,7 @@ unknown	ID381	Burke, Marie
 unknown	ID382	Burke, Mary
 unknown	ID383	Burke, Noel A.
 unknown	ID384	Burke, Robert P.
-unknown	ID385	Burke, RÛisin
+unknown	ID385	Burke, R√≥isin
 unknown	ID386	Burke, Teresa
 unknown	ID387	Burke, Tom
 unknown	ID388	Ms. Gwen Burns, Assistant Librarian II
@@ -593,7 +593,7 @@ unknown	ID547	Dr. Arthur Cater
 unknown	ID548	Professor Kevin J. Cathcart
 unknown	ID549	Ms. Mary Catherine Lucey
 unknown	ID550	Rev.Kieran McDermott, Catholic Chaplain
-unknown	ID551	Professor SÈamas Û Cath·in
+unknown	ID551	Professor S√©amas √≥ Cath√°in
 unknown	ID552	Mr. Brian Caulfeld
 unknown	ID553	Seamas Caulfield
 unknown	ID554	Ms. Claire Cave
@@ -606,7 +606,7 @@ unknown	ID560	Gary Chapman
 unknown	ID561	Mr. Cedric Chau
 unknown	ID562	Mr. Raymond Chawla
 unknown	ID563	Mr. D. Chew
-unknown	ID564	NÌ Chonaola, An Teanglann
+unknown	ID564	N√≠ Chonaola, An Teanglann
 unknown	ID565	Mr. Myles Christian (Photography)
 unknown	ID566	Mr. Myles Christian, C.A.D. Room
 unknown	ID567	Dr. James Christie
@@ -672,7 +672,7 @@ unknown	ID626	Dr. Patrick Coleman, Special Lecturer
 unknown	ID627	Mr. Gareth Colgan
 unknown	ID628	Mr. Shane Colgan
 unknown	ID629	Ms. Marian Coll
-unknown	ID630	Ms. M·irÌn Colleary, Marketing
+unknown	ID630	Ms. M√°ir√≠n Colleary, Marketing
 unknown	ID631	Mr. John Collier
 unknown	ID632	Mr. Rem Collier
 unknown	ID633	Mr. John Colligan
@@ -698,7 +698,7 @@ unknown	ID652	Mr. Kevin Conboy
 unknown	ID653	Ms. Lisa Conboy
 unknown	ID654	Ms. Lisa Conboy
 unknown	ID655	Mr. John Conboy, Technician
-unknown	ID656	Mr SÈan Condon
+unknown	ID656	Mr S√©an Condon
 unknown	ID657	Mr. Sean Condon
 unknown	ID658	Mr. Peter Condron
 unknown	ID659	Mr. John conlan, Internal Auditor
@@ -727,7 +727,7 @@ unknown	ID681	Professor Frank J. Convery
 unknown	ID682	Professor Frank J. Convery, Director
 unknown	ID683	Mr Leon Conway
 unknown	ID684	Mr. James Conway
-unknown	ID685	Dr. P·draic Conway, Director of Development
+unknown	ID685	Dr. P√°draic Conway, Director of Development
 unknown	ID686	Mr Leon Conway, Director
 unknown	ID687	Mr. Leon Conway, Producer in Residence
 unknown	ID688	Mr. Leon Conway, Producer in Residence. (Fax #: 706 8684)
@@ -850,7 +850,7 @@ unknown	ID804	Ms. Neasa Curran
 unknown	ID805	Shane Curran
 unknown	ID806	Ms. Deirdre Curran, Secretary
 unknown	ID807	Ms. Jenny Curran, Library Assistant
-unknown	ID808	Mr. Miche·l Û Curraoin, Secretary
+unknown	ID808	Mr. Miche√°l √≥ Curraoin, Secretary
 unknown	ID809	Michael Curry
 unknown	ID810	Ms. Tara Cusack
 unknown	ID811	Dr. Denis A. Cusack,Director
@@ -1000,8 +1000,8 @@ unknown	ID954	Dillon, Enda
 unknown	ID955	Dillon, Frank
 unknown	ID956	Dillon, Jody
 unknown	ID957	Dillon, Sara
-unknown	ID958	Professor Se·n Dineen
-unknown	ID959	Dineen, Se·n
+unknown	ID958	Professor Se√°n Dineen
+unknown	ID959	Dineen, Se√°n
 unknown	ID960	Brendan Dixon
 unknown	ID961	Ms. Blanaid Dixon
 unknown	ID962	Mr. Sean Dixon, Events and Track
@@ -1039,7 +1039,7 @@ unknown	ID993	Doherty, John
 unknown	ID994	Doherty, Michael
 unknown	ID995	Doherty, Simon
 unknown	ID996	Doherty, Yvonne
-unknown	ID997	Doherty, ·ine
+unknown	ID997	Doherty, √°ine
 unknown	ID998	Ms. Sylvia Dolan
 unknown	ID999	Ms. Sylvia Dolan
 unknown	ID1000	Ms. Sylvia Dolan
@@ -1085,8 +1085,8 @@ unknown	ID1039	Juliet Doran
 unknown	ID1040	Doran, Juliet
 unknown	ID1041	Dr. Martin A. Dore
 unknown	ID1042	Dore, Michael A.
-unknown	ID1043	Mr. SÈan Dorgan, Programme Manager
-unknown	ID1044	Dorgan, Se·n
+unknown	ID1043	Mr. S√©an Dorgan, Programme Manager
+unknown	ID1044	Dorgan, Se√°n
 unknown	ID1045	Ms. Fiona Doris
 unknown	ID1046	Doris, Fiona
 unknown	ID1047	Ms. Maureen Dornan, Senior Executive Assistant
@@ -1129,7 +1129,7 @@ unknown	ID1083	Dr. Gerard J. Doyle, Dean
 unknown	ID1084	Mr. Brian Doyle, Library Attendant
 unknown	ID1085	Mr. Noel Doyle, Barman
 unknown	ID1086	Mrs. Marie Doyle, Secretary
-unknown	ID1087	M·ire Doyle, Administrator
+unknown	ID1087	M√°ire Doyle, Administrator
 unknown	ID1088	Doyle, Brian
 unknown	ID1089	Doyle, David
 unknown	ID1090	Doyle, Deirdre
@@ -1141,7 +1141,7 @@ unknown	ID1095	Doyle, Karen
 unknown	ID1096	Doyle, Kevin
 unknown	ID1097	Doyle, Marie
 unknown	ID1098	Doyle, Melanie
-unknown	ID1099	Doyle, M·ire
+unknown	ID1099	Doyle, M√°ire
 unknown	ID1100	Doyle, Noel
 unknown	ID1101	Doyle, Owen
 unknown	ID1102	Doyle, Owen
@@ -1239,19 +1239,19 @@ unknown	ID1193	Ms. Roisin Dwyer
 unknown	ID1194	Ms. Roisin Dwyer, Doctoral Student
 unknown	ID1195	Dwyer, Roisin
 unknown	ID1196	Dwyer, Roisin
-unknown	ID1197	Mr. Èamonn Û DÛnaill, An Teanglann
+unknown	ID1197	Mr. √©amonn √≥ D√≥naill, An Teanglann
 unknown	ID1198	Dr. W. Earle Waghorne
 unknown	ID1199	Dr. W. Earle Waghorne, Director
 unknown	ID1200	Dr. W. Earle Waghorne, Director
 unknown	ID1201	Dr. Carl Egan
 unknown	ID1202	Mr. Fergal Egan
-unknown	ID1203	Ms. MairÈad Egan
+unknown	ID1203	Ms. Mair√©ad Egan
 unknown	ID1204	Ms. Suzanne Egan
 unknown	ID1205	Ms. Olivia Egan, Senior Executive Assistant
 unknown	ID1206	Egan, Carl
 unknown	ID1207	Egan, Damian
 unknown	ID1208	Egan, Fergal
-unknown	ID1209	Egan, MairÈad
+unknown	ID1209	Egan, Mair√©ad
 unknown	ID1210	Egan, Olivia
 unknown	ID1211	Egan, Suzanne
 unknown	ID1212	Mr. Tony Eklof, Assistant Librarian I
@@ -1343,7 +1343,7 @@ unknown	ID1297	Tom Farrell
 unknown	ID1298	Farrell, Ann
 unknown	ID1299	Farrell, Annette
 unknown	ID1300	Farrell, Catherine
-unknown	ID1301	Farrell, ClÌona
+unknown	ID1301	Farrell, Cl√≠ona
 unknown	ID1302	Farrell, Edward P.
 unknown	ID1303	Farrell, Mary
 unknown	ID1304	Farrell, Naomi
@@ -1515,8 +1515,8 @@ unknown	ID1469	Flynn, Mary
 unknown	ID1470	Flynn, Meadhbh
 unknown	ID1471	Flynn, Paul
 unknown	ID1472	Flynn, Seamus
-unknown	ID1473	Mr. Torsten Fl¸h
-unknown	ID1474	Fl¸h, Torsten
+unknown	ID1473	Mr. Torsten Fl√ºh
+unknown	ID1474	Fl√ºh, Torsten
 unknown	ID1475	Mr. Giuseppe Foffi
 unknown	ID1476	Foffi, Giuseppe
 unknown	ID1477	Dr. Anne Fogarty
@@ -1638,16 +1638,16 @@ unknown	ID1592	Gallagher, Patrick
 unknown	ID1593	Gallagher, Ruth
 unknown	ID1594	Gallagher, Thomas J.
 unknown	ID1595	Gallagher, Tommy
-unknown	ID1596	Dr. Cliona Û Gallchoir
+unknown	ID1596	Dr. Cliona √≥ Gallchoir
 unknown	ID1597	Dr Conor Galvin
 unknown	ID1598	Mr. Conor Galvin
-unknown	ID1599	Ms. Siobh·n Galvin, Executive Assistant
-unknown	ID1600	Ms. ·ine Galvin, Co-ordinator
-unknown	ID1601	Ms. ·ine Galvin, New ERA Programme Co-ordinator
+unknown	ID1599	Ms. Siobh√°n Galvin, Executive Assistant
+unknown	ID1600	Ms. √°ine Galvin, Co-ordinator
+unknown	ID1601	Ms. √°ine Galvin, New ERA Programme Co-ordinator
 unknown	ID1602	Galvin, Conor
 unknown	ID1603	Galvin, Conor
 unknown	ID1604	Galvin, Siobhan
-unknown	ID1605	Galvin, ·ine
+unknown	ID1605	Galvin, √°ine
 unknown	ID1606	Mr. Martin Gammell
 unknown	ID1607	Gammell, Martin
 unknown	ID1608	Ms. Barbara Gannon, Senior Executive Assistant
@@ -1655,9 +1655,9 @@ unknown	ID1609	Ms. Barbara Gannon, Senior Executive Assistant
 unknown	ID1610	Gannon, Barbara
 unknown	ID1611	Ms. Colette Gantly, Executive Assistant
 unknown	ID1612	Gantly, Colette
-unknown	ID1613	Ms ˙na Garahy, Course Director
-unknown	ID1614	Ms. ˙na Garahy, Course Director
-unknown	ID1615	Garahy, ⁄na
+unknown	ID1613	Ms √∫na Garahy, Course Director
+unknown	ID1614	Ms. √∫na Garahy, Course Director
+unknown	ID1615	Garahy, √öna
 unknown	ID1616	Stephen J. Gardiner
 unknown	ID1617	Gardiner, John J.
 unknown	ID1618	Gardiner, Stephen J.
@@ -1719,9 +1719,9 @@ unknown	ID1673	Mr. Aidan Gibson
 unknown	ID1674	Gibson, Aidan
 unknown	ID1675	Dr. Michael Gilchrist
 unknown	ID1676	Gilchrist, Michael
-unknown	ID1677	ShÈ Giles
-unknown	ID1678	ShÈ Giles
-unknown	ID1679	Giles, ShÈ
+unknown	ID1677	Sh√© Giles
+unknown	ID1678	Sh√© Giles
+unknown	ID1679	Giles, Sh√©
 unknown	ID1680	Dr. Declan Gilheany
 unknown	ID1681	Gilheany, Declan
 unknown	ID1682	Clare Gill
@@ -1847,16 +1847,16 @@ unknown	ID1801	Bernie Grummell
 unknown	ID1802	Ms. Bernie Grummell
 unknown	ID1803	Ms. Bernie Grummell
 unknown	ID1804	Grummell, Bernie
-unknown	ID1805	Professor Cormac Û Gr·da
+unknown	ID1805	Professor Cormac √≥ Gr√°da
 unknown	ID1806	Mr. Shane Guerin
 unknown	ID1807	Ms. Helen Guerin, Acting Director
 unknown	ID1808	Guerin, Helen
 unknown	ID1809	Guerin, Shane
 unknown	ID1810	Ms. Maeve Guilfoyle, Administrative Assistant
-unknown	ID1811	Ms. RÛisÌn Guilfoyle, Library Assistant
+unknown	ID1811	Ms. R√≥is√≠n Guilfoyle, Library Assistant
 unknown	ID1812	Ms. Valerie Guilfoyle, Secretary
 unknown	ID1813	Guilfoyle, Maeve
-unknown	ID1814	Guilfoyle, RÛisÌn
+unknown	ID1814	Guilfoyle, R√≥is√≠n
 unknown	ID1815	Guilfoyle, Valerie
 unknown	ID1816	Mr. Tom Guinan
 unknown	ID1817	Ms. Emma Guinan
@@ -1864,7 +1864,7 @@ unknown	ID1818	Guinan, Emma
 unknown	ID1819	Guinan, Tom
 unknown	ID1820	Dr. Patrick J. Guiry
 unknown	ID1821	Guiry, Patrick J.
-unknown	ID1822	Ms. Marion Gunn, Cartlann na gCan˙intÌ
+unknown	ID1822	Ms. Marion Gunn, Cartlann na gCan√∫int√≠
 unknown	ID1823	Gunn, Marion
 unknown	ID1824	Ms. Kate Gunning
 unknown	ID1825	Mr. Ross Hackett, Library Assistant
@@ -1921,9 +1921,9 @@ unknown	ID1875	Ms. Antoinette Hannon
 unknown	ID1876	Mr. Stephen Hannon, Technician
 unknown	ID1877	Hannon, Antoinette
 unknown	ID1878	Hannon, Stephen
-unknown	ID1879	Dr. MairÈad Hanrahan
+unknown	ID1879	Dr. Mair√©ad Hanrahan
 unknown	ID1880	Mr. Seamus Hanrahan
-unknown	ID1881	Hanrahan, MairÈad
+unknown	ID1881	Hanrahan, Mair√©ad
 unknown	ID1882	Hanrahan, Seamus
 unknown	ID1883	Dr. Gerald Hanratty
 unknown	ID1884	Hanratty, Gerald
@@ -2015,7 +2015,7 @@ unknown	ID1969	Dr. Christina Haywood
 unknown	ID1970	Dr. Eric Haywood
 unknown	ID1971	Haywood, Christina
 unknown	ID1972	Haywood, Eric
-unknown	ID1973	Mr. Ruairi Û Healai
+unknown	ID1973	Mr. Ruairi √≥ Healai
 unknown	ID1974	Dr. Brenda Healy
 unknown	ID1975	Dr. Edel Healy
 unknown	ID1976	Mr. Declan Healy
@@ -2067,12 +2067,12 @@ unknown	ID2021	Hennessy, Eilis
 unknown	ID2022	Hennessy, Jane
 unknown	ID2023	Hennessy, Maria
 unknown	ID2024	Hennessy, Mary
-unknown	ID2025	Ms. DÈirdre Hennigan, Secretary
-unknown	ID2026	Hennigan, DÈirdre
+unknown	ID2025	Ms. D√©irdre Hennigan, Secretary
+unknown	ID2026	Hennigan, D√©irdre
 unknown	ID2027	Professor Bernadette Herity
 unknown	ID2028	Professor Bernadette Herity, Head of Department
 unknown	ID2029	Herity, Bernadette
-unknown	ID2030	Hern·ndez, MarÌa Rosario
+unknown	ID2030	Hern√°ndez, Mar√≠a Rosario
 unknown	ID2031	Herron, Caroline
 unknown	ID2032	Dr. Herbert Herzmann
 unknown	ID2033	Herzmann, Herbert
@@ -2291,11 +2291,11 @@ unknown	ID2245	Jessop, Norma
 unknown	ID2246	Mr. Frixos Joannides
 unknown	ID2247	Joannides, Frixos
 unknown	ID2248	Professor Francis John Byrne, Head of Department
-unknown	ID2249	Mr. Èanna Johnson
-unknown	ID2250	Mr …anna Johnson, Director
-unknown	ID2251	Mr. Èanna Johnson, Director
+unknown	ID2249	Mr. √©anna Johnson
+unknown	ID2250	Mr √âanna Johnson, Director
+unknown	ID2251	Mr. √©anna Johnson, Director
 unknown	ID2252	Johnson, Anne
-unknown	ID2253	Johnson, Èanna
+unknown	ID2253	Johnson, √©anna
 unknown	ID2254	Dr. Philip Johnston
 unknown	ID2255	Ms. Mary Johnston
 unknown	ID2256	Johnston, Mary
@@ -2320,9 +2320,9 @@ unknown	ID2274	Jordan, Eamonn
 unknown	ID2275	Jordan, Mildred
 unknown	ID2276	Jordan, Ray
 unknown	ID2277	Dr. Patrick Joyce
-unknown	ID2278	Ms. RÛisin Joyce, Library Assistant
+unknown	ID2278	Ms. R√≥isin Joyce, Library Assistant
 unknown	ID2279	Joyce, Patrick
-unknown	ID2280	Joyce, RÛisÌn
+unknown	ID2280	Joyce, R√≥is√≠n
 unknown	ID2281	Mrs. Geraldine Kaminski
 unknown	ID2282	Kaminski, Geraldine
 unknown	ID2283	David Kane
@@ -2352,10 +2352,10 @@ unknown	ID2306	Ms. Tracy Kavanagh
 unknown	ID2307	Ms. Tracy Kavanagh
 unknown	ID2308	Dr. Rhoda Kavanagh, Department of Archaeology
 unknown	ID2309	Mr. Patrick Kavanagh, Library Attendant
-unknown	ID2310	Ms. BrÛna Kavanagh, Undergraduate Programmes Co-ordinator
+unknown	ID2310	Ms. Br√≥na Kavanagh, Undergraduate Programmes Co-ordinator
 unknown	ID2311	Ms. Louise Kavanagh, Library Assistant
 unknown	ID2312	Ms. Louise Kavanagh, Library Assistant
-unknown	ID2313	Kavanagh, BrÛna
+unknown	ID2313	Kavanagh, Br√≥na
 unknown	ID2314	Kavanagh, Celine
 unknown	ID2315	Kavanagh, Chris
 unknown	ID2316	Kavanagh, Deirdre
@@ -2402,8 +2402,8 @@ unknown	ID2356	Kearns, Helen
 unknown	ID2357	Kearns, Patrick
 unknown	ID2358	Ms. Roisin Keary
 unknown	ID2359	Ms. Roisin Keary
-unknown	ID2360	Ms. RÛisÌn Keary
-unknown	ID2361	Keary, RÛisÌn
+unknown	ID2360	Ms. R√≥is√≠n Keary
+unknown	ID2361	Keary, R√≥is√≠n
 unknown	ID2362	Dr. Paula Keating
 unknown	ID2363	Keating, Paula
 unknown	ID2364	Dr. Vera Keatings
@@ -2440,7 +2440,7 @@ unknown	ID2394	Kelleher, Siobhan
 unknown	ID2395	Mrs. Moyra Kellett (Office)
 unknown	ID2396	Ms. Deirdre Kellett
 unknown	ID2397	Kellett, Deirdre
-unknown	ID2398	Professor Catherine (RenÈe) Kelly
+unknown	ID2398	Professor Catherine (Ren√©e) Kelly
 unknown	ID2399	Dr Patricia Kelly
 unknown	ID2400	Dr. Dorothy Kelly
 unknown	ID2401	Dr. Eamonn P. Kelly
@@ -2476,7 +2476,7 @@ unknown	ID2430	Kelly, Anne
 unknown	ID2431	Kelly, Brian
 unknown	ID2432	Kelly, Brian
 unknown	ID2433	Kelly, Bridget
-unknown	ID2434	Kelly, Catherine (RenÈe)
+unknown	ID2434	Kelly, Catherine (Ren√©e)
 unknown	ID2435	Kelly, Dorothy
 unknown	ID2436	Kelly, Eamonn P.
 unknown	ID2437	Kelly, Eoin
@@ -2558,8 +2558,8 @@ unknown	ID2512	Keogh, Joseph
 unknown	ID2513	Keogh, Nora
 unknown	ID2514	Ms. Evelyn Keohane, Secretary
 unknown	ID2515	Keohane, Evelyn
-unknown	ID2516	Ms. SinÈad Kerins
-unknown	ID2517	Kerins, SinÈad
+unknown	ID2516	Ms. Sin√©ad Kerins
+unknown	ID2517	Kerins, Sin√©ad
 unknown	ID2518	Mr. Anthony Kerr
 unknown	ID2519	Mr. Paul J. Kerr
 unknown	ID2520	Ms. Ashling Kerr
@@ -2736,8 +2736,8 @@ unknown	ID2690	Ms. Cathy Leeney, Lecturer
 unknown	ID2691	Leeney, Cathy
 unknown	ID2692	Mr. Brendan Leeson, Technician - Photography
 unknown	ID2693	Leeson, Brendan
-unknown	ID2694	Ms. Isabelle LemÈe
-unknown	ID2695	LemÈe, Iasbelle
+unknown	ID2694	Ms. Isabelle Lem√©e
+unknown	ID2695	Lem√©e, Iasbelle
 unknown	ID2696	Ms. Brenda Lenehan, Student Health Centre
 unknown	ID2697	Lenehan, Brenda
 unknown	ID2698	Mr. Alexander Lennon
@@ -2786,7 +2786,7 @@ unknown	ID2740	Liston, Katie
 unknown	ID2741	Mr. Victor Litera
 unknown	ID2742	Litera, Victor
 unknown	ID2743	Little, Helga
-unknown	ID2744	Dr. Luis LiÛn-VintrÛ
+unknown	ID2744	Dr. Luis Li√≥n-Vintr√≥
 unknown	ID2745	Dr. Michael Lloyd
 unknown	ID2746	Lloyd, Michael
 unknown	ID2747	Ms. Anne Lodge, Research Assistant
@@ -2838,9 +2838,9 @@ unknown	ID2792	Mr. Nick Lumsden
 unknown	ID2793	Lumsden, Christine
 unknown	ID2794	Lumsden, Nick
 unknown	ID2795	Ms. Christine Lumsten
-unknown	ID2796	Dr. Francesca Lundstrˆm, Course Director
-unknown	ID2797	Dr. Francesca Lundstrˆm, Course Director
-unknown	ID2798	Lundstrˆm, Francesca
+unknown	ID2796	Dr. Francesca Lundstr√∂m, Course Director
+unknown	ID2797	Dr. Francesca Lundstr√∂m, Course Director
+unknown	ID2798	Lundstr√∂m, Francesca
 unknown	ID2799	Dr. Linda Lunney
 unknown	ID2800	Dr. Linde Lunney
 unknown	ID2801	Lunney, Linda
@@ -2891,31 +2891,31 @@ unknown	ID2845	Lyons, Kevin
 unknown	ID2846	Lyons, Maureen
 unknown	ID2847	Dr. Patricia Lysaght
 unknown	ID2848	Lysaght, Patricia
-unknown	ID2849	LÈon VintrÛ, Luis
+unknown	ID2849	L√©on Vintr√≥, Luis
 unknown	ID2850	Professor Dervilla M.X. Donnelly
 unknown	ID2851	Dr. Cormac Mac Fhionnlaoich
-unknown	ID2852	Mr. CrÌostÛir Mac C·rthaigh
-unknown	ID2853	Ms. Bernadette Mac Giolla Ph·draig, Administrative Officer
-unknown	ID2854	Ms. Bernadette Mac Giolla Ph·draig, Secretary
-unknown	ID2855	Ms. Bernadette Mac Giolla Ph·draig, Secretary
-unknown	ID2856	Ms. Bernadette Mac Giolla Ph·draig, Secretary
-unknown	ID2857	Mac C·rthaigh, CrÌostÛir
+unknown	ID2852	Mr. Cr√≠ost√≥ir Mac C√°rthaigh
+unknown	ID2853	Ms. Bernadette Mac Giolla Ph√°draig, Administrative Officer
+unknown	ID2854	Ms. Bernadette Mac Giolla Ph√°draig, Secretary
+unknown	ID2855	Ms. Bernadette Mac Giolla Ph√°draig, Secretary
+unknown	ID2856	Ms. Bernadette Mac Giolla Ph√°draig, Secretary
+unknown	ID2857	Mac C√°rthaigh, Cr√≠ost√≥ir
 unknown	ID2858	Mac Fhionnlaoich, Cormac
-unknown	ID2859	Mac Giolla Ph·draig, B.
-unknown	ID2860	Mac Si˙rt·in, M·irtÌn
+unknown	ID2859	Mac Giolla Ph√°draig, B.
+unknown	ID2860	Mac Si√∫rt√°in, M√°irt√≠n
 unknown	ID2861	Dr Margaret MacCurtain, Honorary Senior Research Fellow
 unknown	ID2862	MacCurtain, Margaret
 unknown	ID2863	Mr. Michael MacDonnell
 unknown	ID2864	Dr. J.M.D. MacElroy
 unknown	ID2865	MacElroy, J.M.D.
-unknown	ID2866	MacGiolla LÈith, CaoimhÌn
+unknown	ID2866	MacGiolla L√©ith, Caoimh√≠n
 unknown	ID2867	Ms. Fiona MacGowan
 unknown	ID2868	MacGowan, Fiona
 unknown	ID2869	Dr. P.F. MacLoughlin
 unknown	ID2870	MacLoughlin, P.F.
 unknown	ID2871	MacNicholas, Michael
-unknown	ID2872	Dr. Breand·n MacSuibhne, Arts Faculty Fellow
-unknown	ID2873	MacSuibhne, Breand·n
+unknown	ID2872	Dr. Breand√°n MacSuibhne, Arts Faculty Fellow
+unknown	ID2873	MacSuibhne, Breand√°n
 unknown	ID2874	Mr. Stephen MacWhite
 unknown	ID2875	MacWhite, Stephen
 unknown	ID2876	Dr. Jill Mackarel
@@ -2986,7 +2986,7 @@ unknown	ID2940	Ms. U. Mattenberger
 unknown	ID2941	Mr. Paddy Matthews
 unknown	ID2942	Ms. Kate Matthews
 unknown	ID2943	Professor Tom Matthews
-unknown	ID2944	Dr. VÈronique Mauduit
+unknown	ID2944	Dr. V√©ronique Mauduit
 unknown	ID2945	Mr Ian Maybury, Manager
 unknown	ID2946	Mr. Ian Maybury, Manager
 unknown	ID2947	Professor Stephen G. Mayhew
@@ -3020,7 +3020,7 @@ unknown	ID2974	Ms. Barbara-Anne McCabe, Senior Project Engineer
 unknown	ID2975	Ms. Barbara-Anne McCabe, Senior Project Engineer
 unknown	ID2976	McCabe, Barbara-Anne
 unknown	ID2977	McCabe, Olive
-unknown	ID2978	McCabe, Tom·s
+unknown	ID2978	McCabe, Tom√°s
 unknown	ID2979	McCabe, Vincent J.
 unknown	ID2980	Mr. John McCafferty
 unknown	ID2981	McCafferty, John
@@ -3205,7 +3205,7 @@ unknown	ID3159	McGinley, Ann
 unknown	ID3160	Dr. Ann McGinty, honorary College Lecturer
 unknown	ID3161	McGinty, Ann
 unknown	ID3162	Ms. Stella McGlynn
-unknown	ID3163	Ms. BrÛna McGlynn, Library Assistant
+unknown	ID3163	Ms. Br√≥na McGlynn, Library Assistant
 unknown	ID3164	McGlynn, Brona
 unknown	ID3165	McGlynn, Stella
 unknown	ID3166	Dr. Alo McGoldrick
@@ -3316,11 +3316,11 @@ unknown	ID3270	Dr. Ruth McMahon
 unknown	ID3271	Dr. Ruth McMahon
 unknown	ID3272	Mr. Kevin McMahon
 unknown	ID3273	Ms Breda McMahon
-unknown	ID3274	Ms. BlaithÌn McMahon
-unknown	ID3275	Ms. BlaithÌn McMahon
+unknown	ID3274	Ms. Blaith√≠n McMahon
+unknown	ID3275	Ms. Blaith√≠n McMahon
 unknown	ID3276	Ms. Ciara McMahon
 unknown	ID3277	Ms. Ruth McMahon
-unknown	ID3278	McMahon, BlaithÌn
+unknown	ID3278	McMahon, Blaith√≠n
 unknown	ID3279	McMahon, Breda
 unknown	ID3280	McMahon, Ciara
 unknown	ID3281	McMahon, Conor
@@ -3599,11 +3599,11 @@ unknown	ID3553	Dr. Philip Newsholme
 unknown	ID3554	Newsholme, Philip
 unknown	ID3555	Ms. Geraldine Neylan, Secretary
 unknown	ID3556	Neylan, Geraldine
-unknown	ID3557	Dr. M·ire Nic Ghiolla Ph·draig
-unknown	ID3558	Dr. M·ire Nic Ghiolla Ph·draig, Director
-unknown	ID3559	Dr. M·ire Nic Ghiolla Ph·draig, Lecturer
-unknown	ID3560	Dr. M·ire Nic Ghiolla Ph·draig, Lecturer
-unknown	ID3561	NicGhiolla Ph·draig, M·ire
+unknown	ID3557	Dr. M√°ire Nic Ghiolla Ph√°draig
+unknown	ID3558	Dr. M√°ire Nic Ghiolla Ph√°draig, Director
+unknown	ID3559	Dr. M√°ire Nic Ghiolla Ph√°draig, Lecturer
+unknown	ID3560	Dr. M√°ire Nic Ghiolla Ph√°draig, Lecturer
+unknown	ID3561	NicGhiolla Ph√°draig, M√°ire
 unknown	ID3562	Mr. A.J. Nichol, Administrator
 unknown	ID3563	Mr. Tony Nichol, Administrator, Student Residences
 unknown	ID3564	Nichol, Anthony
@@ -3650,62 +3650,62 @@ unknown	ID3604	Norton, Sue
 unknown	ID3605	Mr. Michael Nugent
 unknown	ID3606	Nugent, Michael
 unknown	ID3607	Fax Number: 283 0669
-unknown	ID3608	Dr. Gr·inne NÌ Dhomhnaill
-unknown	ID3609	Dr. MeidhbhÌn NÌ ˙rdail
-unknown	ID3610	Dr. M·ire NÌ Chios·in
-unknown	ID3611	Mrs. Sheila NÌ Cheallaigh
-unknown	ID3612	Ms. AilÌn NÌ Chonch˙ir
-unknown	ID3613	Ms. Bairbre NÌ Fhloinn
-unknown	ID3614	Ms. HonÛra NÌ ChrÌog·in, Administrative Officer
-unknown	ID3615	Ms. HonÛra NÌ ChrÌog·in, Faculty of Law
-unknown	ID3616	Ms. M·ire NÌ Chochl·in
-unknown	ID3617	Ms. Niamh NÌ Bhroin
-unknown	ID3618	Ms. Nollaig NÌ BhrÌain
-unknown	ID3619	Ms. NÛirÌn NÌ GhallachÛir, C˙ntÛir Teanglainne
-unknown	ID3620	Ms. Siobhan NÌ Cheallaigh
-unknown	ID3621	Professor PrÛinsÈas NÌ Chath·in
-unknown	ID3622	Professor PrÛinsÈas NÌ Chath·in, Acting Head of Department
-unknown	ID3623	NÌ Bhroin, Niamh
-unknown	ID3624	NÌ BhrÌain, Nollaig
-unknown	ID3625	NÌ Ceallaigh, SÌle
-unknown	ID3626	NÌ Chath·in, PrÛinsÈas
-unknown	ID3627	NÌ Cheallaigh, Sheila
-unknown	ID3628	NÌ Cheallaigh, Siobh·n
-unknown	ID3629	NÌ Chios·in, M·ire
-unknown	ID3630	NÌ Chochl·in, M·ire
-unknown	ID3631	NÌ Chonaola, LasairfhÌona
-unknown	ID3632	NÌ Chonch˙ir, AilÌn
-unknown	ID3633	NÌ ChrÌog·in, HonÛra
-unknown	ID3634	NÌ Dhomhnaill, Gr·inne
-unknown	ID3635	NÌ Dhubhain, ·ine
-unknown	ID3636	NÌ Fhloinn, Bairbre
-unknown	ID3637	NÌ GhallachÛir, NÛirin
-unknown	ID3638	NÌ ⁄rdail, MeidhbhÌn
+unknown	ID3608	Dr. Gr√°inne N√≠ Dhomhnaill
+unknown	ID3609	Dr. Meidhbh√≠n N√≠ √∫rdail
+unknown	ID3610	Dr. M√°ire N√≠ Chios√°in
+unknown	ID3611	Mrs. Sheila N√≠ Cheallaigh
+unknown	ID3612	Ms. Ail√≠n N√≠ Chonch√∫ir
+unknown	ID3613	Ms. Bairbre N√≠ Fhloinn
+unknown	ID3614	Ms. Hon√≥ra N√≠ Chr√≠og√°in, Administrative Officer
+unknown	ID3615	Ms. Hon√≥ra N√≠ Chr√≠og√°in, Faculty of Law
+unknown	ID3616	Ms. M√°ire N√≠ Chochl√°in
+unknown	ID3617	Ms. Niamh N√≠ Bhroin
+unknown	ID3618	Ms. Nollaig N√≠ Bhr√≠ain
+unknown	ID3619	Ms. N√≥ir√≠n N√≠ Ghallach√≥ir, C√∫nt√≥ir Teanglainne
+unknown	ID3620	Ms. Siobhan N√≠ Cheallaigh
+unknown	ID3621	Professor Pr√≥ins√©as N√≠ Chath√°in
+unknown	ID3622	Professor Pr√≥ins√©as N√≠ Chath√°in, Acting Head of Department
+unknown	ID3623	N√≠ Bhroin, Niamh
+unknown	ID3624	N√≠ Bhr√≠ain, Nollaig
+unknown	ID3625	N√≠ Ceallaigh, S√≠le
+unknown	ID3626	N√≠ Chath√°in, Pr√≥ins√©as
+unknown	ID3627	N√≠ Cheallaigh, Sheila
+unknown	ID3628	N√≠ Cheallaigh, Siobh√°n
+unknown	ID3629	N√≠ Chios√°in, M√°ire
+unknown	ID3630	N√≠ Chochl√°in, M√°ire
+unknown	ID3631	N√≠ Chonaola, Lasairfh√≠ona
+unknown	ID3632	N√≠ Chonch√∫ir, Ail√≠n
+unknown	ID3633	N√≠ Chr√≠og√°in, Hon√≥ra
+unknown	ID3634	N√≠ Dhomhnaill, Gr√°inne
+unknown	ID3635	N√≠ Dhubhain, √°ine
+unknown	ID3636	N√≠ Fhloinn, Bairbre
+unknown	ID3637	N√≠ Ghallach√≥ir, N√≥irin
+unknown	ID3638	N√≠ √ördail, Meidhbh√≠n
 unknown	ID3639	Mr. Fergus O Cathain
-unknown	ID3640	Mrs. Deirdre ” BrÛg·in, Library Assistant
-unknown	ID3641	” BrÛg·in, Deirdre
-unknown	ID3642	SÌle ” Ceallaigh
-unknown	ID3643	Mr. Mel ” Cinneide
-unknown	ID3644	” Curraoin, Mich·el
-unknown	ID3645	” Gr·da, Cormac
-unknown	ID3646	” HealaÌ, Ruairi
-unknown	ID3647	Mr. Padraig ” Murch˙
-unknown	ID3648	” Murch˙, Padraig
-unknown	ID3649	” SearcÛid, Miche·l
-unknown	ID3650	” Suilleabh·in, GearÛid
-unknown	ID3651	” Suilleabh·in, Muiris
-unknown	ID3652	” hAnluain, Eoghan
-unknown	ID3653	” hAnnrach·in, Tadhg
-unknown	ID3654	” h”g·in, D·ithÌ
-unknown	ID3655	”'Cathain, Fergus
-unknown	ID3656	”'Cath·in, SÈamas
-unknown	ID3657	”'Ceallaigh, SÌle
-unknown	ID3658	”'Cinneide, Mel
-unknown	ID3659	”'DÛnaill, Èamonn
-unknown	ID3660	DÛnall ”Braon·in, Uas., Comhalta Dh·mh na hEalaÌon
-unknown	ID3661	Mr Eoghan ” hAnluain
-unknown	ID3662	Mr. Tadhg ” hAnnrach·in
-unknown	ID3663	D·ithÌ ” hÛg·in
+unknown	ID3640	Mrs. Deirdre √ì Br√≥g√°in, Library Assistant
+unknown	ID3641	√ì Br√≥g√°in, Deirdre
+unknown	ID3642	S√≠le √ì Ceallaigh
+unknown	ID3643	Mr. Mel √ì Cinneide
+unknown	ID3644	√ì Curraoin, Mich√°el
+unknown	ID3645	√ì Gr√°da, Cormac
+unknown	ID3646	√ì Heala√≠, Ruairi
+unknown	ID3647	Mr. Padraig √ì Murch√∫
+unknown	ID3648	√ì Murch√∫, Padraig
+unknown	ID3649	√ì Searc√≥id, Miche√°l
+unknown	ID3650	√ì Suilleabh√°in, Gear√≥id
+unknown	ID3651	√ì Suilleabh√°in, Muiris
+unknown	ID3652	√ì hAnluain, Eoghan
+unknown	ID3653	√ì hAnnrach√°in, Tadhg
+unknown	ID3654	√ì h√ìg√°in, D√°ith√≠
+unknown	ID3655	√ì'Cathain, Fergus
+unknown	ID3656	√ì'Cath√°in, S√©amas
+unknown	ID3657	√ì'Ceallaigh, S√≠le
+unknown	ID3658	√ì'Cinneide, Mel
+unknown	ID3659	√ì'D√≥naill, √©amonn
+unknown	ID3660	D√≥nall √ìBraon√°in, Uas., Comhalta Dh√°mh na hEala√≠on
+unknown	ID3661	Mr Eoghan √ì hAnluain
+unknown	ID3662	Mr. Tadhg √ì hAnnrach√°in
+unknown	ID3663	D√°ith√≠ √ì h√≥g√°in
 unknown	ID3664	O Nuallain, Brian
 unknown	ID3665	Darren O'Beirne
 unknown	ID3666	Dr. Emer O'Beirne
@@ -3789,7 +3789,7 @@ unknown	ID3743	Dr. Clare O'Connor
 unknown	ID3744	Dr. Derek O'Connor
 unknown	ID3745	Dr. John O'Connor
 unknown	ID3746	Dr. Peter O'Connor
-unknown	ID3747	Dr. SÈ O'Connor
+unknown	ID3747	Dr. S√© O'Connor
 unknown	ID3748	Dr. William J. O'Connor
 unknown	ID3749	Dr. William T. O'Connor
 unknown	ID3750	Mr. Brian O'Connor
@@ -3833,7 +3833,7 @@ unknown	ID3787	O'Connor, Noreen
 unknown	ID3788	O'Connor, Paul
 unknown	ID3789	O'Connor, Peter
 unknown	ID3790	O'Connor, Ronan
-unknown	ID3791	O'Connor, SÈ
+unknown	ID3791	O'Connor, S√©
 unknown	ID3792	O'Connor, Una
 unknown	ID3793	O'Connor, William J.
 unknown	ID3794	O'Connor, William T.
@@ -4042,7 +4042,7 @@ unknown	ID3996	O'Malley, Aoibeinn
 unknown	ID3997	O'Malley, Avril
 unknown	ID3998	O'Malley, Marie
 unknown	ID3999	O'Malley, Mark
-unknown	ID4000	O'Malley, RÛisÌn
+unknown	ID4000	O'Malley, R√≥is√≠n
 unknown	ID4001	O'Mara, Frank
 unknown	ID4002	O'Mara, Frank
 unknown	ID4003	Mr. Tadgh O'Meara
@@ -4060,7 +4060,7 @@ unknown	ID4014	Mrs. Geraldine O'Neill
 unknown	ID4015	Mrs. Geraldine O'Neill
 unknown	ID4016	Mrs. Mary O'Neill
 unknown	ID4017	Ms. Aideen O'Neill
-unknown	ID4018	Ms. M·ire O'Neill
+unknown	ID4018	Ms. M√°ire O'Neill
 unknown	ID4019	Ms. Rita O'Neill
 unknown	ID4020	Ms. Susan O'Neill
 unknown	ID4021	Professor Helen O'Neill
@@ -4069,7 +4069,7 @@ unknown	ID4023	Una O'Neill
 unknown	ID4024	Veronica O'Neill
 unknown	ID4025	Dr. Tony O'Neill, Director of Sport
 unknown	ID4026	Mr. Joseph O'Neill, Section Head Technician
-unknown	ID4027	Mr. RuairÌ O'Neill, Assistant Programme Manager
+unknown	ID4027	Mr. Ruair√≠ O'Neill, Assistant Programme Manager
 unknown	ID4028	Ms. Deirdre O'Neill, Executive Assistant
 unknown	ID4029	Ms. Mary O'Neill, Administrative Officer
 unknown	ID4030	Professor Helen O'Neill, Director
@@ -4084,7 +4084,7 @@ unknown	ID4038	O'Neill, Joseph
 unknown	ID4039	O'Neill, Mary
 unknown	ID4040	O'Neill, Mary
 unknown	ID4041	O'Neill, Michael
-unknown	ID4042	O'Neill, M·ire
+unknown	ID4042	O'Neill, M√°ire
 unknown	ID4043	O'Neill, Peter
 unknown	ID4044	O'Neill, Rita
 unknown	ID4045	O'Neill, Robert
@@ -4097,7 +4097,7 @@ unknown	ID4051	O'Neill, Veronica
 unknown	ID4052	Mr. Ronan O'Rafferty
 unknown	ID4053	Professor Ronan O'Regan, Dean
 unknown	ID4054	Professor Ronan O'Regan, Head of Department
-unknown	ID4055	O'Regan, Gr·inne
+unknown	ID4055	O'Regan, Gr√°inne
 unknown	ID4056	O'Regan, Ronan
 unknown	ID4057	O'Regan, Ronan
 unknown	ID4058	Dr. Gerry O'Reilly
@@ -4141,7 +4141,7 @@ unknown	ID4095	Dr. Kevin O'Rourke
 unknown	ID4096	Dr. Malachy O'Rourke
 unknown	ID4097	Dr. Malachy O'Rourke
 unknown	ID4098	Dr. Malachy O'Rourke
-unknown	ID4099	SinÈad O'Rourke
+unknown	ID4099	Sin√©ad O'Rourke
 unknown	ID4100	Dr Kevin O'Rourke, Director
 unknown	ID4101	O'Rourke, Fran
 unknown	ID4102	O'Rourke, Kevin
@@ -4153,13 +4153,13 @@ unknown	ID4107	O'Shaughnessy, Damien
 unknown	ID4108	Caroline O'Shea
 unknown	ID4109	Dr. Donal O'Shea
 unknown	ID4110	Dr. James O'Shea
-unknown	ID4111	Ms. Siobh·n O'Shea
-unknown	ID4112	Ms. Siobh·n O'Shea
+unknown	ID4111	Ms. Siobh√°n O'Shea
+unknown	ID4112	Ms. Siobh√°n O'Shea
 unknown	ID4113	O'Shea, Caroline
 unknown	ID4114	O'Shea, Donal
 unknown	ID4115	O'Shea, James
 unknown	ID4116	O'Shea, Mary Rose
-unknown	ID4117	Dr Muiris O'Suilleabh·in
+unknown	ID4117	Dr Muiris O'Suilleabh√°in
 unknown	ID4118	Cyd O'Sullivan
 unknown	ID4119	Dr. Gerry O'Sullivan
 unknown	ID4120	Hilary O'Sullivan
@@ -4358,8 +4358,8 @@ unknown	ID4312	Prole, Ros
 unknown	ID4313	Mr Brian Prunty, Executive Assistant
 unknown	ID4314	Prunty, Brian
 unknown	ID4315	Dr. Michael Pugh
-unknown	ID4316	Joseph PulÈ
-unknown	ID4317	PulÈ, Joseph
+unknown	ID4316	Joseph Pul√©
+unknown	ID4317	Pul√©, Joseph
 unknown	ID4318	Dr. Brendan Purcell
 unknown	ID4319	Dr. P.J. Purcell
 unknown	ID4320	Ms. Siobhan Purcell, Secretary
@@ -4440,7 +4440,7 @@ unknown	ID4394	Mme. Raya Wall
 unknown	ID4395	Read, Carolyn
 unknown	ID4396	Mr. Keith Real
 unknown	ID4397	Real, Keith
-unknown	ID4398	Ms. BrÌd Reason, Senior Executive Assistant
+unknown	ID4398	Ms. Br√≠d Reason, Senior Executive Assistant
 unknown	ID4399	Reason, Brid
 unknown	ID4400	Anthony Redmond
 unknown	ID4401	Mr. Alfie Redmond
@@ -4581,7 +4581,7 @@ unknown	ID4535	Dr. Kevin Rockett, Postdoctoral Fellow
 unknown	ID4536	Rockett, Kevin
 unknown	ID4537	Ms. Sylvia Roddie, Secretary to Andrew Kelly
 unknown	ID4538	Roddie, Sylvia
-unknown	ID4539	RodrÌguez, MarÌa Ana
+unknown	ID4539	Rodr√≠guez, Mar√≠a Ana
 unknown	ID4540	Ms. Sheila Roe
 unknown	ID4541	Roe, Sheila
 unknown	ID4542	Dr. Mark Rogers
@@ -4595,7 +4595,7 @@ unknown	ID4549	Mr. Sean Rooney
 unknown	ID4550	Rooney, Colm
 unknown	ID4551	Rooney, Paul
 unknown	ID4552	Rooney, Sean
-unknown	ID4553	Srta MarÌa Rosario Hern·ndez
+unknown	ID4553	Srta Mar√≠a Rosario Hern√°ndez
 unknown	ID4554	Ms. Mary Rose Keegan
 unknown	ID4555	Ms. Mary Rose O'Shea, Faculty Administrator (Fax Number: 706 8592)
 unknown	ID4556	Roth, Lionel
@@ -4648,7 +4648,7 @@ unknown	ID4602	Mr. Paul Ryan
 unknown	ID4603	Mr. Paul Ryan
 unknown	ID4604	Mr. Robert Ryan
 unknown	ID4605	Ms. Justine Ryan
-unknown	ID4606	Ms. ·ine Ryan
+unknown	ID4606	Ms. √°ine Ryan
 unknown	ID4607	Stephen Ryan
 unknown	ID4608	Mr. Dermot Ryan, Senior Project Engineer
 unknown	ID4609	Mr. Dermot Ryan, Senior Project Engineer
@@ -4679,7 +4679,7 @@ unknown	ID4633	Ryan, Philip
 unknown	ID4634	Ryan, Robert
 unknown	ID4635	Ryan, Sinead
 unknown	ID4636	Ryan, Stephen
-unknown	ID4637	Ryan, ·ine
+unknown	ID4637	Ryan, √°ine
 unknown	ID4638	Mr. James Ryder, Senior Project Engineer
 unknown	ID4639	Mr. James Ryder, Senior Project Engineer
 unknown	ID4640	Ryder, James
@@ -4735,7 +4735,7 @@ unknown	ID4689	Dr. John A. Scott, Director of Public Affairs
 unknown	ID4690	Ms. Marina Scott, Secretary
 unknown	ID4691	Scott, Marina
 unknown	ID4692	Scott, Tony
-unknown	ID4693	Dr. Miche·l Û SearcÛid
+unknown	ID4693	Dr. Miche√°l √≥ Searc√≥id
 unknown	ID4694	Dr. Mary Self
 unknown	ID4695	Ms. Mary Self, Lecturer in Surgery
 unknown	ID4696	Self, Mary
@@ -4849,7 +4849,7 @@ unknown	ID4803	Small, Vicky
 unknown	ID4804	Smillie, George
 unknown	ID4805	Dr. Douglas Smith
 unknown	ID4806	Dr. Susan Smith
-unknown	ID4807	Dr. ThÈrËse Smith
+unknown	ID4807	Dr. Th√©r√®se Smith
 unknown	ID4808	Dr. William J. Smith
 unknown	ID4809	Dr. William J. Smith
 unknown	ID4810	Dr. William J. Smith
@@ -4874,7 +4874,7 @@ unknown	ID4828	Smith, J.
 unknown	ID4829	Smith, Jennifer
 unknown	ID4830	Smith, Neil
 unknown	ID4831	Smith, Susan
-unknown	ID4832	Smith, ThÈrËse
+unknown	ID4832	Smith, Th√©r√®se
 unknown	ID4833	Smith, William J.
 unknown	ID4834	Dr. Barry Smyth
 unknown	ID4835	Dr. Peter Smyth
@@ -4951,9 +4951,9 @@ unknown	ID4905	Dr Eric Strobl
 unknown	ID4906	Strobl, Eric
 unknown	ID4907	Dr. Maria Stuart
 unknown	ID4908	Stuart, Maria
-unknown	ID4909	Gearoid Û Suilleabhain
-unknown	ID4910	Feargal SuipÈil
-unknown	ID4911	SuipÈil, Fergal
+unknown	ID4909	Gearoid √≥ Suilleabhain
+unknown	ID4910	Feargal Suip√©il
+unknown	ID4911	Suip√©il, Fergal
 unknown	ID4912	Ms. Rita Suiter
 unknown	ID4913	Suiter, Rita
 unknown	ID4914	Dr. Wayne Sullivan
@@ -5044,13 +5044,13 @@ unknown	ID4998	Dr. Margaret Treacy
 unknown	ID4999	Dr. Angela Tripoli
 unknown	ID5000	Mr. Wayne Trodd
 unknown	ID5001	Mr. Dick Troy
-unknown	ID5002	Dr. Efrat TseÎlon
+unknown	ID5002	Dr. Efrat Tse√´lon
 unknown	ID5003	Ms. Grainne Tuite
 unknown	ID5004	Ms. Mary Tully
 unknown	ID5005	Dr. David Tuohy, SJ
 unknown	ID5006	Mr. Brian Turner
-unknown	ID5007	Mr Aod·n Tynan, Health Economist
-unknown	ID5008	Mr. Aod·n Tynan, Health Economist
+unknown	ID5007	Mr Aod√°n Tynan, Health Economist
+unknown	ID5008	Mr. Aod√°n Tynan, Health Economist
 unknown	ID5009	Ms. Anne Tynan, Secretary
 unknown	ID5010	Ms. Anne Tynan, Secretary
 unknown	ID5011	Mr. S. Tyrrell
@@ -5071,11 +5071,11 @@ unknown	ID5025	Dr. Theresa Urbainczyk
 unknown	ID5026	Urbainczyk, Theresa
 unknown	ID5027	Ms. Cara Usher
 unknown	ID5028	Usher, Cara
-unknown	ID5029	Dr. RÌonach UÌ Ûg·in
-unknown	ID5030	Dr. RÌonach UÌ Ûg·in
-unknown	ID5031	Mrs. Deirdre UÌ BrÛg·in, Library Assistant
-unknown	ID5032	UÌ BhrÛg·in, Deirdre
-unknown	ID5033	UÌ ”g·in, RÌonach
+unknown	ID5029	Dr. R√≠onach U√≠ √≥g√°in
+unknown	ID5030	Dr. R√≠onach U√≠ √≥g√°in
+unknown	ID5031	Mrs. Deirdre U√≠ Br√≥g√°in, Library Assistant
+unknown	ID5032	U√≠ Bhr√≥g√°in, Deirdre
+unknown	ID5033	U√≠ √ìg√°in, R√≠onach
 unknown	ID5034	Varley, Elizabeth
 unknown	ID5035	Ms. Darya Vassina, Teaching Assistant
 unknown	ID5036	Vassina, Darya
@@ -5272,7 +5272,7 @@ unknown	ID5226	Dr. Graham Wilson
 unknown	ID5227	Mr. Stephen Wilson
 unknown	ID5228	Wilson, Graham
 unknown	ID5229	Wilson, Stephen
-unknown	ID5230	Wims, P·draig
+unknown	ID5230	Wims, P√°draig
 unknown	ID5231	Dr. Nessa Winston
 unknown	ID5232	Winston, Nessa
 unknown	ID5233	Mr. David Winters

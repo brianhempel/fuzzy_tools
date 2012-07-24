@@ -37,11 +37,12 @@ module FuzzyTools
       builder.include '<ctype.h>'
       builder.c_raw <<-EOC
         static VALUE soundex(int argc, VALUE *argv, VALUE self) {
-          VALUE ruby_str = argv[0];
+          VALUE  ruby_str = argv[0];
+          char * in;
 
           Check_Type(ruby_str, T_STRING);
 
-          char * in = StringValueCStr(ruby_str);
+          in = StringValueCStr(ruby_str);
 
           static  int code[] =
              {  0,1,2,3,0,1,2,0,0,2,2,4,5,5,0,1,2,6,2,3,0,1,0,2,0,2 };

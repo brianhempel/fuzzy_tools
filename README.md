@@ -4,6 +4,8 @@ FuzzyTools is a toolset for fuzzy searches in Ruby. The default algorithm has be
 
 Because it's mostly Ruby, FuzzyTools is best for searching smaller datasets—say less than 50Kb in size. Data cleaning or auto-complete over known options are potential uses.
 
+Tested on Ruby 1.8.7, 1.9.2, 1.9.3, 2.0.0dev, JRuby (1.8 and 1.9 mode), and Rubinius (1.9 mode only). 
+
 ## Usage
 
 Install with [Bundler](http://gembundler.com/):

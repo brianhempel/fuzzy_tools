@@ -17,8 +17,8 @@ test_file_results = []
 verbose           = false
 
 begin
-  ENV['CPUPROFILE_REALTIME']      = "1"
-  ENV['CPUPROFILE_FREQUENCY=500'] = "50" # default is 100
+  ENV['CPUPROFILE_REALTIME']  = "1"
+  ENV['CPUPROFILE_FREQUENCY'] = "50" # default is 100
   require 'perftools'
   PerfTools::CpuProfiler.start("/tmp/fuzzy_tools_ruby_profile")
   at_exit do

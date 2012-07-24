@@ -21,7 +21,7 @@ module FuzzyTools
       str   = str.downcase
       words = str.split
       words.map { |word| FuzzyTools::Helpers.soundex(word) } +
-      FuzzyTools::Helpers.ngrams(str.downcase, 2) +
+      FuzzyTools::Helpers.ngrams(str, 2) +
       words.map { |word| word.gsub(/[aeiou]/, '') } +
       words
     end

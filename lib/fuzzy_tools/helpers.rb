@@ -40,10 +40,6 @@ module FuzzyTools
           VALUE  ruby_str = argv[0];
           char * in;
 
-          Check_Type(ruby_str, T_STRING);
-
-          in = StringValueCStr(ruby_str);
-
           static  int code[] =
              {  0,1,2,3,0,1,2,0,0,2,2,4,5,5,0,1,2,6,2,3,0,1,0,2,0,2 };
              /* a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t,u,v,w,x,y,z */
@@ -51,6 +47,10 @@ module FuzzyTools
           register char ch;
           register int last;
           register int count;
+
+          Check_Type(ruby_str, T_STRING);
+
+          in = StringValueCStr(ruby_str);
 
           /* Set up default key, complete with trailing '0's */
           strcpy(key, "Z000");

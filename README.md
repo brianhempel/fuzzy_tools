@@ -195,7 +195,7 @@ Trust me, it works.
 
 ## Specifying your own tokenizer
 
-If the default tokenizer isn't working for your data or you need more speed, you can try swapping out the tokenizers. You can use one of the various tokenizers are defined in [`FuzzyTools::Tokenizers`](https://github.com/brianhempel/fuzzy_tools/blob/master/lib/fuzzy_tools/tokenizers.rb), or you can write your own.
+If the default tokenizer isn't working for your data or you need more speed, you can try swapping out the tokenizers. You can use one of the various tokenizers defined in [`FuzzyTools::Tokenizers`](https://github.com/brianhempel/fuzzy_tools/blob/master/lib/fuzzy_tools/tokenizers.rb), or you can write your own.
 
 ``` ruby
 # a predefined tokenizer

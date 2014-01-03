@@ -11,8 +11,7 @@ rvm:
   - rbx
 matrix:
   allow_failures:
-    - rvm:
-      - rbx
-      - ruby-head
+    - rvm: rbx
+    - rvm: ruby-head
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec

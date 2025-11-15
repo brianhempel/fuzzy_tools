@@ -41,13 +41,14 @@ module FuzzyTools
             VALUE  my_weights    = argv[0];
             VALUE  my_tokens     = argv[1];
             VALUE  other_weights = argv[2];
-            int    i;
+            long   i;
             VALUE  token;
             VALUE  my_weight;
             VALUE  other_weight;
+            long len = RARRAY_LEN(my_tokens);
 
-            for(i = 0; i < RARRAY_LEN(RARRAY(my_tokens)); i++) {
-              token        = RARRAY_PTR(RARRAY(my_tokens))[i];
+            for (i = 0; i < len; i++) {
+              token        = rb_ary_entry(my_tokens, i);
               other_weight = rb_hash_aref(other_weights, token);
               if (other_weight != Qnil) {
                 my_weight   = rb_hash_aref(my_weights, token);

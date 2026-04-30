@@ -30,7 +30,7 @@ module FuzzyTools
       (0..str.length - n).map { |i| str[i,n] }
     end
 
-    if RUBY_DESCRIPTION !~ /^ruby/ # rbx, jruby
+    if RUBY_DESCRIPTION !~ /^ruby/ || RUBY_VERSION >= '3.3' # rbx, jruby, or MRI 3.3+ (C extension incompatible with GCC 15)
 
       SOUNDEX_LETTERS_TO_CODES = {
         'A' => 0, 'B' => 1, 'C' => 2, 'D' => 3, 'E' => 0, 'F' => 1,

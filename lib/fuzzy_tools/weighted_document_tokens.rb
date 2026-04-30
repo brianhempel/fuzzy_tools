@@ -9,7 +9,7 @@ module FuzzyTools
       set_token_weights(tokens, &weight_function)
     end
 
-    if RUBY_DESCRIPTION !~ /^ruby/
+    if RUBY_DESCRIPTION !~ /^ruby/ || RUBY_VERSION >= '3.3' # MRI 3.3+ incompatible with GCC 15 (same as helpers.rb)
 
       # Rubinius and JRuby
       def cosine_similarity(other)

@@ -21,8 +21,8 @@ end
 
 targets = @query_tests.map(&:expected)
 
-ENV['CPUPROFILE_REALTIME']      = "1"
-ENV['CPUPROFILE_FREQUENCY=500'] = "200" # default is 100
+ENV['CPUPROFILE_REALTIME']  = "1"
+ENV['CPUPROFILE_FREQUENCY'] = "200" # default is 100
 require 'perftools'
 PerfTools::CpuProfiler.start("/tmp/fuzzy_tools_ruby_profile")
 at_exit do
